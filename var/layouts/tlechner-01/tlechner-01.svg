@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="524.40942"
+   height="744.09448"
+   id="svg3363"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tlechner-01.svg">
+  <defs
+     id="defs3365">
+    <linearGradient
+       id="linearGradient41109"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41111" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient41103"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103"
+       id="linearGradient42601"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61726"
+       x2="180.44629"
+       y2="465.61726" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103"
+       id="linearGradient42603"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61726"
+       x2="180.44629"
+       y2="465.61726" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8"
+       id="linearGradient42603-2"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient41103-8"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105-8" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient42637"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42639" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient42646"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42648" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8"
+       id="linearGradient42601-2"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42651"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42653" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8"
+       id="linearGradient42745"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8"
+       id="linearGradient42603-2-6"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient41103-8-8"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105-8-3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8"
+       id="linearGradient42597-3"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42761"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42763" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567-0"
+       id="linearGradient42599-2"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient42567-0">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42569-8" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop42571-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8"
+       id="linearGradient42595-5"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42770"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42772" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8"
+       id="linearGradient42745-5"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42775"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42777" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5"
+       id="linearGradient42603-6"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient41103-5"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105-1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5"
+       id="linearGradient42597"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42783"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42785" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567"
+       id="linearGradient42599"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient42567">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42569" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop42571" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5"
+       id="linearGradient42595"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42792"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42794" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5"
+       id="linearGradient42601-0"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient42797"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42799" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8"
+       id="linearGradient43081"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5"
+       id="linearGradient43083"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5-8"
+       id="linearGradient42603-6-4"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient41103-5-8"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105-1-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5-8"
+       id="linearGradient42597-8"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43143"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43145" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567-07"
+       id="linearGradient42599-9"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient42567-07">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42569-5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop42571-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5-8"
+       id="linearGradient42595-7"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43152"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43154" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5-8"
+       id="linearGradient43083-0"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43157"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43159" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient42603-2-6-6"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient41103-8-8-4"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41105-8-3-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient42597-3-9"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43165"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43167" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567-0-3"
+       id="linearGradient42599-2-4"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient42567-0-3">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42569-8-7" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop42571-7-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient42595-5-8"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43174"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43176" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43081-5"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       id="linearGradient43179"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43181" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-5-8"
+       id="linearGradient43349"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43355"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43406"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43408"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567-0-3"
+       id="linearGradient43410"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43412"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43414"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43434"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43436"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42567-0-3"
+       id="linearGradient43438"
+       gradientUnits="userSpaceOnUse"
+       x1="52.333984"
+       y1="465.61725"
+       x2="180.94629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43440"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient41103-8-8-4"
+       id="linearGradient43442"
+       gradientUnits="userSpaceOnUse"
+       x1="52.833984"
+       y1="465.61725"
+       x2="180.44629"
+       y2="465.61725" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-6.4938318"
+     inkscape:cy="512.12549"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="692"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="1,0"
+       position="171.96429,674.82143"
+       id="guide43123" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="41.428571,317.14286"
+       id="guide43125" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="468.57143,241.42857"
+       id="guide43127" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="324.28571,684.28571"
+       id="guide43320" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="168.30357,676.60714"
+       id="guide43343" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="284.28571,663.57143"
+       id="guide43345" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="421.42857,41.428571"
+       id="guide43357" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid43359"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="286.63079,671.94085"
+       id="guide43361" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="361.68512,634.98189"
+       id="guide43363" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="358.5,632.5"
+       id="guide43365" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3368">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26769)"
+     style="display:none">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3371"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(0,388.98198)"><flowRegion
+         id="flowRegion3373"><rect
+           id="rect3375"
+           width="478.57144"
+           height="677.14288"
+           x="27.142857"
+           y="44.094482" /></flowRegion><flowPara
+         id="flowPara3913"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◧ Back to Laidout, and keeping with the physical and the digital. Would there be something like a digital papercut?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40229" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40231">◨ Not really. Maybe you can have an Arduino and a knife?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40233" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40235">◧ I was more imagining a well placed crash?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40237" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40239">◨ In a sense there is. In the imposition view, right now I just have a green bar to tell where the binding is. However when you do a lot of folds, you usually want to do a staple. But if you are stapling and there is not an actual fold there, than you are screwed.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="25.735313"
+       y="390.16495"
+       id="text40241"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan40243"
+         x="25.735313"
+         y="390.16495"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◧ = Femke Snelting</tspan><tspan
+         sodipodi:role="line"
+         x="25.735313"
+         y="404.74954"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="tspan40247">◨ = Tom Lechner</tspan><tspan
+         sodipodi:role="line"
+         x="25.735313"
+         y="419.33417"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="tspan40245" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3371-3"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-3.75e-7,567.12484)"><flowRegion
+         id="flowRegion3373-2"><rect
+           id="rect3375-5"
+           width="478.57144"
+           height="677.14288"
+           x="27.142857"
+           y="44.094482" /></flowRegion><flowPara
+         id="flowPara3913-9"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">Back to Laidout, and keeping with the physical and the digital. Would there be something like a digital papercut?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40229-3" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40231-3">Not really. Maybe you can have an Arduino and a knife?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40233-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40235-4">I was more imagining a well placed crash?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40237-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara40239-5">In a sense there is. In the imposition view, right now I just have a green bar to tell where the binding is. However when you do a lot of folds, you usually want to do a staple. But if you are stapling and there is not an actual fold there, than you are screwed.</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Calque2"
+     style="display:none">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 1.5;stroke-dashoffset:0"
+       id="rect42575-4"
+       width="145.44278"
+       height="71.157074"
+       x="197.30835"
+       y="215.4426" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(148.3896,-219.73888)"><flowRegion
+         id="flowRegion40302-1"><rect
+           id="rect40304-6"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">Well, Laidout is software that I wrote to lay out my cartoon books in an easy fashion. Nothing else fit my needs at the time, so I just wrote it.</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0"
+       id="rect42575"
+       width="90.675323"
+       height="24.246748"
+       x="96.640587"
+       y="173.66316" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient42603-6);fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(53.406829,-260.23641)"><flowRegion
+         id="flowRegion40302"
+         style="fill:url(#linearGradient42597);fill-opacity:1;stroke:url(#linearGradient42599)"><rect
+           id="rect40304"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734"
+           style="fill:url(#linearGradient42595);fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara40306"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43083);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode">What is Laidout?</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0"
+       id="rect42575-40"
+       width="145.95868"
+       height="35.827419"
+       x="100.09828"
+       y="304.12518" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-2"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient42603-2-6);fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(52.649048,-129.98983)"><flowRegion
+         id="flowRegion40302-3"
+         style="fill:url(#linearGradient42597-3);fill-opacity:1;stroke:url(#linearGradient42599-2)"><rect
+           id="rect40304-2"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734"
+           style="fill:url(#linearGradient42595-5);fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara40306-4"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43081);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode">It does a lot more than laying out cartoons?</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 1.5;stroke-dashoffset:0"
+       id="rect42575-4-2"
+       width="145.46455"
+       height="98.342728"
+       x="198.30762"
+       y="360.89368" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-0"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(153.39976,-74.276926)"><flowRegion
+         id="flowRegion40302-1-1"><rect
+           id="rect40304-6-7"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-6"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">It works for any image, basically, and gradients. It does not currently do text. It is on my to-do list. I usually write my own text, so it does not really need to do text. I just make an image of it.</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 3, 1.5, 3;stroke-dashoffset:0"
+       id="rect42575-4-2-7"
+       width="145.2269"
+       height="139.52132"
+       x="257.01529"
+       y="481.22067" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-0-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(211.98861,45.931227)"><flowRegion
+         id="flowRegion40302-1-1-2"><rect
+           id="rect40304-6-7-5"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-6-6"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">My feeling about your work is that the time you spent working on the program is in itself the most intriguing part of your work. There is of course a challenge and I can imagine that when you are doing it like the first time you see a rectangle, and you see it mimic a perspective you think wow I am folding a paper; I have really done something. I worked on imposition too but more to figure out how to work with pdf files and I didn't go this way of the gesture like you did. There is something in your work which is really the way you wrote your own framework for example and did not use any existing frameworks. You didn't use existing GUIs and toolboxes. It would be nice to listen to you about how you worked, how you worked on the programming.</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 9;stroke-dashoffset:0"
+       id="rect42575-4-2-7-8"
+       width="145.83824"
+       height="48.208775"
+       x="323.37967"
+       y="641.56989" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-0-7-9"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(278.65868,206.58609)"><flowRegion
+         id="flowRegion40302-1-1-2-8"><rect
+           id="rect40304-6-7-5-6"
+           width="133.57143"
+           height="130"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-6-6-6"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">You said you had no experience in programming? You studied in art school?</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot43039"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"><flowRegion
+         id="flowRegion43041"><rect
+           id="rect43043"
+           width="135.36044"
+           height="43.436558"
+           x="54.548237"
+           y="18.804955"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold" /></flowRegion><flowPara
+         id="flowPara43045"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot43047"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"><flowRegion
+         id="flowRegion43049"><rect
+           id="rect43051"
+           width="149.50258"
+           height="62.629459"
+           x="49.497475"
+           y="4.6628194"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold" /></flowRegion><flowPara
+         id="flowPara43053"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot43055"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion43057"><rect
+           id="rect43059"
+           width="164.65486"
+           height="113.13708"
+           x="49.497475"
+           y="23.855717" /></flowRegion><flowPara
+         id="flowPara43061"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot43063"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(11.897753,30.063079)"><flowRegion
+         id="flowRegion43065"><rect
+           id="rect43067"
+           width="177.78685"
+           height="134.3503"
+           x="37.375645"
+           y="-1.3980961" /></flowRegion><flowPara
+         id="flowPara43069"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold">FEMKE         SNELTING</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="flowPara43071">TOM             LECHNER</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="flowPara43073">LUDIVINE       LOISEAU</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="flowPara43077">PIERRE        MARCHAND</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
+       d="m 82.86097,36.241126 35.35533,0"
+       id="path43087"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 1;stroke-dashoffset:0"
+       d="m 74.022135,47.605342 51.265235,0"
+       id="path43089"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0"
+       d="m 98.265796,60.48479 c 29.041884,0 29.294414,0 29.294414,0"
+       id="path43091"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4, 2, 1, 2;stroke-dashoffset:0"
+       d="m 87.659195,73.86931 c 32.577415,0 32.072335,0 32.072335,0"
+       id="path43093"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-5"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-3.7361631,-351.02469)"><flowRegion
+         id="flowRegion40302-1-10"><rect
+           id="rect40304-6-6"
+           width="383.0791"
+           height="56.258835"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-5"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">We discovered the work of Tom Lechner for the first time at the Libre Graphics Meeting 2010 in Brussels. Tom traveled from Portland, US to present Laidout, an amazing tool that he made to produce his own comic books and also to work on three dimensional mathematical objects. We were excited about how his software  represents the gesture of folding, loved his bold interface decisions plus were impressed  by the fact that Tom decided to write his own programming framework  for it. A year later, we met again in Montreal, Canada for the 2011 Libre Graphics Meeting where he presents a follow-up. With Ludivine Loiseau (amateur bookbinder and graphic designer) and Pierre Marchand (artist/developer, contributing amongst others to podofoimpose and Scribus) we finally found time to sit down and talk.</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Calque3"
+     style="display:none">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(119.12054,-332.71846)"><flowRegion
+         id="flowRegion40302-1-7"><rect
+           id="rect40304-6-5"
+           width="112.30803"
+           height="95.628136"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-3"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">Well, Laidout is software that I wrote to lay out my cartoon books in an easy fashion. Nothing else fit my needs at the time, so I just wrote it.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-6"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient42603-6-4);fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(-11.415179,-350.5178)"><flowRegion
+         id="flowRegion40302-16"
+         style="fill:url(#linearGradient42597-8);fill-opacity:1;stroke:url(#linearGradient42599-9)"><rect
+           id="rect40304-69"
+           width="126.8616"
+           height="53.259106"
+           x="52.857143"
+           y="441.23734"
+           style="fill:url(#linearGradient42595-7);fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara40306-1"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43349);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode">What is Laidout?</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-2-2"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient42603-2-6-6);fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(-11.415179,-250.55693)"><flowRegion
+         id="flowRegion40302-3-7"
+         style="fill:url(#linearGradient42597-3-9);fill-opacity:1;stroke:url(#linearGradient42599-2-4)"><rect
+           id="rect40304-2-2"
+           width="126.8616"
+           height="47.878651"
+           x="52.857143"
+           y="441.23734"
+           style="fill:url(#linearGradient42595-5-8);fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara40306-4-2"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43355);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode">It does a lot more than laying out cartoons?</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot40300-5-0-8"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(119.12054,-217.57266)"><flowRegion
+         id="flowRegion40302-1-1-4"><rect
+           id="rect40304-6-7-9"
+           width="112.30803"
+           height="101.28496"
+           x="52.857143"
+           y="441.23734" /></flowRegion><flowPara
+         id="flowPara40306-3-6-5"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">It works for any image, basically, and gradients. It does not currently do text. It is on my to-do list. I usually write my own text, so it does not really need to do text. I just make an image of it.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:112.00000048%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="104.37544"
+       y="39.808773"
+       id="text43316"
+       sodipodi:linespacing="112%"><tspan
+         sodipodi:role="line"
+         id="tspan43318"
+         x="108.37544"
+         y="39.808773"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:112.00000048%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold">Femke </tspan><tspan
+         sodipodi:role="line"
+         x="104.37544"
+         y="57.728775"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:112.00000048%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="tspan43394">Snelting</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:112.00000048%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="224.82916"
+       y="41.808773"
+       id="text43316-3"
+       sodipodi:linespacing="112%"><tspan
+         sodipodi:role="line"
+         id="tspan43318-7"
+         x="228.82916"
+         y="41.808773"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:112.00000048%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold">Tom </tspan><tspan
+         sodipodi:role="line"
+         x="224.82916"
+         y="59.728775"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:112.00000048%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="tspan43392">Lechner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:111.99998856%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="321.82617"
+       y="41.308773"
+       id="text43316-3-6"
+       sodipodi:linespacing="111.99999%"><tspan
+         sodipodi:role="line"
+         id="tspan43318-7-9"
+         x="321.82617"
+         y="41.308773"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:111.99998856%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold">Ludivine</tspan><tspan
+         sodipodi:role="line"
+         x="321.82617"
+         y="59.228771"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:111.99998856%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         id="tspan43390">Loiseau</tspan></text>
+    <flowRoot
+       transform="translate(233.78704,-117.55693)"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient43414);fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       id="flowRoot43398"
+       xml:space="preserve"><flowRegion
+         style="fill:url(#linearGradient43408);fill-opacity:1;stroke:url(#linearGradient43410)"
+         id="flowRegion43400"><rect
+           style="fill:url(#linearGradient43406);fill-opacity:1;stroke:none"
+           y="441.23734"
+           x="52.857143"
+           height="79.878662"
+           width="71.85582"
+           id="rect43402" /></flowRegion><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43412);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara43404">You said you had no experience in programming? You studied in art school?</flowPara></flowRoot>    <text
+       sodipodi:linespacing="111.99999%"
+       id="text43416"
+       y="41.308773"
+       x="415.82617"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:111.99998856%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan43420"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:111.99998856%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         y="41.308773"
+         x="415.82617"
+         sodipodi:role="line">Pierre</tspan><tspan
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:111.99998856%;text-anchor:middle;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"
+         y="59.228771"
+         x="415.82617"
+         sodipodi:role="line"
+         id="tspan43424">Marchand</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot43426"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient43442);fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(308.84137,-46.55693)"><flowRegion
+         id="flowRegion43428"
+         style="fill:url(#linearGradient43436);fill-opacity:1;stroke:url(#linearGradient43438)"><rect
+           id="rect43430"
+           width="106.87292"
+           height="175.87863"
+           x="52.857143"
+           y="441.23734"
+           style="fill:url(#linearGradient43434);fill-opacity:1;stroke:none" /></flowRegion><flowPara
+         id="flowPara43432"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient43440);fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode">My feeling about your work is that the time you spent working on the program is in itself the most intriguing part of your work. There is of course a challenge and I can imagine that when you are doing it like the first time you see a rectangle, and you see it mimic a perspective you think wow I am folding a paper; I </flowPara></flowRoot>  </g>
+</svg>
