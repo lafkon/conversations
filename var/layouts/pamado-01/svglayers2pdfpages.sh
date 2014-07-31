@@ -43,6 +43,7 @@
   sed ':a;N;$!ba;s/\n/ /g'               | # REMOVE ALL LINEBREAKS
   sed 's/4Fgt7R/\n<g/g'                  | # RESTORE LAYERGROUP OPEN + NEWLINE
   sed 's/<\/svg>//g'                     | # REMOVE SVG CLOSE
+  sed 's/display:none/display:inline/g'  | # MAKE VISIBLE EVEN WHEN HIDDEN
   tee > ${SVG%%.*}.tmp                     # WRITE TO TEMPORARY FILE
 
 # --------------------------------------------------------------------------- #
