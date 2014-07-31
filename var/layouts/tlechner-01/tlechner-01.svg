@@ -602,11 +602,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-6.4938318"
-     inkscape:cy="512.12549"
+     inkscape:zoom="2"
+     inkscape:cx="109.12753"
+     inkscape:cy="626.55039"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer4"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -671,7 +671,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -756,7 +756,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Calque2"
-     style="display:none">
+     style="display:inline">
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 1.5;stroke-dashoffset:0"
        id="rect42575-4"
@@ -886,7 +886,7 @@
            x="54.548237"
            y="18.804955"
            style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold" /></flowRegion><flowPara
-         id="flowPara43045"></flowPara></flowRoot>    <flowRoot
+         id="flowPara43045" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot43047"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold"><flowRegion
@@ -897,7 +897,7 @@
            x="49.497475"
            y="4.6628194"
            style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:OCR-A;-inkscape-font-specification:OCR-A Bold" /></flowRegion><flowPara
-         id="flowPara43053"></flowPara></flowRoot>    <flowRoot
+         id="flowPara43053" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot43055"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
@@ -907,7 +907,7 @@
            height="113.13708"
            x="49.497475"
            y="23.855717" /></flowRegion><flowPara
-         id="flowPara43061"></flowPara></flowRoot>    <flowRoot
+         id="flowPara43061" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot43063"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
