@@ -56,6 +56,7 @@
 # --------------------------------------------------------------------------- #
   COUNT=1
   for LAYER in `grep "groupmode=\"layer\"" ${SVG%%.*}.tmp | \
+                grep -v "label=\"XX_" | \
                 sed 's/ /df73SAc/g'`
    do
       LAYER=`echo $LAYER | sed 's/df73SAc/ /g'`
