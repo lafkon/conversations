@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="524.40942"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tlechner-stupidlayout.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43398421"
+     inkscape:cx="795.41126"
+     inkscape:cy="246.96595"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     units="mm"
+     width="148mm"
+     inkscape:window-width="1363"
+     inkscape:window-height="635"
+     inkscape:window-x="1"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0">
+    <sodipodi:guide
+       position="78.627403,645.76615"
+       orientation="0,314.64896"
+       id="guide4033" />
+    <sodipodi:guide
+       position="393.27636,645.76615"
+       orientation="566,0"
+       id="guide4035" />
+    <sodipodi:guide
+       position="393.27636,79.766142"
+       orientation="0,-314.64896"
+       id="guide4037" />
+    <sodipodi:guide
+       position="78.627403,79.766142"
+       orientation="-566,0"
+       id="guide4039" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5047"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14283"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14285"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14287"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14289"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14291"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14293"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14295"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14297"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14299"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14301"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14303"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14305"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14307"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14309"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14311"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14313"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14315"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14317"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14319"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14321"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14323"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14325"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14327"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14329"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5047-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14372"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14374"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14376"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14378"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14380"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14382"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14384"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14386"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14388"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14390"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14392"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14394"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14396"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14398"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14400"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14402"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14404"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14406"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14408"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14410"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14412"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14414"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14416"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14418"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5047-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14372-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14374-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14376-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14378-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14380-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14382-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14384-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14386-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14388-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14390-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14392-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14394-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14396-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14398-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14400-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14402-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14404-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14406-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14408-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14410-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14412-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14414-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker14416-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path14418-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5047-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3764"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3766"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3768"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3770"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3772"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3774"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3776"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3778"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3780"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3782"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3784"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3786"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3788"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3790"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3792"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3794"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3796"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3798"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3800"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3802"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3804"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3806"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="XX_Referenz_CENTER"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       style="stroke:#ff0000;display:inline"
+       id="g114-2-9-4-7"
+       transform="matrix(1.2012987,0,0,-1.2012987,104.88023,664.32834)">
+      <path
+         id="path116-1-6-2-1"
+         style="fill:none;stroke:#ff0000;stroke-width:0.51818919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         d="m 0,471.15676 261.924,0 L 261.924,0 0,0 z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       style="stroke:#ff0000;display:inline"
+       id="g114-2-9-4-3-8"
+       transform="matrix(1.2012987,0,0,-1.2012987,104.88023,664.32834)">
+      <path
+         id="path116-1-6-2-4-7"
+         style="fill:none;stroke:#ff0000;stroke-width:0.51818919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+         d="M 0,-83.243243 0,571.04865 m 261.924,0 0,-654.291893"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="0000"
+     style="display:none">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987-1-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(75.664963,27.142855)"><flowRegion
+         id="flowRegion2989-3-4"><rect
+           id="rect2991-5-2"
+           width="316.48743"
+           height="572.46692"
+           x="553.5636"
+           y="70.878288"
+           ry="52.138802" /></flowRegion><flowPara
+         id="flowPara2993-2-7"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">What is Laidout?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2995-6-8" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3102-2-1">Well, Laidout is software that I wrote to lay out my cartoon books  in an easy fashion. Nothing else fit my needs at the time, so I just  wrote it.  ᛞ It does a lot more than laying out cartoons?   ᛪ It works for any image, basically, and gradients. It does not currently  do text. It is on my to-do list. I usually write my own text, so it does  not really need to do text. I just make an image of it.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2997-1-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3104-9-8">It can lay out T-shirts?    </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2999-1-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3106-9-6">But that's all images too. I guess it's two forms of laying out. It's laying  out pieces of paper that remain whole in themselves, or you can take an  image and lay it out on smaller pieces of paper. Tiling, I guess you could  call it. </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3243-2-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3040-4-1">I don't think I ever actually took computer programming classes. I  rew up with a Commodore 64, so I was always making letters fly around the screen and stuff like that, and follow various curves. So I was always doing little programming tricks. I guess I grew up in a household where that sort of thing was pretty normal. I had two brothers, and they both became computer programmers. And I'm the youngest, so I could learn from their mistakes, too. I hope.   </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3038-3-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3253-3-4">You're looking for good excuses to program.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3044-8-9" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3251-4-1">(laughs) That could be.   </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3042-9-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3247-0-5">We can discuss at length about how actual toolkits don't match your needs, but in the end, you want to input certain things. With any recent toolkit, you can do that. It's not that difficult or time consuming [2]. The way you do it, you really enjoy it, by itself. I can see it as a real creative work, to come up with new digital shapes.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3046-5-8" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3249-3-5">You said you had no experience in programming? You  studied in art school?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5480-5-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5482-7-3">I don't think I ever actually took computer programming classes. I grew up with a Commodore 64, so I was always making letters fly around the screen and stuff like that, and follow various curves. So I was always doing little programming tricks. I guess I grew up in a household where that sort of thing was pretty normal. I had two brothers, and they both became computer programmers. And I'm the youngest, so I could learn from their mistakes, too. I hope.</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5668-4-5" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5670-5-0">Do you think that for you, the program itself is part of the work? </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5856-1-3" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5858-5-1">I think it's definitely part of the work. That's kind of the nuts and bolts that you have to enjoy to get somewhere else. But if I look back on it, I spend a huge amount of time just programming and not actually making the artwork itself. It's more just making the tools and all the programming for the tools. I think there's a lot of truth to that. When it comes time to actually make artwork, I do like to have the tool that's just right for the job, that works just the way that seems efficient.</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6058-9-9" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6060-7-3">What's impressive is the attention you put into the visualization. There are some technical programs which do really big imposition stuff, but it's always at the printer. Here, you can see the shape being peeled. It's really impressive. I agree with Femke that the program is an art work too, because it's not only technical, it's much more. </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6052-1-2" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6048-4-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6044-6-8" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6046-4-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6050-7-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6054-4-0" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6056-9-0" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-5-6"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-362.80556,-274.29918)"><flowRegion
+         id="flowRegion3003-8-7-3-6-3"><rect
+           id="rect3005-7-7-6-2-3"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-5-4"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◨</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-8-0"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-571.6927,-274.29918)"><flowRegion
+         id="flowRegion3003-8-7-3-8-4-9"><rect
+           id="rect3005-7-7-6-9-94-8"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-7-1"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">▣</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-0-3-2"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-571.6927,-531.44204)"><flowRegion
+         id="flowRegion3003-8-7-3-8-9-2-2"><rect
+           id="rect3005-7-7-6-9-9-3-2"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-8-4-3"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◧</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-0-6-5-6"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-364.23413,-531.44204)"><flowRegion
+         id="flowRegion3003-8-7-3-8-9-1-0-7"><rect
+           id="rect3005-7-7-6-9-9-4-8-4"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-8-9-0-3"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">▧</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 179.64687,171.33799 0,-67.13708 429.13209,0"
+       id="path4246-0-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 449.3576,492.5665 64.64976,0 0,-365.09147 92.51474,0"
+       id="path4248-4-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 188.73824,284.38147 0,22.76649 303.46571,0 -0.19373,-103.30598 114.51188,0.067"
+       id="path4250-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 446.32714,501.65787 83.84266,0 0,-271.46825 76.3523,0"
+       id="path4252-1-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 447.33729,511.7594 95.93624,0 0,-232.46327 63.24857,0"
+       id="path4254-9-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 384.70784,281.44462 0,133.29956 221.81426,0"
+       id="path4256-4-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 392.78906,427.91674 0,-35.23045 213.73304,0"
+       id="path4258-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 418.04287,283.46492 0,81.15893 188.47923,0"
+       id="path4260-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 195.12558,539.29814 0,61.74844 364.69588,0 0,-108.35094 46.70064,0"
+       id="path4262-0-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="M 448.34745,519.84062 606.5221,518.93141"
+       id="path5484-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 178.63672,283.46492 0,85.86297 106.06601,0 0,301.15915 297.995,0 0,-69.70053 23.82437,0"
+       id="path5672-9-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 174.59611,540.04367 0,88.82887 431.92599,0"
+       id="path6062-0-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="0001"
+     style="display:none">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4238"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'Sütterlin';-inkscape-font-specification:'Sütterlin Medium'"><flowRegion
+         id="flowRegion4240"><rect
+           id="rect4242"
+           width="242.7713"
+           height="195.52051"
+           x="120.57098"
+           y="121.68752" /></flowRegion><flowPara
+         id="flowPara4244" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2987-1"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(-449.12574,27.142855)"><flowRegion
+         id="flowRegion2989-3"><rect
+           id="rect2991-5"
+           width="316.48743"
+           height="572.46692"
+           x="553.5636"
+           y="70.878288"
+           ry="52.138802" /></flowRegion><flowPara
+         id="flowPara2993-2"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">What is Laidout?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2995-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3102-2">Well, Laidout is software that I wrote to lay out my cartoon books  in an easy fashion. Nothing else fit my needs at the time, so I just  wrote it.  ᛞ It does a lot more than laying out cartoons?   ᛪ It works for any image, basically, and gradients. It does not currently  do text. It is on my to-do list. I usually write my own text, so it does  not really need to do text. I just make an image of it.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2997-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3104-9">It can lay out T-shirts?    </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara2999-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3106-9">But that's all images too. I guess it's two forms of laying out. It's laying  out pieces of paper that remain whole in themselves, or you can take an  image and lay it out on smaller pieces of paper. Tiling, I guess you could  call it. </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3243-2" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3040-4">I don't think I ever actually took computer programming classes. I  rew up with a Commodore 64, so I was always making letters fly around the screen and stuff like that, and follow various curves. So I was always doing little programming tricks. I guess I grew up in a household where that sort of thing was pretty normal. I had two brothers, and they both became computer programmers. And I'm the youngest, so I could learn from their mistakes, too. I hope.   </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3038-3" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3253-3">You're looking for good excuses to program.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3044-8" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3251-4">(laughs) That could be.   </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3042-9" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3247-0">We can discuss at length about how actual toolkits don't match your needs, but in the end, you want to input certain things. With any recent toolkit, you can do that. It's not that difficult or time consuming [2]. The way you do it, you really enjoy it, by itself. I can see it as a real creative work, to come up with new digital shapes.  </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3046-5" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara3249-3">You said you had no experience in programming? You  studied in art school?</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5480-5" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5482-7">I don't think I ever actually took computer programming classes. I grew up with a Commodore 64, so I was always making letters fly around the screen and stuff like that, and follow various curves. So I was always doing little programming tricks. I guess I grew up in a household where that sort of thing was pretty normal. I had two brothers, and they both became computer programmers. And I'm the youngest, so I could learn from their mistakes, too. I hope.</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5668-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5670-5">Do you think that for you, the program itself is part of the work? </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5856-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara5858-5">I think it's definitely part of the work. That's kind of the nuts and bolts that you have to enjoy to get somewhere else. But if I look back on it, I spend a huge amount of time just programming and not actually making the artwork itself. It's more just making the tools and all the programming for the tools. I think there's a lot of truth to that. When it comes time to actually make artwork, I do like to have the tool that's just right for the job, that works just the way that seems efficient.</flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6058-9" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6060-7">What's impressive is the attention you put into the visualization. There are some technical programs which do really big imposition stuff, but it's always at the printer. Here, you can see the shape being peeled. It's really impressive. I agree with Femke that the program is an art work too, because it's not only technical, it's much more. </flowPara><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6052-1" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6048-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6044-6" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6046-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6050-7" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6054-4" /><flowPara
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode"
+         id="flowPara6056-9" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-5"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-887.59626,-274.29918)"><flowRegion
+         id="flowRegion3003-8-7-3-6"><rect
+           id="rect3005-7-7-6-2"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-5"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◨</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-8"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-1096.4834,-274.29918)"><flowRegion
+         id="flowRegion3003-8-7-3-8-4"><rect
+           id="rect3005-7-7-6-9-94"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-7"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">▣</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-0-3"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-1096.4834,-531.44204)"><flowRegion
+         id="flowRegion3003-8-7-3-8-9-2"><rect
+           id="rect3005-7-7-6-9-9-3"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-8-4"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">◧</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001-4-2-8-7-0-6-5"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="matrix(4.798827,0,0,4.798827,-889.02483,-531.44204)"><flowRegion
+         id="flowRegion3003-8-7-3-8-9-1-0"><rect
+           id="rect3005-7-7-6-9-9-4-8"
+           width="141.42136"
+           height="108.08632"
+           x="142.4315"
+           y="134.9725" /></flowRegion><flowPara
+         id="flowPara3007-2-0-4-6-8-9-0"
+         style="font-size:31.25764084px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Junicode;-inkscape-font-specification:Junicode">▧</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -345.14383,171.33799 0,-67.13708 429.13209,0"
+       id="path4246-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -75.4331,492.5665 64.649759,0 0,-365.09147 92.514741,0"
+       id="path4248-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -336.05246,284.38147 0,22.76649 303.465708,0 -0.193729,-103.30598 114.511881,0.067"
+       id="path4250-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -78.46356,501.65787 83.842659,0 0,-271.46825 76.352301,0"
+       id="path4252-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -77.45341,511.7594 95.936239,0 0,-232.46327 63.248571,0"
+       id="path4254-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -140.08286,281.44462 0,133.29956 221.81426,0"
+       id="path4256-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -132.00164,427.91674 0,-35.23045 213.73304,0"
+       id="path4258-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -106.74783,283.46492 0,81.15893 188.47923,0"
+       id="path4260-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -329.66512,539.29814 0,61.74844 364.695878,0 0,-108.35094 46.700642,0"
+       id="path4262-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="M -76.44325,519.84062 81.7314,518.93141"
+       id="path5484-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -346.15398,283.46492 0,85.86297 106.06601,0 0,301.15915 297.995,0 0,-69.70053 23.82437,0"
+       id="path5672-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m -350.19459,540.04367 0,88.82887 431.92599,0"
+       id="path6062-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
