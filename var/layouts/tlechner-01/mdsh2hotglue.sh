@@ -1,7 +1,7 @@
 #!/bin/bash
 
   PADURL=http://pad.constantvzw.org/p/conversations.tlechner/export/txt
-  CANVASNAME=conversations-newtest01
+  CANVASNAME=conversations-tlechner01
 
 
 
@@ -70,14 +70,14 @@
   if [ -f $FILE ]; then rm $FILE ; fi
 
   for LINE in `cat $PADDUMP | sed -e 's/ /djqteDF34/g'`
-   do  
+   do
      # RESTORE SPACES ON CURRENT LINE
        LINE=`echo $LINE | sed 's/djqteDF34/ /g'`
 
-     # --------------------------------------------------- #  
+     # --------------------------------------------------- #
      # CHECK IF LINE STARTS WITH A %
        ISCMD=`echo $LINE | grep ^% | wc -l`
-     # --------------------------------------------------- # 
+     # --------------------------------------------------- #
      # IF LINE STARTS WITH A %
        if [ $ISCMD -ge 1 ]; then
 
@@ -86,21 +86,21 @@
                cut -d ":" -f 1 | \
                sed 's, ,,g'`
           ARG=`echo $LINE | cut -d ":" -f 2-`
-     # --------------------------------------------------- # 
+     # --------------------------------------------------- #
      # CHECK IF COMMAND EXISTS
 
           CMDEXISTS=`grep "^function ${CMD}()" $FUNCTIONS |\
                      wc -l`
-     # --------------------------------------------------- # 
-     # IF COMMAND EXISTS 
+     # --------------------------------------------------- #
+     # IF COMMAND EXISTS
        if [ $CMDEXISTS -ge 1 ]; then
           # EXECUTE COMMAND
             $CMD $ARG
        fi
-     # --------------------------------------------------- # 
+     # --------------------------------------------------- #
      # IF LINE DOES NOT START WITH % (= SIMPLE MARKDOWN)
        else
-     # --------------------------------------------------- # 
+     # --------------------------------------------------- #
      # APPEND LINE TO HOTGLUE FILE
        echo "$LINE" | \
        sed "s/^$/jdsN36Fgc/g" | \
@@ -111,7 +111,7 @@
        >> ${FILE}.dump
        fi
      # --------------------------------------------------- #
-      
+
    done
 # --------------------------------------------------------------------------- #
 # FLUSH (EXECUTE A LAST TIME THE NOWSPEAKING COMMAND)
@@ -122,7 +122,7 @@
 
 
 # --------------------------------------------------------------------------- #
-# UPLOAD TO AN EXISTING HOTGLUE INSTALLATION 
+# UPLOAD TO AN EXISTING HOTGLUE INSTALLATION
 # --------------------------------------------------------------------------- #
 
   HOTGLUEBASE=hotglue/content
@@ -154,7 +154,7 @@
    do
       MAKEDIR=$MADEDIR/$MAKEDIR
       echo "mkdir $HOTGLUEBASE$MAKEDIR"                            >> $FTPTMP
-      echo "chmod 777 $HOTGLUEBASE$MAKEDIR"                        >> $FTPTMP		
+      echo "chmod 777 $HOTGLUEBASE$MAKEDIR"                        >> $FTPTMP
       MADEDIR=$MAKEDIR
   done
 
@@ -170,7 +170,7 @@
     # UPLOAD VIA FTP (CONTROL FILE USED LATER)
       echo "put $BOX $HOTGLUECONTENT/${HOTGLUEFILE}"               >> $FTPTMP
     # CHMOD TO MAKE EDITABLE VIA HOTGLUE/BROWSER
-      echo "chmod 666 $HOTGLUECONTENT/${HOTGLUEFILE}"              >> $FTPTMP		
+      echo "chmod 666 $HOTGLUECONTENT/${HOTGLUEFILE}"              >> $FTPTMP
   done
 
 # EXIT COMMAND
@@ -190,5 +190,3 @@
 
 
 exit 0;
-
-
