@@ -1,6 +1,6 @@
 #!/bin/bash
 
-  URL="http://pad.constantvzw.org/p/conversations.clilley/export/txt"
+  URL="http://pad.constantvzw.org/p/conversations.gwilliams/export/txt"
   TMPDIR=.
   NAME=`echo $URL | md5sum | cut -c 1-10`
   SVG=${NAME}.svg
