@@ -1,0 +1,17 @@
+type:text
+module:text
+object-height:280px
+object-left:1080px
+object-top:2084px
+object-width:250px
+object-zindex:0
+text-font-family:Junicode, Georgia, serif
+text-font-size:12px
+text-line-height:15px
+text-font-color:rgb(0, 0, 0)
+text-font-size:12px
+object-lock:locked
+this is: footnote
+
+ <b>[1]</b>&#8203;
+http://en.wikipedia.org/wiki/Technological_evolution

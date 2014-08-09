@@ -1,0 +1,19 @@
+type:text
+module:text
+object-height:290px
+object-left:590px
+object-top:574px
+object-width:350px
+object-zindex:0
+text-background-color:rgb()
+text-font-family:'Courier New',Courier,monospace
+text-font-size:8px
+text-line-height:15px
+text-font-color:rgb(0,0,0)
+text-font-size:13px
+object-lock:locked
+this is: content (FS)
+
+I think you’re right to start thinking about the (r)evolution of type tools, by looking at the interrelation between tools for designing (digitizing?) type, systems for their distribution, and tools for output. It means looking at the development of Fontographer, of typefoundries, but also at the history of Postscript. Although all of these elements are intimately connected, each of the tools in the chain is operated upon by other professionals with different aims. 
+
+In Pandora’s Hope (1999), Bruno Latour argues that objects and subjects can not be viewed as separate from each other, in other words — we have been shaped by our artifacts as much as we have shaped them: 
