@@ -31,38 +31,27 @@ anything that's possible on a GNU/Linux commandline interface.
 Current actions:
 -------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------
-% INCLUDEMDSH: locationofcode
--------------------------------------------------------------------------------
 
+`% INCLUDEMDSH: locationofcode`    
 - includes mdsh code in mdsh code
 
--------------------------------------------------------------------------------
-% NOWSPEAKING: SC
--------------------------------------------------------------------------------
 
+`% NOWSPEAKING: SC`    
 - indicates speaker change
 
--------------------------------------------------------------------------------
-% GRAFIK: locationofpdfjpgsvgpngx
--------------------------------------------------------------------------------
 
+`% GRAFIK: locationofpdfjpgsvgpngx`    
 - includes an image. 
 - will check for alternate version in the same location
   to provide highest quality
-
 - fullpage/inline/side
 
--------------------------------------------------------------------------------
-% SCALEFONT:
--------------------------------------------------------------------------------
 
+`% SCALEFONT:`
 - change fontsize
 
--------------------------------------------------------------------------------
-% RESETFONT:
--------------------------------------------------------------------------------
 
+`% RESETFONT:`
 - go back to standard font definition
 
 
