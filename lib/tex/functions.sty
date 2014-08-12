@@ -1,0 +1,141 @@
+
+% -------------------------------------------------------------------- %
+% http://tex.stackexchange.com/questions/25105/
+% unable-to-link-to-inserted-pages-with-pdfpages
+  \newcounter{includepdfpage}
+   \newcounter{currentpagecounter}
+    \newcommand{\addlabelstoallincludedpages}[1]{
+     \refstepcounter{includepdfpage}
+      \stepcounter{currentpagecounter}
+      %\label{#1.\thecurrentpagecounter}}
+        \label{#1}}
+
+  \newcommand\grafikfullpage[5]{
+  \setlength{\fboxrule}{#4}%
+% \includepdf[offset=15 0,scale=#2,frame=true,angle=#3,
+%  pagecommand={\addlabelstoallincludedpages{#5},\thispagestyle{empty}}]
+%  {#1}
+  \includepdf[frame=true,offset=20 0,scale=#2,angle=#3,
+   pagecommand={\addlabelstoallincludedpages{#5},\thispagestyle{empty}}]
+   {#1}
+  } 
+% -------------------------------------------------------------------- %
+  \newcommand\grafikinline[5]{%
+   \vspace{20pt plus 5pt minus 5pt}
+   \hfill%
+   \setlength{\fboxsep}{0pt}%
+   \setlength{\fboxrule}{#4}%
+   \rotatebox{#3}{%
+   \fbox{\includegraphics[width=#2\textwidth]{#1}\label{#5}}%
+   }
+   \hfill%
+   \vspace{20pt plus 10pt minus 10pt}
+  }
+% -------------------------------------------------------------------- %
+% \newlength{\wrapwidth} 
+%  \newcommand\grafikside[5]{%
+%   \setlength{\wrapwidth}{#2\textwidth}%
+%  \begin{wrapfigure}{r}{.8\wrapwidth}%
+%   \vspace{-10pt}%
+%    \begin{center}%
+%     \includegraphics[width=\wrapwidth,angle=#3]{#1}%
+%  \end{center}%
+%   \vspace{-10pt}%
+% \label{#5}%
+% \end{wrapfigure}%
+% }
+% -------------------------------------------------------------------- %
+
+%  \newlength{\wrapwidth} 
+%   \newcommand\grafikside[5]{%
+%    \setlength{\wrapwidth}{#2\textwidth}%
+%   \begin{wrapfigure}{r}{.8\wrapwidth}%
+%     \begin{center}%
+%      \setlength{\fboxsep}{0pt}%
+%       \setlength{\fboxrule}{#4}%
+%        \rotatebox{#3}{%
+%         \fbox{\includegraphics[width=#2\textwidth]{#1}\label{#5}}}%
+%   \end{center}%
+%  \label{#5}%
+%  \end{wrapfigure}%
+%  }
+
+ \setlength{\wrapoverhang}{.5\marginparwidth}
+ \addtolength{\wrapoverhang}{\marginparsep}
+
+% http://tex.stackexchange.com/questions/56176/handling-of-wrapfig-pictures-in-latex
+  \newlength{\wrapwidth} 
+   \newcommand\grafikside[5]{%
+    \setlength{\wrapwidth}{#2\textwidth}%
+     \begin{wrapfigure}{R}{.8\wrapwidth}%
+    % \begin{wrapfigure}{O}{0pt}%
+       \centering
+        \setlength{\fboxsep}{0pt}%
+         \setlength{\fboxrule}{#4}%
+          \rotatebox{#3}{%
+           \fbox{\includegraphics[width=#2\textwidth]{#1}\label{#5}}}%
+            \label{#5}%
+             \end{wrapfigure}%
+  }
+
+
+% -------------------------------------------------------------------- %
+  \newcommand{\emptypage}{
+   \twocolumn[]\thispagestyle{empty}
+    \onecolumn}
+% -------------------------------------------------------------------- %
+   \newcommand\includepages[3]{
+
+  % \includepdf[pages={#2},offset=15 0,scale=.9]{#1}
+  % \includepdf[pages={#2},offset=15 1.5cm,trim=0 3cm 0 0,clip,%
+  %             scale=.9,pagecommand={\pagestyle{plain}}]{#1}
+
+  }
+% -------------------------------------------------------------------- %
+% \newcommand\invisiblesection[1]{%
+% \refstepcounter{section}%
+% \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+% \sectionmark{#1}}
+
+  \newcommand{\currentchaptertitle}{}
+
+  \newcommand\invisiblechapter[1]{%
+  \refstepcounter{chapter}%
+  \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}%
+  \chaptermark{#1}
+% CUSTOM COMMAND TO STORE THE CHAPTER TITLE
+  \renewcommand{\currentchaptertitle}{#1}
+  }
+
+  \newcommand\includepagesplus[6]{
+ % \cleardoublepage
+    \invisiblechapter{#6}
+     \includepdf[pages={#2},#4,#5,clip,%
+                 scale=#3,pagecommand={\pagestyle{plain}}]{#1}
+
+  }
+% -------------------------------------------------------------------- %
+  \newenvironment{man}%
+   {\endgraf\tiny\vspace{.02\textheight}\verbatim}%
+   {\endverbatim\vspace{.02\textheight}}
+% -------------------------------------------------------------------- %
+  \newcommand{\resetfont}{
+% http://www.forkosh.com/pstex/latexcommands.htm
+%  \renewcommand{\ttdefault}{\ttstandard}
+%  \renewcommand{\rmdefault}{\rmstandard}
+%  \renewcommand{\sfdefault}{\sfstandard}
+%  \fontfamily{\rmstandard}\selectfont
+   \normalfont
+   \normalsize
+   }
+% -------------------------------------------------------------------- %
+  \newcommand\doublepage[1]{
+   \cleartoleftpage
+      \includepdf[scale=2,offset=-210 0]
+       {#1}
+      \includepdf[scale=2,offset=-210 0]
+       {#1}
+   \clearpage
+  }
+% -------------------------------------------------------------------- %
+
