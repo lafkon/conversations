@@ -1,0 +1,287 @@
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % basic.sty                                           %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \usepackage[pdftex]{epsfig}
+%\usepackage{hyperref}
+ \usepackage[german,english]{babel}
+ \usepackage{pslatex}
+ \usepackage{fancyhdr}
+ \usepackage{pdfpages}
+ \usepackage{scalefnt}
+ \usepackage{titlesec}
+ \usepackage{mflogo}
+ \usepackage{wrapfig}
+ \usepackage{natbib}
+ \usepackage{verbatim}
+ \usepackage{environ}
+ \usepackage{eurosym}
+
+ \usepackage{hologo}
+ \newcommand{\ConTeXt}{\hologo{ConTeXt} }
+
+ \renewcommand{\ldots}{…}
+
+ \usepackage{url}
+ \makeatletter
+ \g@addto@macro{\UrlBreaks}{\UrlOrds}
+ \makeatother
+ \urlstyle{sf}
+
+
+% BIBLIOGRAPHY TITLE
+%\addto\captionsgerman{\renewcommand{\bibname}{Whatever D}}
+ \addto\captionsenglish{\renewcommand{\bibname}{{\scalefont{.8}Read this!}}}
+% http://www.latex-community.org/forum/viewtopic.php?f=47&t=5857
+ \fancypagestyle{plain}{% 
+ \fancyhf{} % clear all header and footer fields 
+%\fancyhead[R]{\thepage} % except the right top corner 
+ \fancyfoot[C]{\thepage} % except center bottom 
+ \renewcommand{\headrulewidth}{0pt} % remove line between header and main text
+ }
+
+
+
+% TABLE OF CONTENT
+ \usepackage{tocloft}
+ \setlength{\cftbeforetoctitleskip}{-4em}
+ \setlength{\cftaftertoctitleskip}{1.5em}
+ \setlength{\cftbeforechapskip}{.6em}
+
+
+ \cftsetindents{chapter}{0pt}{0em}
+ \renewcommand\cftpartnumwidth{0cm}
+%\renewcommand{\cfttoctitlefont}{\normalfont\Large\bfseries\MakeUppercase}
+ \renewcommand{\cftchappagefont}{\footnotesize\fontfamily{ocr}\selectfont}
+
+ \addto\captionsenglish{\renewcommand{\contentsname}{}}
+%\tocloftpagestyle{fancy}
+ \tocloftpagestyle{empty}
+
+
+
+
+
+
+
+
+% INDEXING
+ \usepackage{makeidx} 
+
+
+ \usepackage{geometry}
+% A5 + CROP (online-druck.biz)
+ % \geometry{paperwidth=154mm,paperheight=216mm}
+ % \setlength\topmargin{-.05\paperheight}
+ % \setlength\oddsidemargin{.085\paperwidth}
+ % \setlength\evensidemargin{-.015\paperwidth}
+ % \setlength\textheight{.65\paperheight}
+ % \setlength\textwidth{.6\paperwidth}
+ \geometry{paperwidth=154mm,paperheight=216mm}
+ \setlength\topmargin{-.07\paperheight}
+ \setlength\oddsidemargin{.085\paperwidth}
+ \setlength\evensidemargin{-.015\paperwidth}
+ \setlength\textheight{.67\paperheight}
+ \setlength\textwidth{.6\paperwidth}
+
+
+  \makeindex
+% \sloppy
+% \pagestyle{plain}
+% \pagestyle{headings}
+  \pagestyle{fancy}
+
+% \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+
+ \renewcommand{\encodingdefault}{T1}
+
+ \newcommand{\ttstandard}{ocr}
+ \newcommand{\rmstandard}{pju}
+ \newcommand{\sfstandard}{pju}
+
+ \renewcommand{\ttdefault}{\ttstandard}
+ \renewcommand{\rmdefault}{\rmstandard}
+ \renewcommand{\sfdefault}{\sfstandard}
+
+ \let\OldTexttt\texttt
+ \renewcommand{\texttt}[1]{%
+ \OldTexttt{\fontfamily{ocr}\selectfont\footnotesize{#1}}}
+
+
+
+% CUSTOM QUOTATION ENVIRONMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% http://tex.stackexchange.com/questions/476/what-if-anything-is-the-advantage-of-bigskip-and-friends-over-vspace
+% http://tex.stackexchange.com/questions/41476/lengths-and-when-to-use-them 
+
+ \newcommand{\quoteskip}{\vspace{5pt plus 2pt minus 2pt}}
+
+ \renewenvironment{quotation}
+ % START ENVIRONMENT
+ {
+ \quoteskip
+ \sloppy
+ %        % CHANGE FONT HERE .V.  %
+ \begin{quote}%
+ \fontfamily{ocr}\selectfont
+ \small
+ }
+ % CLOSE ENVIRONMENT
+ {
+ \end{quote}
+ \fussy
+ \quoteskip
+ }
+
+% HEADLINES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \usepackage{sectsty}
+
+ \allsectionsfont{\fontfamily{\ttstandard}\selectfont} 
+
+ \renewcommand*{\chapterheadstartvskip}{\vspace{10pt}}
+ \renewcommand*{\chapterheadendvskip}{\vspace{.5cm plus 5pt minus 5pt}}
+
+ \renewcommand*\thechapter{\hspace{-.5em}} % ?
+ \renewcommand*\thesection{\hspace{-.5em}}
+ \renewcommand*\thesubsection{\hspace{-.5em}}
+
+ \addtokomafont{section}{\bigskip\bigskip}
+ \sectionfont{%
+  \fontfamily{ocr}\selectfont\large%
+% \sectionrule{3ex}{3pt}{-10ex}{1pt}% 
+  \sectionrule{3ex}{0pt}{-10pt}{0pt}% 
+  }
+
+ \addtokomafont{subsection}{\bigskip\medskip}
+ \subsectionfont{\fontfamily{ocr}\selectfont\small}
+
+ \addtokomafont{subsubsection}{\bigskip}
+ \subsubsectionfont{\fontfamily{pju}\selectfont\small}
+
+% http://en.wikibooks.org/wiki/LaTeX/Page_Layout#Page_styles
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
+
+%\renewcommand{\chaptermark}[1]{\markright{{\tiny \fontfamily{ocr}\selectfont\thechapter #1}}{}}
+ \renewcommand{\headrulewidth}{0pt}
+ \setlength{\headsep}{0.3in}
+
+
+
+
+% SOURCECODE LISTING
+ \usepackage{lib/tex/srccde}
+
+
+% FOOTNOTES
+%\usepackage[hang,flushmargin]{footmisc}
+ \usepackage[hang,multiple]{footmisc}
+ \renewcommand{\footnotelayout}{\raggedright}
+
+ \setlength{\footskip}{15mm}
+ % ABSTAND TRENNLINIE FUSSNOTEN
+  \renewcommand{\footnoterule}{
+   \vspace*{5mm}
+    \noindent
+     \rule{\textwidth}{0.5pt}{
+      \vspace*{-3pt}
+ }}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Keine "Schusterjungen"
+ \clubpenalty = 10000
+% Keine "Hurenkinder"
+ \widowpenalty = 100000 
+ \displaywidowpenalty = 100000
+
+ \parindent=0pt
+
+% http://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
+ \usepackage{marginnote}
+ \setlength{\marginparwidth}{2cm}
+% http://texblog.org/2011/09/30/quick-note-on-line-spacing/
+ \usepackage{setspace}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CITATION %
+
+\usepackage{color}
+
+% \newcommand{\citebox}[1]{%
+% \setlength{\fboxrule}{1pt}%
+% \setlength\fboxsep{2pt}%
+% %\hspace*{-.5em}%
+% \noindent\colorbox{black}{%
+% {\scriptsize\textcolor{white}{\hspace*{-.2em}%
+% \textbf{\fontfamily{ocr}\selectfont#1}}}%
+% }%
+% \hspace*{-.2em}
+% }
+
+\newcommand{\citebox}[1]{%
+\setlength{\fboxrule}{1pt}%
+\setlength\fboxsep{2pt}%
+~\colorbox{black}{%
+{\scriptsize\textcolor{white}{%
+\textbf{\fontfamily{ocr}\selectfont#1}}}%
+}}
+
+
+% E.G. PAGENUMBER
+\newcommand{\citeinfo}[1]{%
+{\scalefont{.6}{\fontfamily{ocr}\selectfont(#1)}}%
+}
+
+% DURING TEXT
+% http://merkel.zoneo.net/Latex/natbib.php
+\renewcommand\cite[1]{\citebox{\citep{#1}}}
+
+% http://newsgroups.derkeiler.com/Archive/Comp/comp.text.tex/2008-02/msg00382.html
+\usepackage{twoopt,ifmtarg}
+
+\makeatletter
+\def\@biblabel#1{\citebox{#1}}
+\makeatother
+
+\let\oldcitep\citealp
+\makeatletter
+\renewcommandtwoopt\citep[3][][]{%
+\begingroup\protected\def\harvardand{\&}%
+\@ifmtarg{#1}%
+{\oldcitep{#3}}%
+{\@ifmtarg{#2}%
+{ \citebox{\oldcitep[]{#3}}\citeinfo{#1}}%
+{\citebox{\oldcitep[][]{#3}}\citeinfo{#2,#3}}}%
+\endgroup}
+\makeatother
+\protected\def\harvardand{and}
+
+% http://blog.nguyenvq.com/blog/2011/05/01/spacing-between-items-in-itemize-or-enumerate-environments-lists/
+% http://www.troubleshooters.com/linux/lyx/ownlists.htm#_Spacing_List_Items
+
+\newlength{\wideparskip}
+\setlength{\wideparskip}{\parskip}
+%\addtolength{\wideparskip}{-0.7em}
+\setlength{\wideparskip}{-.3\baselineskip}
+\let\olditem\item
+\renewcommand{\item}{\setlength{\parskip}{\wideparskip}\olditem}
+
+% START ON NEXT LEFT PAGE
+
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\thispagestyle{empty}\hbox{}\newpage\fi
+}
+
+
