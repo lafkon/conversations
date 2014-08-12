@@ -23,31 +23,39 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.43398421"
-     inkscape:cx="226.55854"
-     inkscape:cy="393.70752"
+     inkscape:cx="-69.535182"
+     inkscape:cy="391.40329"
      inkscape:document-units="px"
-     inkscape:current-layer="g3140"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      units="mm"
      width="148mm">
     <sodipodi:guide
-       position="78.627403,645.76615"
+       position="104.88023,645.76615"
        orientation="0,314.64896"
-       id="guide4033" />
+       id="guide3090" />
     <sodipodi:guide
-       position="393.27636,645.76615"
+       position="419.52919,645.76615"
        orientation="566,0"
-       id="guide4035" />
+       id="guide3092" />
     <sodipodi:guide
-       position="393.27636,79.766142"
+       position="419.52919,79.766142"
        orientation="0,-314.64896"
-       id="guide4037" />
+       id="guide3094" />
     <sodipodi:guide
-       position="78.627403,79.766142"
+       position="104.88023,79.766142"
        orientation="-566,0"
-       id="guide4039" />
+       id="guide3096" />
+    <sodipodi:guide
+       position="104.88023,-20.233857"
+       orientation="-786,0"
+       id="guide3098" />
+    <sodipodi:guide
+       position="419.52919,765.76614"
+       orientation="786,0"
+       id="guide3100" />
   </sodipodi:namedview>
   <defs
      id="defs4" />
@@ -91,6 +99,14 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc" />
     </g>
+    <g
+       style="stroke:#ff0000;display:inline"
+       id="g114-2-9-4-7-9"
+       transform="matrix(1.2012987,0,0,-1.2012987,104.88023,664.32834)" />
+    <g
+       style="stroke:#ff0000;display:inline"
+       id="g114-2-9-4-3-8-7"
+       transform="matrix(1.2012987,0,0,-1.2012987,104.88023,664.32834)" />
   </g>
   <g
      inkscape:groupmode="layer"
