@@ -1,0 +1,264 @@
+
+# GOOD TO KNOW:
+# - where tex body is collected: $TMPTEX (add code with >>)
+# - current line: $LINE
+
+# --------------------------------------------------------------------------- #
+
+function INCLUDEMDSH() {
+
+   CUSTOMFUNCTIONS=$2
+
+ # SAVE ORIGINAL FUNCTIONS 
+   cp $FUNCTIONS $TMPDIR/${FUNCTIONS}.tmp
+ # SAVE PREVIOUS MDXMOD VARIABLE
+   MDXMODOLD=$MDXMOD
+
+   COLLECT="${COLLECT};$1"
+
+   DEPTH=`echo $COLLECT | sed 's,;,\n,g' | wc -l`
+
+ # NEWFUNCTIONS WITHOUT DISABLED INCLUDEMDX
+   cat $TMPDIR/${FUNCTIONS}.tmp              >  $FUNCTIONS
+
+   if [ `echo $CUSTOMFUNCTIONS | wc -c` -gt 2 ]; then
+   cat $CUSTOMFUNCTIONS                      >> $FUNCTIONS
+   fi
+
+ # DISABLE INCLUDEDMX FUNCTION TO PREVENT ENDLESS RECURSION
+   if [ $DEPTH -gt 1 ]; then
+   echo "function INCLUDEMDX() { sleep 0; }" >> $FUNCTIONS
+   fi
+
+   mdsh2TeX $1
+
+ # RESTORE ORIGINAL FUNCTIONS
+   mv $TMPDIR/${FUNCTIONS}.tmp $FUNCTIONS
+   source $FUNCTIONS
+   MDXMOD=$MDXMODOLD
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function NOWSPEAKING() {
+
+  NOWSPEAKING=$1
+
+  if [ X$NOWSPEAKING = XX ]; then
+
+       sleep 0
+
+  fi
+
+  if [ X$WASSPEAKING = XX ]; then
+
+       writeTeXsrc "\textskip"
+       writeTeXsrc "\resetfont"
+  fi
+
+  writeTeXsrc "\\"SP$NOWSPEAKING"{}"
+
+  WASSPEAKING=$NOWSPEAKING
+}
+
+# --------------------------------------------------------------------------- #
+
+function TITLE() {
+
+  # NOT WORKING FOR NESTED DOCUMENTS
+  # TITLE=`grep "^% TITLE:" $MDSHMOD |  tail -1 | \
+  #        cut -d ":" -f 2- | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
+
+  TITLE=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
+
+  writeTeXsrc "\cleardoublepage"
+  writeTeXsrc "\setcounter{footnote}{0}"
+  writeTeXsrc "\invisiblechapter{$TITLE}"
+
+  TITLENAME=`echo $TITLE | \
+             sed 's/[^a-zA-Z0-9 ]//g' | \
+             sed 's/ /_/g' | \
+             tr [:upper:] [:lower:]`
+
+  # echo $TITLENAME >> titlenames.txt
+
+  CUSTOMSTY=`find . -name "${TITLENAME}.sty" | \
+             cut -d "/" -f 2-`
+
+  if [ `echo $CUSTOMSTY | wc -c` -gt 3 ]; then
+  writeTeXsrc "\input{$CUSTOMSTY}"
+  else
+  writeTeXsrc "\input{lib/tex/interview_reset.sty}"
+  fi
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function INCLUDEPAGES() {
+
+   URL=$1
+
+   NAME=`echo $URL | rev | cut -d "/" -f 1 | \
+         cut -d "." -f 2- | rev`
+
+   wget -P $TMPDIR $URL > /dev/null 2>&1
+
+   PAGES=`echo $2 | tr -d [:alpha:]`
+   if [ `echo $PAGES | wc -c` -le 1 ]; then
+    PAGES=-
+   fi
+
+   SCALE=`echo $3 | sed 's/[^0-9\.]*//g'`
+   if [ `echo $SCALE | wc -c` -le 1 ]; then
+    SCALE=1
+   fi
+
+ # -------------------------------------------------------------------- #
+
+   for PDF in `find . -name "${NAME}.pdf" | head -1`
+    do
+       writeTeXsrc "\includepages{$PDF}{$PAGES}{$SCALE}"
+   done
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function INCLUDEPAGESPLUS() {
+
+   URL=$1
+
+   NAME=`echo $URL | rev | cut -d "/" -f 1 | \
+         cut -d "." -f 2- | rev`
+
+   wget -P $TMPDIR $URL > /dev/null 2>&1
+
+   PAGES=`echo $2 | tr -d [:alpha:]`
+   if [ `echo $PAGES | wc -c` -le 1 ]; then
+    PAGES=-
+   fi
+
+   SCALE=`echo $3 | sed 's/[^0-9\.]*//g'`
+   if [ `echo $SCALE | wc -c` -le 1 ]; then
+    SCALE=1
+   fi
+
+   OFFSET=`echo $4 | sed 's/_/ /g'`
+ # echo $OFFSET
+   TRIM=`echo $5 | sed 's/_/ /g'`
+ # echo $TRIM
+   TITLE=`echo $6 | cut -d "=" -f 2 | sed 's/_/ /g'`
+ # echo $TITLE
+
+ # -------------------------------------------------------------------- #
+
+   for PDF in `find . -name "${NAME}.pdf" | head -1`
+    do
+       TITLENAME=`echo $TITLE | \
+                  sed 's/[^a-zA-Z0-9 ]//g' | \
+                  sed 's/ /_/g' | \
+                  tr [:upper:] [:lower:]`
+       
+       CUSTOMSTY=`find . -name "${TITLENAME}.sty" | \
+                  cut -d "/" -f 2-`
+    
+       if [ `echo $CUSTOMSTY | wc -c` -gt 3 ]; then
+       writeTeXsrc "\input{$CUSTOMSTY}"
+       else
+       writeTeXsrc "\input{lib/tex/interview_reset.sty}"
+       fi
+ 
+       writeTeXsrc "\includepagesplus{$PDF}{$PAGES}{$SCALE}{$OFFSET}{$TRIM}{$TITLE}"
+   done
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function DOUBLEPAGE() {
+
+   URL=$1
+
+   NAME=`echo $URL | rev | cut -d "/" -f 1 | \
+         cut -d "." -f 2- | rev`
+
+   if [ ! -f $TMPDIR/${NAME}.pdf ]; then
+
+        wget -P $TMPDIR $URL > /dev/null 2>&1
+
+   fi
+
+ # -------------------------------------------------------------------- #
+
+   for PDF in `find . -name "${NAME}.pdf" | head -1`
+    do
+       writeTeXsrc "\doublepage{$PDF}"
+   done
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function VFILL() {
+
+  writeTeXsrc "\vfill"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function BIGSKIP() {
+
+  writeTeXsrc "\bigskip"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function COVERGRAFIK() {
+
+  writeTeXsrc "\emptypage"
+  writeTeXsrc "\cleardoublepage"
+  GRAFIK $1 fullpage 1 0
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function TABLEOFCONTENTS(){
+
+  writeTeXsrc "\cleardoublepage"
+  writeTeXsrc "\setcounter{tocdepth}{0}"
+  writeTeXsrc "\tableofcontents"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function NEWPAGE(){
+
+  writeTeXsrc "\newpage"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function RESETFONT(){
+
+  writeTeXsrc "\resetfont"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function SCALEFONT(){
+
+  writeTeXsrc "\scalefont{$1}"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+
