@@ -96,11 +96,11 @@
   writeTeXsrc "{0pc}{0mm}{3em}[0pc]"
   writeTeXsrc "\printindex"
 
-  writeTeXsrc "\pagestyle{fancy}"
-  writeTeXsrc "\addcontentsline{toc}{chapter}{Read this!}"
+# writeTeXsrc "\pagestyle{fancy}"
+# writeTeXsrc "\addcontentsline{toc}{chapter}{Read this!}"
   writeTeXsrc "\bibliographystyle{plain}"
-# writeTeXsrc "\bibliographystyle{unsrtnat}"
-  writeTeXsrc "\bibliography{$TMPDIR/ref}"
+  writeTeXsrc "\nobibliography{$TMPDIR/ref}"
+
 # writeTeXsrc "\emptypage\emptypage"
 
 # INCLUDE COLLECTED INDEX INFO
@@ -122,7 +122,6 @@
 # --------------------------------------------------------------------------- #
 # GET REFERENCE FILE 
 # --------------------------------------------------------------------------- #
-# BIBURL=https://gist.githubusercontent.com/christop/d749b25a67e5aa990a64/raw/2f8d757908c96fbf3377e458a2f6a72d6a0b0d05/references.bib
   BIBURL=http://note.pad.constantvzw.org:8000/p/references.bib/export/txt
   wget --no-check-certificate -O ${TMPDIR}/ref.bib $BIBURL > /dev/null 2>&1
   sleep 5
@@ -140,7 +139,7 @@
 # if [ -f ${TMPTEX%%.*}.ind ]; then bibtex ${TMPTEX%%.*} ; fi
   bibtex ${TMPTEX%%.*}
 # sed -i '/].$/s/newblock/newline/g' ${TMPTEX%%.*}.bbl
-  sed -i 's/newblock/newline/g' ${TMPTEX%%.*}.bbl
+# sed -i 's/newblock/newline/g' ${TMPTEX%%.*}.bbl
 
   makeindex ${TMPTEX%%.*}.idx
   pdflatex -output-directory $OUTDIR $TMPTEX 
@@ -178,7 +177,7 @@
 # --------------------------------------------------------------------------- #
   cp ${TMPTEX%.*}.pdf latest.pdf
 # mv ${TMPTEX%.*}.pdf $PDFDIR/`date +%s`.pdf
-  rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdx
+  rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh
 # rm $TEXBODY $FUNCTIONS
 
 # if [ `find $TMPDIR -name "*.*" | grep -v .gitignore | wc -l` -gt 0 ] 
