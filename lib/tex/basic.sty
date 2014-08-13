@@ -13,10 +13,10 @@
  \usepackage{titlesec}
  \usepackage{mflogo}
  \usepackage{wrapfig}
- \usepackage{natbib}
  \usepackage{verbatim}
  \usepackage{environ}
  \usepackage{eurosym}
+
 
  \usepackage{hologo}
  \newcommand{\ConTeXt}{\hologo{ConTeXt} }
@@ -173,9 +173,10 @@
 
 
 
-
 % SOURCECODE LISTING
  \usepackage{lib/tex/srccde}
+
+
 
 
 % FOOTNOTES
@@ -183,7 +184,14 @@
  \usepackage[hang,multiple]{footmisc}
  \renewcommand{\footnotelayout}{\raggedright}
 
- \setlength{\footskip}{15mm}
+% SMALLER DISTANCE FOOTNOTENUMBER AND TEXT
+ \let\oldfootnote\footnote
+% \, = small non-breaking space
+ \renewcommand\footnote[1]{\,\oldfootnote{#1}}
+
+ \setlength{\footnotemargin}{1em}
+
+ \setlength{\footskip}{18mm}
  % ABSTAND TRENNLINIE FUSSNOTEN
   \renewcommand{\footnoterule}{
    \vspace*{5mm}
@@ -213,59 +221,125 @@
 
 
 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CITATION %
 
-\usepackage{color}
+%% \usepackage{natbib}
+%% \usepackage{color}
+%% 
+%% \newcommand{\citebox}[1]{%
+%% \setlength{\fboxrule}{1pt}%
+%% \setlength\fboxsep{2pt}%
+%% ~\colorbox{black}{%
+%% {\scriptsize\textcolor{white}{%
+%% \textbf{\fontfamily{ocr}\selectfont#1}}}%
+%% }}
+%% 
+%% % ADDITIONAL INFO E.G. PAGENUMBER
+%% \newcommand{\citeinfo}[1]{%
+%% {\scalefont{.6}{\fontfamily{ocr}\selectfont(#1)}}%
+%% }
+%% 
+%% % DURING TEXT
+%% % http://merkel.zoneo.net/Latex/natbib.php
+%% \renewcommand\cite[1]{\citebox{\citep{#1}}}
+%% 
+%% % http://newsgroups.derkeiler.com/Archive/Comp/comp.text.tex/2008-02/msg00382.html
+%% \usepackage{twoopt,ifmtarg}
+%% 
+%% \makeatletter
+%% \def\@biblabel#1{\citebox{#1}}
+%% \makeatother
 
-% \newcommand{\citebox}[1]{%
-% \setlength{\fboxrule}{1pt}%
-% \setlength\fboxsep{2pt}%
-% %\hspace*{-.5em}%
-% \noindent\colorbox{black}{%
-% {\scriptsize\textcolor{white}{\hspace*{-.2em}%
-% \textbf{\fontfamily{ocr}\selectfont#1}}}%
-% }%
-% \hspace*{-.2em}
-% }
-
-\newcommand{\citebox}[1]{%
-\setlength{\fboxrule}{1pt}%
-\setlength\fboxsep{2pt}%
-~\colorbox{black}{%
-{\scriptsize\textcolor{white}{%
-\textbf{\fontfamily{ocr}\selectfont#1}}}%
-}}
+%% \let\oldcitep\citealp
+%% \makeatletter
+%% \renewcommandtwoopt\citep[3][][]{%
+%% \begingroup\protected\def\harvardand{\&}%
+%% \@ifmtarg{#1}%
+%% {\oldcitep{#3}}%
+%% {\@ifmtarg{#2}%
+%% { \citebox{\oldcitep[]{#3}}\citeinfo{#1}}%
+%% {\citebox{\oldcitep[][]{#3}}\citeinfo{#2,#3}}}%
+%% \endgroup}
+%% \makeatother
+%% \protected\def\harvardand{and}
 
 
-% E.G. PAGENUMBER
-\newcommand{\citeinfo}[1]{%
-{\scalefont{.6}{\fontfamily{ocr}\selectfont(#1)}}%
-}
+% COMMANDS FROM MDSH: \citep \cite
+% http://stefaanlippens.net/bibentry
 
-% DURING TEXT
-% http://merkel.zoneo.net/Latex/natbib.php
-\renewcommand\cite[1]{\citebox{\citep{#1}}}
+%% \usepackage{twoopt,ifmtarg}
+%% \usepackage{natbib}
+%% \usepackage{bibentry}
+%% \nobibliography*
+%% 
+%% \renewcommand\cite[1]{\footnote{\bibentry{#1}}}
+%% 
+%% \let\oldcitep\citealp
+%% \makeatletter
+%% \renewcommandtwoopt\citep[3][][]{%
+%% \begingroup\protected\def\harvardand{\&}%
+%% \@ifmtarg{#1}%
+%% {\footnote{\bibentry{#3}}}%
+%% {\@ifmtarg{#2}%
+%% {\footnote{\bibentry{#3}, #1}}%
+%% {\footnote{\bibentry{#3}, #1, #2}}}%
+%% \endgroup}
+%% \makeatother
+%% \protected\def\harvardand{and}
 
-% http://newsgroups.derkeiler.com/Archive/Comp/comp.text.tex/2008-02/msg00382.html
-\usepackage{twoopt,ifmtarg}
 
-\makeatletter
-\def\@biblabel#1{\citebox{#1}}
-\makeatother
+ \newif\iffootnote
+ \let\Footnote\footnote
+ \renewcommand\footnote[1]{\begingroup\footnotetrue\Footnote{#1}\endgroup}
+ 
+ \usepackage{twoopt,ifmtarg}
+ \usepackage{natbib}
+ \usepackage{bibentry}
+ \nobibliography*
+  
+ \renewcommand\cite[1]{%
+ \iffootnote 
+  { \tiny\bibentry{#1}}
+ \else
+  \footnote{\bibentry{#1}}%
+ \fi
+ }
+ 
+ \let\oldcitep\citealp
+ \makeatletter
+ \renewcommandtwoopt\citep[3][][]{%
+ \iffootnote 
+  \begingroup\protected\def\harvardand{\&}%
+  \@ifmtarg{#1}%
+  { {\tiny\bibentry{#3}}}%
+  {\@ifmtarg{#2}%
+  { {\tiny\bibentry{#3}, #1}}%
+  { {\tiny\bibentry{#3}, #1, #2}}}%
+  \endgroup%
+ \else
+  \begingroup\protected\def\harvardand{\&}%
+  \@ifmtarg{#1}%
+  {\footnote{\bibentry{#3}}}%
+  {\@ifmtarg{#2}%
+  {\footnote{\bibentry{#3}, #1}}%
+  {\footnote{\bibentry{#3}, #1, #2}}}%
+  \endgroup%
+ \fi
+ }
+ \makeatother
+ \protected\def\harvardand{and}
+ 
 
-\let\oldcitep\citealp
-\makeatletter
-\renewcommandtwoopt\citep[3][][]{%
-\begingroup\protected\def\harvardand{\&}%
-\@ifmtarg{#1}%
-{\oldcitep{#3}}%
-{\@ifmtarg{#2}%
-{ \citebox{\oldcitep[]{#3}}\citeinfo{#1}}%
-{\citebox{\oldcitep[][]{#3}}\citeinfo{#2,#3}}}%
-\endgroup}
-\makeatother
-\protected\def\harvardand{and}
+
+
+
+
+
 
 % http://blog.nguyenvq.com/blog/2011/05/01/spacing-between-items-in-itemize-or-enumerate-environments-lists/
 % http://www.troubleshooters.com/linux/lyx/ownlists.htm#_Spacing_List_Items
@@ -276,6 +350,8 @@
 \setlength{\wideparskip}{-.3\baselineskip}
 \let\olditem\item
 \renewcommand{\item}{\setlength{\parskip}{\wideparskip}\olditem}
+
+
 
 % START ON NEXT LEFT PAGE
 
