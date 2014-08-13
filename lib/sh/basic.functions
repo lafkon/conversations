@@ -26,7 +26,7 @@
 
   fi
 
-  MDSHMOD=tmp-`echo $MDSH | md5sum | cut -c 1-8`.mdx
+  MDSHMOD=tmp-`echo $MDSH | md5sum | cut -c 1-8`.mdsh
 
 # --------------------------------------------------------------------------- #
 # - CONVERT MDSH TO TEX WHILE KEEPING COMMENTS/ACTIONS INTACT
@@ -124,9 +124,7 @@
       # --------------------------------------------------- # 
   done
 
-
   writeTeXsrc "\resetfont"
-# rm $MDXMOD
 
   }
 # --------------------------------------------------------------------------- #
@@ -188,7 +186,7 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
  # -------------------------------------------------------------------- #
  # IF IMAGE IS ONLINE 
 
-     for TYPE in $SUPPORTED mdx
+     for TYPE in $SUPPORTED mdsh
       do
          URL=${BASE}.$TYPE
          RESPONSE=`curl -s -o /dev/null -IL -w "%{http_code}" $URL`
@@ -223,8 +221,8 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
            cp $1 ${TMPDIR}/${NAME}.${TYPE}
       fi
 
-      if [ -f ${1%%.*}.mdx ]; then
-           cp ${1%%.*}.mdx ${TMPDIR}/${NAME}.mdx
+      if [ -f ${1%%.*}.mdsh ]; then
+           cp ${1%%.*}.mdsh ${TMPDIR}/${NAME}.mdsh
       fi 
 
      else
@@ -318,8 +316,8 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
 #         echo "\hrule"            >> $IMGNFO
 #         echo "$REF:    \newline" >> $IMGNFO
 #
-#     if [ -f $TMPDIR/${NAME}.mdx ]; then
-#       # echo $TMPDIR/${NAME}.mdx "exists"
+#     if [ -f $TMPDIR/${NAME}.mdsh ]; then
+#       # echo $TMPDIR/${NAME}.mdsh "exists"
 #       # PRESERVE
 #         TMPTEXKEEP=$TMPTEX
 #         TEXBODYKEEP=$TEXBODY
