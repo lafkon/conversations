@@ -103,7 +103,8 @@ function INCLUDEPAGES() {
    NAME=`echo $URL | rev | cut -d "/" -f 1 | \
          cut -d "." -f 2- | rev`
 
-   wget -P $TMPDIR $URL > /dev/null 2>&1
+   wget --no-check-certificate \
+        -P $TMPDIR $URL > /dev/null 2>&1
 
    PAGES=`echo $2 | tr -d [:alpha:]`
    if [ `echo $PAGES | wc -c` -le 1 ]; then
@@ -133,7 +134,8 @@ function INCLUDEPAGESPLUS() {
    NAME=`echo $URL | rev | cut -d "/" -f 1 | \
          cut -d "." -f 2- | rev`
 
-   wget -P $TMPDIR $URL > /dev/null 2>&1
+   wget --no-check-certificate \
+        -P $TMPDIR $URL > /dev/null 2>&1
 
    PAGES=`echo $2 | tr -d [:alpha:]`
    if [ `echo $PAGES | wc -c` -le 1 ]; then
@@ -186,7 +188,8 @@ function DOUBLEPAGE() {
 
    if [ ! -f $TMPDIR/${NAME}.pdf ]; then
 
-        wget -P $TMPDIR $URL > /dev/null 2>&1
+        wget --no-check-certificate \
+             -P $TMPDIR $URL > /dev/null 2>&1
 
    fi
 

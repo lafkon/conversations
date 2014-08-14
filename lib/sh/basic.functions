@@ -197,7 +197,8 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
           else
          if [ $RESPONSE == '200' ]; then
             # echo $URL "exists"
-              wget -O ${TMPDIR}/${NAME}.${TYPE} $URL > /dev/null 2>&1
+              wget --no-check-certificate \
+                   -O ${TMPDIR}/${NAME}.${TYPE} $URL > /dev/null 2>&1
           else
             # echo $URL "does not exist"
               sleep 0 
