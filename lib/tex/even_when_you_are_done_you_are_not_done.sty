@@ -1,0 +1,69 @@
+
+ \lhead{}
+ \rhead{}
+ \pagestyle{fancy}
+
+ % \renewcommand{\switchspeaker}{%
+ % \ifspeakerchanged
+   % \normalfont
+   % \speakerchangedfalse
+ % \else
+   % \it
+   % \speakerchangedtrue
+ % \fi
+ % }
+
+
+% -------------------------------------------------------------------- %
+  \renewcommand\SPFS[1]{%
+   \resetfont
+    \textskip
+    {\fontfamily{ocr}\selectfont
+     {\footnotesize\textbf{FS}}}
+       \bf 
+ }
+% -------------------------------------------------------------------- %
+  \renewcommand\SPCL[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{CL}}}%
+      \resetfont%
+  }
+% -------------------------------------------------------------------- %
+  \renewcommand\SPPH[1]{%
+    \textskip
+    {\fontfamily{ocr}\selectfont
+     {\footnotesize\textbf{PH}}}
+       \em
+ }
+% -------------------------------------------------------------------- %
+  \renewcommand\SPNM[1]{%
+    \textskip
+    {\fontfamily{ocr}\selectfont
+     {\footnotesize\textbf{NM}}}
+       \em
+ }
+% -------------------------------------------------------------------- %
+  % \renewcommand\SPPH[1]{%
+   % \resetfont
+    % \textskip
+    % {\fontfamily{ocr}\selectfont
+     % {\footnotesize\textbf{PH}}}
+       % \switchspeaker
+ % }
+% % -------------------------------------------------------------------- %
+  % \renewcommand\SPNM[1]{%
+   % \resetfont
+    % \textskip
+    % {\fontfamily{ocr}\selectfont
+     % {\footnotesize\textbf{NM}}}
+       % \switchspeaker
+ % }
+% % -------------------------------------------------------------------- %
+  \renewcommand\SPX[1]{%
+   \resetfont
+    \large
+     \textskip
+  }
+
+

@@ -4,7 +4,7 @@
   ROOT=../../
   BASHOPERATORS="^in$|^for|^while|^do|^if|^fi|^done|^then|^else|\]|\[|\{|\}"
   EXCLUDE="^png|^pdf$|^html$|^eps$" # NOT BELONGING HERE
-  ADD="bash|gimp|scribus"
+  ADD="bash|gimp|scribus|vim|kate|gedit|ne"
 
   DUMP=all.tmp
   if [ -f $DUMP ]; then rm $DUMP ; fi

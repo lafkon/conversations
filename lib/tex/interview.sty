@@ -1,0 +1,297 @@
+
+
+
+ \setlength\topmargin{-.06\paperheight}
+ \setlength\textheight{.67\paperheight}
+
+
+
+
+% ? \resetfont before every speaker?
+
+ \renewcommand{\chaptermark}[1]{\markright{}{}}
+
+ \setlength{\headheight}{45pt}
+
+%\lhead{\hspace{0pt}\put(-100,-20){\includegraphics[height=2\headheight]{var/labels/conversation_pamado-01.pdf}}}
+%\rhead{}
+
+ \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
+ \rhead{}
+ \pagestyle{fancy}
+
+
+ \newif\ifspeakerchanged
+ \speakerchangedtrue
+
+
+ \newcommand\labelinline[1]{%
+ \raisebox{0pt}[0pt][0pt]{%
+%\put(-155,-47.5){% 8pt
+ \put(-176,-55){% 9pt
+ \epsfig{file=#1,%
+       height=10\baselineskip}}%\hspace{-.8em}%
+ }\hspace{-5.0pt}%
+ }
+
+ \newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
+
+ \newcommand{\switchspeaker}{%
+ \ifspeakerchanged
+   % XX 
+   \normalfont
+   \speakerchangedfalse
+ \else
+   % YY 
+   \bf
+   \speakerchangedtrue
+ \fi
+ }
+
+
+% -------------------------------------------------------------------- %
+  \newcommand\SPRL[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{RL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPFS[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{FS}}}
+      \switchspeaker 
+ }
+% -------------------------------------------------------------------- %
+  \newcommand\SPPA[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{PA}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPTL[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{TL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPLL[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{LL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPPM[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{PM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPHH[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{H}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPAV[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{AV}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPGW[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{GW}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPMT[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{MT}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPIM[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{IM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPMF[1]{%
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{MF}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPJM[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{JM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPAB[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{AB}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPS[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{S}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPAM[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{AM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPCL[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{CL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPPH[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{PH}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPNM[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{NM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPER[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{ER}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPPW[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{PW}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPSV[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{SV}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPJH[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{JH}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPMW[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{MW}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPAL[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{AL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPDJ[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{DJ}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPMX[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{MX}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPJD[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{JD}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPCB[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{CB}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPEG[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{EG}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPMS[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{MS}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPSM[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{SM}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPES[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{ES}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPALA[1]{% 
+   \textskip
+   {\fontfamily{ocr}\selectfont
+    {\footnotesize\textbf{AL}}}
+      \switchspeaker 
+  }
+% -------------------------------------------------------------------- %
+  \newcommand\SPX[1]{%
+   \resetfont
+    \large
+     \textskip
+  }
+
+

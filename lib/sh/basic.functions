@@ -1,0 +1,346 @@
+# --------------------------------------------------------------------------- #
+  function writeTeXsrc() { echo "$1" >> $TMPTEX ; }
+# --------------------------------------------------------------------------- #
+# MAIN MDSH FUNCTION
+# --------------------------------------------------------------------------- #
+  function mdsh2TeX() {
+# --------------------------------------------------------------------------- #
+# INCLUDE FUNCTIONS
+# --------------------------------------------------------------------------- #
+  source $FUNCTIONS
+
+# --------------------------------------------------------------------------- #
+  IFHTTP=`echo $1 | grep "http.\?://" | wc -l`
+  if [ $IFHTTP -ge 1 ]; then
+
+  URL=$1
+  NAME=`echo $1 | md5sum | cut -c 1-10`
+
+  wget --no-check-certificate -O ${TMPDIR}/${NAME}.mdsh $URL > /dev/null 2>&1
+
+  MDSH=${TMPDIR}/${NAME}.mdsh
+
+  else 
+
+  MDSH=$1
+
+  fi
+
+  MDSHMOD=tmp-`echo $MDSH | md5sum | cut -c 1-8`.mdsh
+
+# --------------------------------------------------------------------------- #
+# - CONVERT MDSH TO TEX WHILE KEEPING COMMENTS/ACTIONS INTACT
+# - CONVERT CUSTOM MDSH CODE (FOOTNOTES,CITES) TO TEX CODE
+# --------------------------------------------------------------------------- #
+
+  cat $MDSH                              |    # USELESS USE OF CAT
+  sed 's/^%/zDf7WV362LoP/g'              |    # SAVE COMMENTS FROM PANDOC
+# sed '/zDf7WV362LoP/s/$/vGzWeTf18XX/g'  |    # SAVE FROM PANDOC IF START %
+  sed '/zDf7WV362LoP/s/$/    /g'         |    # FORCE NEWLINE (MD)
+  sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' |    # SAVE FROM PANDOC IF START %
+  sed '/zDf7WV362LoP/s/ /c8SJu53LDCNN/g' |    # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' |    # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' |    # SAVE FROM PANDOC
+  sed 's/\[^\]{/jWu37CDe73EDc/g'         |    # SAVE FOOTNOTES FROM PANDOC
+  sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      |    # SAVE CITEP OPEN FROM PANDOC
+  sed 's/\[@/\nhFzdu74DsdCW28C/g'        |    # SAVE CITE OPEN FROM PANDOC
+  sed '/^hFzdu74DsdCWd34/s/\]/hFFc63DxY/'|    # SAVE CITE OPTION FROM PANDOC
+  sed '/^hFzdu74DsdCW/s/\]/hIe4X3v7s/'   |    # SAVE CITE CLOSE FROM PANDOC
+  sed 's/}/jfdUr63cdZZd/g'               |    # SAVE FROM PANDOC
+  sed 's/{/ufBcrKD73Dnc/g'               |    # SAVE FROM PANDOC
+  pandoc -S -r markdown -w latex         |    # MD TO LATEX
+  sed 's/\\href{/\\url{/g'               |    # CONVERT LINKS
+  sed 's/hFg76VCdJueW/"/g'               |    # BACK TO ORIGINAL
+  sed '/zDf7WV362LoP/s/\\//g'            |    # REMOVE ESCAPES FROM FUNCTIONS
+# sed 's/zDf7WV362LoP/\n%/g'             |    # BACK TO ORIGINAL
+  sed 's/zDf7WV362LoP/%/g'               |    # BACK TO ORIGINAL
+# sed '/^%/{N;s/\n.*//;}'                |    # REMOVE NEWLINES FROM FUNCTIONS
+  sed '/^%/s/c8SJu53LDCNN/ /g'           |    # BACK TO ORIGINAL
+  sed '/^%/s/SlasH328d1G/\\/g'           |    # BACK TO ORIGINAL
+  sed 's/jfdUr63cdZZd/}/g'               |    # BACK TO ORIGINAL
+  sed 's/ufBcrKD73Dnc/{/g'               |    # BACK TO ORIGINAL
+  sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
+  sed 's/vGzWeTf18XX//g'                 |    # BACK TO ORIGINAL
+  sed 's/jWu37CDe73EDc/\\footnote{/g'    |    # FOOTNOTES
+  sed 's/hFzdu74DsdCWd34/\\citep[/g'     |    # CITE OPEN
+  sed 's/hFzdu74DsdCW28C/\\cite{/g'      |    # CITE OPEN
+  sed 's/hFFc63DxY/\]{/g'                |    # CITE OPTION
+  sed 's/hIe4X3v7s/}/g'                  |    # CITE CLOSE
+  sed -e :a \
+      -e '$!N;s/\n\\cite/\\cite/;ta' \
+      -e 'P;D'                           |    # APPEND IF STARTS WITH \cite
+  sed "s/^ *$/$EMPTYLINE/g"              |    # PLACEHOLDER FOR EMPTY LINES
+  sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
+      -e '/^%TXIXTXLXE/s/ /_/g' \
+      -e 's/%TXIXTXLXE/% TITLE:/g'       |    # REMOVE SPACES FROM TITLE
+  sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
+  sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
+  sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
+  sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
+  sed    's/\.\.\./\\ldots{}/g'          |    # 
+  tee > $MDSHMOD
+
+# cp $MDXMOD `date +%s`.mdsh
+
+# --------------------------------------------------------------------------- #
+# PARSE COMMANDS 
+# --------------------------------------------------------------------------- #
+
+  for LINE in `cat $MDSHMOD | sed 's, ,DieW73NaS03J,g'`
+   do 
+      # --------------------------------------------------- # 
+      # RESTORE SPACES
+        LINE=`echo $LINE | sed 's,DieW73NaS03J, ,g'`
+      # --------------------------------------------------- #  
+      # CHECK IF LINE STARTS WITH A %
+        ISCMD=`echo $LINE | grep ^% | wc -l` 
+      # --------------------------------------------------- # 
+      # IF LINE STARTS WITH A %
+        if [ $ISCMD -ge 1 ]; then
+ 
+           CMD=`echo $LINE | \
+                cut -d "%" -f 2 | \
+                cut -d ":" -f 1 | \
+                sed 's, ,,g'`
+           ARG=`echo $LINE | cut -d ":" -f 2-`
+      # --------------------------------------------------- # 
+      # CHECK IF COMMAND EXISTS
+
+           CMDEXISTS=`grep "^function ${CMD}()" $FUNCTIONS |\
+                      wc -l`
+      # --------------------------------------------------- # 
+      # IF COMMAND EXISTS 
+        if [ $CMDEXISTS -ge 1 ]; then
+           # EXECUTE COMMAND
+             $CMD $ARG
+        fi
+      # --------------------------------------------------- # 
+      # IF LINE DOES NOT START WITH % (= SIMPLE MARKDOWN)
+        else
+      # --------------------------------------------------- # 
+      # APPEND LINE TO TEX FILE
+        echo "$LINE" >> $TEXBODY
+        fi
+      # --------------------------------------------------- # 
+  done
+
+  writeTeXsrc "\resetfont"
+
+  }
+# --------------------------------------------------------------------------- #
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------- #
+
+function GRAFIK() {
+
+  SUPPORTED="pdf svg eps tif png jpg gif"
+  ONAME=`echo $1 | rev | cut -d "/" -f 1 | \
+         cut -d "." -f 2- | rev`
+
+ # -------------------------------------------------------------------- #
+   TEXMACRO=\\grafik`echo $2 | egrep "^inline$|^fullpage$|^side$"`
+   if [ `echo $TEXMACRO | wc -c` -le 8 ]; then
+    TEXMACRO=\\grafikinline
+   fi
+ # -------------------------------------------------------------------- #
+   WIDTH=`echo $3 | sed 's/[^0-9\.]*//g'`
+   if [ `echo $WIDTH | wc -c` -le 1 ]; then
+    WIDTH=.8
+   fi
+ # -------------------------------------------------------------------- #
+   ROTATE=`echo $4 | sed 's/[^0-9-]*//g'`
+   if [ `echo $ROTATE | wc -c` -le 2 ]; then
+    ROTATE=0
+   fi
+ # -------------------------------------------------------------------- #
+   if   [ `echo $5 | grep "pt" | wc -c` -gt 2 ]; then MEASURE=pt ;
+   elif [ `echo $5 | grep "cm" | wc -c` -gt 2 ]; then MEASURE=cm ;
+   elif [ `echo $5 | grep "mm" | wc -c` -gt 2 ]; then MEASURE=mm ; 
+   else MEASURE=pt; fi
+
+   BORDER=`echo $5 | sed 's/[^0-9.]*//g'`
+   if [ `echo $BORDER | wc -c` -lt 2 ]; then
+    BORDER=0pt
+   else
+    BORDER=$BORDER$MEASURE
+   fi
+
+ # -------------------------------------------------------------------- #
+
+
+if [ `echo $ONAME | wc -c` -gt 1 ]; then
+
+   BASE=`echo $1 | rev | cut -d "." -f 2- | rev`
+   NAME=`echo $BASE | md5sum | cut -c 1-10`
+
+ # -------------------------------------------------------------------- #
+   IFHTTP=`echo $1 | grep "http.\?://" | wc -l`
+   if [ $IFHTTP -ge 1 ]; then
+
+ # -------------------------------------------------------------------- #
+ # IF IMAGE IS ONLINE 
+
+     for TYPE in $SUPPORTED mdsh
+      do
+         URL=${BASE}.$TYPE
+         RESPONSE=`curl -s -o /dev/null -IL -w "%{http_code}" $URL`
+    
+         if [ -f ${TMPDIR}/${NAME}.${TYPE} ]; then
+            # echo "${BASE}.$TYPE already downloaded"
+              sleep 0
+          else
+         if [ $RESPONSE == '200' ]; then
+            # echo $URL "exists"
+              wget --no-check-certificate \
+                   -O ${TMPDIR}/${NAME}.${TYPE} $URL > /dev/null 2>&1
+          else
+            # echo $URL "does not exist"
+              sleep 0 
+          fi
+         fi
+
+      done
+
+    else
+ # -------------------------------------------------------------------- #
+ # IF IMAGE IS LOCAL 
+
+     if [ -f $1 ]; then
+
+     TYPE=`echo $1 | rev | cut -d "." -f 1 | rev`
+     NAME=`echo $BASE | md5sum | cut -c 1-10`      
+
+      if [ -f ${TMPDIR}/${NAME}.${TYPE} ]; then
+           sleep 0 # DO NOTHING
+      else
+           cp $1 ${TMPDIR}/${NAME}.${TYPE}
+      fi
+
+      if [ -f ${1%%.*}.mdsh ]; then
+           cp ${1%%.*}.mdsh ${TMPDIR}/${NAME}.mdsh
+      fi 
+
+     else
+
+     NAME=NONONONONONO
+     TYPE=no
+
+     fi
+
+
+   fi
+ # -------------------------------------------------------------------- #
+
+   INCLUDE="no"
+     
+   for TYPE in $SUPPORTED
+    do
+       IMG=`find . -name "${NAME}.$TYPE" | head -1`
+
+       LABEL="${NAME}:${IMGCNT}"
+
+       EXISTS=`echo $IMG | wc -c`
+
+       if [ $EXISTS -gt 1 ]; then
+  
+        if [ $TYPE == pdf ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            writeTeXsrc "$TEXMACRO{$IMG}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == svg ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            if [ ! -f $TMPDIR/${NAME}.pdf ]; then
+            inkscape --export-pdf=$TMPDIR/${NAME}.pdf $IMG
+            fi
+            writeTeXsrc "$TEXMACRO{$TMPDIR/${NAME}.pdf}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == tif ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            convert $IMG $TMPDIR/${NAME}.pdf
+            writeTeXsrc "$TEXMACRO{$TMPDIR/${NAME}.pdf}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == png ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            writeTeXsrc "$TEXMACRO{$IMG}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == jpg ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            writeTeXsrc "$TEXMACRO{$IMG}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == gif ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            convert $IMG $TMPDIR/${NAME}2.jpg
+            writeTeXsrc "$TEXMACRO{$TMPDIR/${NAME}2.jpg}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+        if [ $TYPE == eps ] && [ $INCLUDE == "no" ]; then
+   
+           #echo $IMG " exists"
+            writeTeXsrc "$TEXMACRO{$IMG}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
+            INCLUDE="yes"
+        fi
+       fi
+    done
+
+# # -------------------------------------------------------------------- #
+# # COLLECT IMAGE INFO FOR LATER INCLUSION
+# # -------------------------------------------------------------------- #
+#   LABELBASE=`echo $LABEL | cut -d ":" -f 1`
+#   REF="\\pageref{$LABEL}"
+#
+#   if [ `grep $LABELBASE $IMGNFO | wc -l` -gt 0 ]; then
+#
+#         REF="\\\\pageref{$LABEL}"
+#         ADDHERE=`sed 's/}/}\n/g' $IMGNFO | \
+#                  grep $LABELBASE | \
+#                  sed "s/\\\\pageref{$LABELBASE/\n&/g" | \
+#                  tail -1`
+#         sed -i "s/$ADDHERE/&,$REF/" $IMGNFO
+#   else
+#         echo "\hrule"            >> $IMGNFO
+#         echo "$REF:    \newline" >> $IMGNFO
+#
+#     if [ -f $TMPDIR/${NAME}.mdsh ]; then
+#       # echo $TMPDIR/${NAME}.mdsh "exists"
+#       # PRESERVE
+#         TMPTEXKEEP=$TMPTEX
+#         TEXBODYKEEP=$TEXBODY
+#       # CHANGE
+#         TMPTEX=$IMGNFO
+#         TEXBODY=$IMGNFO
+#       # WRITE
+#         mdx2TeX $TMPDIR/${NAME}.mdx
+#       # RESTORE
+#         TMPTEX=$TMPTEXKEEP
+#         TEXBODY=$TEXBODYKEEP
+#     fi
+#         echo "\url{$1} \newline" >> $IMGNFO
+#         echo "\newline"          >> $IMGNFO
+#   fi
+# # -------------------------------------------------------------------- #
+
+   IMGCNT=`expr $IMGCNT + 1`
+
+fi
+
+}
+
+# --------------------------------------------------------------------------- #
+

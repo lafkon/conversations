@@ -8,6 +8,12 @@ of conversations on tools and practices around libre graphics.
 http://note.pad.constantvzw.org:8000/p/conversations
 
 
+CONVERSATIONS
+-------------
+
+- http://pad.constantvzw.org/p/conversations.harrison
+- http://pad.constantvzw.org/p/conversations.pamado
+
 
 
 
@@ -53,15 +59,6 @@ Current actions:
 
 `% RESETFONT:`
 - go back to standard font definition
-
-
-
-CONVERSATIONS
--------------
-
-* http://pad.constantvzw.org/p/conversations.harrison
-* http://pad.constantvzw.org/p/conversations.pamado
-
 
 
 USED SOFTWARE
@@ -112,6 +109,9 @@ USED SOFTWARE
 `ftp  0.17-27`    
  classical file transfer client    
 
+`gedit  3.4.2-1`    
+ official text editor of the GNOME desktop environment    
+
 `gimp  2.8.2-2+deb7u1`    
  The GNU Image Manipulation Program    
 
@@ -123,6 +123,9 @@ USED SOFTWARE
 
 `inkscape  0.48.3.1-1.3`    
  vector-based drawing program    
+
+`kate  4:4.8.4-1`    
+ K Advanced Text Editor    
 
 `latex (Web2C 2012 14 May 2010)`    
  structured text formatting and typesetting    
@@ -141,6 +144,9 @@ USED SOFTWARE
 
 `mv (GNU coreutils) 8.13`    
  move (rename) files    
+
+`ne  2.4-1`    
+ easy-to-use and powerful text editor    
 
 `pandoc  1.9.4.2-2`    
  general markup converter    
@@ -189,6 +195,9 @@ USED SOFTWARE
 
 `uniq (GNU coreutils) 8.13`    
  report or omit repeated lines    
+
+`vim  2:7.3.547-7`    
+ Vi IMproved - enhanced vi editor    
 
 `wc (GNU coreutils) 8.13`    
  print newline, word, and byte counts for each file    
