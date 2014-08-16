@@ -12,7 +12,7 @@ function SPEAKERINITIALHEADER(){
     echo "text-padding-y:0px"                                 >> $AUTHORBOX
   # echo "text-background-color:rgb(${BOXCOLOR})"             >> $AUTHORBOX
   # echo "text-background-color:rgb(${COLORSTANDARD})"        >> $AUTHORBOX
-    echo "text-font-family: ocra, Georgia, serif"         >> $AUTHORBOX
+    echo "text-font-family: ocra, Georgia, serif"             >> $AUTHORBOX
     echo "text-font-size:15px"                                >> $AUTHORBOX
     echo "text-line-height:5px"                               >> $AUTHORBOX
     echo "text-font-color:rgb(${BOXCOLOR})"                   >> $AUTHORBOX
@@ -21,6 +21,7 @@ function SPEAKERINITIALHEADER(){
     echo ""                                                   >> $AUTHORBOX
 
 }
+
 
 
 # =========================================================================== #
@@ -83,6 +84,8 @@ function NOWSPEAKING() {
 # echo "HEIGHT = "$HEIGHT
 # echo "CHARPERLINE = "$CHARPERLINE
 
+  FULLHEIGHT=`expr $YPOS - 150 + $HEIGHT + 40`
+  echo "$FULLHEIGHT"
   sed -i "s/HEIGHTFOO/$HEIGHT/g" ${FILE}.box
 
 
@@ -162,13 +165,39 @@ function NOWSPEAKING() {
 # PEOPLE ######################################################################
 ###############################################################################
 
-# THIS IS FEMKE SNELTING SPEAKING
-# -------------------------------
-  if [ X$1 = XFS ]; then
 
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=190
-    XSHIFT=-10
+
+
+    SPEAKER=$1
+
+    if [ "$1" == "X" ]
+      then
+
+    AUTHORWIDTH=120
+    XSHIFT=40
+
+    XPOS=`expr $XPOSSTANDARD  + 10 + $XSHIFT`
+    WIDTH=`expr $WIDTHSTANDARD - 10`
+
+    CHARPERLINE=`python -c "print $WIDTH / 11"`
+  # echo $CHARPERLINE
+    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
+    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
+  # echo $CHARPERLINE
+
+    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
+    TEXTCOLOR="0,0,0"
+
+
+    else
+
+    AUTHORWIDTH=120
+    XSHIFT=40
+
+    if [ "$SPEAKER" == "FS" ]
+      then
+      XSHIFT=0
+    fi
 
     XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
     WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
@@ -183,188 +212,16 @@ function NOWSPEAKING() {
     TEXTCOLOR="0,0,0"
 
     AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
+
 
   # WRITE HOTGLUE HEADER
   # --------------------
     SPEAKERINITIALHEADER
-    echo "FS"                             >> $AUTHORBOX
+    echo "${SPEAKER}"                             >> $AUTHORBOX
+
+    fi
 
 
-# THIS IS RICARDO LAFUENTE SPEAKING
-# ---------------------------------
-  elif [ X$1 = XRL ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=120
-    XSHIFT=20
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "RL"                             >> $AUTHORBOX
-
-# THIS IS TOM LECHNER SPEAKING
-# ---------------------------------
-  elif [ X$1 = XTL ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=120
-    XSHIFT=20
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "TL"                             >> $AUTHORBOX
-
-# THIS IS DENIS JACQUERYE SPEAKING
-# ---------------------------------
-  elif [ X$1 = XDJ ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=200
-    XSHIFT=-60
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "DJ"                              >> $AUTHORBOX
-
-# THIS IS NICOLA MALEVÉ SPEAKING
-# ---------------------------------
-  elif [ X$1 = XNM ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=200
-    XSHIFT=-60
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "NM"                              >> $AUTHORBOX
-
-# THIS IS LUDIVINE LOISEAU SPEAKING
-# ---------------------------------
-  elif [ X$1 = XLL ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=200
-    XSHIFT=-60
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "LL"                              >> $AUTHORBOX
-
-# THIS IS PIERRE MARCHAND SPEAKING
-# ---------------------------------
-  elif [ X$1 = XPM ]; then
-
-    SPEAKER="("${1}")"
-    AUTHORWIDTH=110
-    XSHIFT=40
-
-    XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-    WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-    CHARPERLINE=`python -c "print $WIDTH / 11"`
-  # echo $CHARPERLINE
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-  # echo $CHARPERLINE
-
-    #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-    TEXTCOLOR="0,0,0"
-
-    AUTHORBOX=$TMPDIR/`expr $FILENAME + 2`.box
-
-  # WRITE HOTGLUE HEADER
-    SPEAKERINITIALHEADER
-    echo "PM"                            >> $AUTHORBOX
-
-  # THIS IS X SPEAKING
-  # ---------------------------------
-      elif [ X$1 = XX ]; then
-
-        SPEAKER="("${1}")"
-        AUTHORWIDTH=110
-        XSHIFT=0
-
-        XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
-        WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
-
-        CHARPERLINE=`python -c "print $WIDTH / 11"`
-      # echo $CHARPERLINE
-        CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-        CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-      # echo $CHARPERLINE
-
-        #BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
-        TEXTCOLOR="0,0,0"
 
 
 
@@ -372,27 +229,6 @@ function NOWSPEAKING() {
 
 ###############################################################################
 
-  else
-
-    SPEAKER=""
-  # XPOS=$XPOSSTANDARD
-    XSHIFT=$XSHIFTSTANDARD
-    XPOS=`expr $XPOSSTANDARD + $XSHIFTSTANDARD`
-  # YPOS=`expr $YPOS + 20`
-    WIDTH=$WIDTHSTANDARD
-
-
-  # CHARPERLINE=$CHARPERLINESTANDARD
-    CHARPERLINE=`python -c "print $WIDTH / 10.8"`
-    CHARPERLINE=`python -c "print round($CHARPERLINE)"`
-    CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
-
-    BOXCOLOR=$BOXCOLORSTANDARD
-    TEXTCOLOR=$TEXTCOLORSTANDARD
-
-    AUTHORBOX=""
-
-  fi
 
 }
 
@@ -444,3 +280,345 @@ function SIDENOTE() {
 }
 
 # --------------------------------------------------------------------------- #
+
+function TITLE() {
+
+  AUTHORWIDTH=110
+  XSHIFT=40
+  XPOSTITLE=`expr $XPOSSTANDARD  + 10 + $XSHIFT`
+  YPOSTITLE=200
+
+
+  TITLECOUNT=`expr $TITLECOUNT + 1`
+  TITLENOTE=`grep "^% TITLE" $PADDUMP |  \
+            tail -1 | \
+            cut -d ":" -f 2-`
+  echo "Show title $TITLENOTE"
+  TITLEBOX=$TMPDIR/TITLEBOX.box
+
+# WRITE HOTGLUE HEADER
+  echo "type:text"                                          >  $TITLEBOX
+  echo "module:text"                                        >> $TITLEBOX
+  echo "object-height:20px"                                 >> $TITLEBOX
+  echo "object-left:${XPOSTITLE}px"                         >> $TITLEBOX
+  echo "object-top:${YPOSTITLE}px"                          >> $TITLEBOX
+  echo "object-width:700px"                                 >> $TITLEBOX
+  echo "object-zindex:0"                                    >> $TITLEBOX
+# echo "text-background-color:rgb(${BOXCOLOR})"             >> $TITLEBOX
+  echo "text-font-family:ocra, Georgia, serif"              >> $TITLEBOX
+  echo "text-font-size:14px"                                >> $TITLEBOX
+  echo "text-line-height:15px"                              >> $TITLEBOX
+  echo "text-font-color:rgb(0, 0, 0)"                       >> $TITLEBOX
+  echo "object-lock:locked"                                 >> $TITLEBOX
+  echo "this is: title"                                     >> $TITLEBOX
+  echo ""                                                   >> $TITLEBOX
+
+  echo "$TITLENOTE" | \
+  sed ':a;N;$!ba;s/\n/ /g' | \
+  pandoc -r markdown -w html | \
+  sed 's/<p>//g' | sed 's/<\/p>//g' | sed '/^$/d'           >> $TITLEBOX
+
+}
+
+function WHO() {
+
+SPEAKER=$1
+ITWNAME=`grep "$SPEAKER|" $PADINFODUMP | cut -d "|" -f2`
+
+AUTHORWIDTH=120
+XSHIFT=40
+
+if [ "$SPEAKER" == "FS" ]
+  then
+  XSHIFT=0
+fi
+
+XPOS=`expr $XPOSSTANDARD + $AUTHORWIDTH + 10 + $XSHIFT`
+WIDTH=`expr $WIDTHSTANDARD - $AUTHORWIDTH - 10`
+
+CHARPERLINE=`python -c "print $WIDTH / 11"`
+# echo $CHARPERLINE
+CHARPERLINE=`python -c "print round($CHARPERLINE)"`
+CHARPERLINE=`echo $CHARPERLINE | cut -d "." -f 1`
+# echo $CHARPERLINE
+
+#BOXCOLOR=$((RANDOM%55+200)),0,$((RANDOM%55+200))
+TEXTCOLOR="0,0,0"
+
+DEFINITIONBOX=$TMPDIR/$1.box
+
+
+# WRITE HOTGLUE HEADER
+# --------------------
+
+
+
+echo "type:text"                                          >  $DEFINITIONBOX
+echo "module:text"                                        >> $DEFINITIONBOX
+echo "object-height:20px"                                 >> $DEFINITIONBOX
+echo "object-left:400px"                                  >> $DEFINITIONBOX
+echo "object-top:${2}px"                                  >> $DEFINITIONBOX
+echo "object-width:550px"                                 >> $DEFINITIONBOX
+echo "object-zindex:0"                                    >> $DEFINITIONBOX
+# echo "text-background-color:rgb(${BOXCOLOR})"           >> $DEFINITIONBOX
+echo "text-font-family:Junicode, Georgia, serif"          >> $DEFINITIONBOX
+echo "text-font-size:12px"                                 >> $DEFINITIONBOX
+echo "text-line-height:15px"                              >> $DEFINITIONBOX
+echo "text-font-color:rgb(0, 0, 0)"                       >> $DEFINITIONBOX
+echo "text-font-size:15px"                                >> $DEFINITIONBOX
+echo "object-lock:locked"                                 >> $DEFINITIONBOX
+echo "this is: title"                                     >> $DEFINITIONBOX
+echo ""                                                   >> $DEFINITIONBOX
+
+echo "${SPEAKER} ⇝ ${ITWNAME}"                            >> $DEFINITIONBOX
+
+}
+
+
+
+   function MENULOOP1() {
+   YPOS1=180
+   FILEPART=0
+   LASTPOSY=$TMPDIR/lastposy
+
+
+   grep "% PART1:" $PADGLOBAL2DUMP | cut -d ':' -f2 |  while  read LIST1
+   do
+
+   YPOS1=`expr $YPOS1 + 20`
+   FILEPART=`expr $FILEPART + 1`
+   MENUBOX=$TMPDIR/PART1${FILEPART}.box
+
+   if [ $MENUBOX = tmp/PART11.box ]
+   then
+   echo "type:text"                                                                                    >$MENUBOX
+   echo "module:text"                                                                                  >>$MENUBOX
+   echo "object-height:20px"                                                                           >>$MENUBOX
+   echo "object-left:30px"                                                                             >>$MENUBOX
+   echo "object-top:${YPOS1}px"                                                                        >>$MENUBOX
+   echo "object-width:330px"                                                                           >>$MENUBOX
+   echo "object-zindex:100"                                                                            >>$MENUBOX
+   echo "text-background-color:transparent"                                                            >>$MENUBOX
+   echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+   echo "text-font-family:ocra,Arial,Geneva,Tahoma,sans-serif"                                         >>$MENUBOX
+   echo "text-font-size:13px"                                                                          >>$MENUBOX
+   echo ""                                                                                             >>$MENUBOX
+   echo "$LIST1"                                                                                       >>$MENUBOX
+
+   else
+
+   AUTHORURL=`grep -i -A2 "$LIST1" $PADGLOBAL2DUMP | grep http | cut -d "." -f4`
+
+
+   echo "type:text"                                                                                    >$MENUBOX
+   echo "module:text"                                                                                  >>$MENUBOX
+   echo "object-height:20px"                                                                           >>$MENUBOX
+   echo "object-left:30px"                                                                             >>$MENUBOX
+   echo "object-top:${YPOS1}px"                                                                        >>$MENUBOX
+   echo "object-width:330px"                                                                           >>$MENUBOX
+   echo "object-zindex:100"                                                                            >>$MENUBOX
+   echo "text-background-color:transparent"                                                            >>$MENUBOX
+   echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+   echo "text-font-family:Junicode,Georgia,serif"                                                      >>$MENUBOX
+   echo "text-font-size:13px"                                                                          >>$MENUBOX
+   echo ""                                                                                             >>$MENUBOX
+   echo "▹ <a href='$MAINURL$AUTHORURL'>$LIST1</a>"                       >>$MENUBOX
+   fi
+
+   echo "$YPOS1"                                                                              >>$LASTPOSY
+   sed -i '$!d' $LASTPOSY
+
+   done
+  }
+
+
+  function MENULOOP2() {
+  YPOS2=`expr $1 + 15`
+  FILEPART=0
+
+  grep "% PART2:" $PADGLOBAL2DUMP | cut -d ':' -f2 |  while  read LIST2
+  do
+
+  YPOS2=`expr $YPOS2 + 20`
+  FILEPART=`expr $FILEPART + 1`
+  MENUBOX=$TMPDIR/PART2${FILEPART}.box
+
+  if [ $MENUBOX = tmp/PART21.box ]
+  then
+  echo "type:text"                                                                                    >$MENUBOX
+  echo "module:text"                                                                                  >>$MENUBOX
+  echo "object-height:20px"                                                                           >>$MENUBOX
+  echo "object-left:30px"                                                                             >>$MENUBOX
+  echo "object-top:${YPOS2}px"                                                                        >>$MENUBOX
+  echo "object-width:330px"                                                                           >>$MENUBOX
+  echo "object-zindex:100"                                                                            >>$MENUBOX
+  echo "text-background-color:transparent"                                                            >>$MENUBOX
+  echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+  echo "text-font-family:ocra,Arial,Geneva,Tahoma,sans-serif"                                         >>$MENUBOX
+  echo "text-font-size:13px"                                                                          >>$MENUBOX
+  echo ""                                                                                             >>$MENUBOX
+  echo "$LIST2"                                                                                       >>$MENUBOX
+
+  else
+
+  AUTHORURL=`grep -i -A2 "$LIST2" $PADGLOBAL2DUMP | grep http | cut -d "." -f4`
+
+  echo "type:text"                                                                                    >$MENUBOX
+  echo "module:text"                                                                                  >>$MENUBOX
+  echo "object-height:20px"                                                                           >>$MENUBOX
+  echo "object-left:30px"                                                                             >>$MENUBOX
+  echo "object-top:${YPOS2}px"                                                                        >>$MENUBOX
+  echo "object-width:330px"                                                                           >>$MENUBOX
+  echo "object-zindex:100"                                                                            >>$MENUBOX
+  echo "text-background-color:transparent"                                                            >>$MENUBOX
+  echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+  echo "text-font-family:Junicode,Georgia,serif"                                                      >>$MENUBOX
+  echo "text-font-size:13px"                                                                          >>$MENUBOX
+  echo ""                                                                                             >>$MENUBOX
+  echo "▹ <a href='$MAINURL$AUTHORURL'>$LIST2</a>"                       >>$MENUBOX
+  fi
+
+  echo "$YPOS2"                                                                                       >>$LASTPOSY
+  sed -i '$!d' $LASTPOSY
+
+  done
+ }
+
+ function MENULOOP3() {
+ YPOS3=`expr $1 + 15`
+ FILEPART=0
+
+ grep "% PART3:" $PADGLOBAL2DUMP | cut -d ':' -f2 | while  read LIST3
+ do
+
+ YPOS3=`expr $YPOS3 + 20`
+ FILEPART=`expr $FILEPART + 1`
+ MENUBOX=$TMPDIR/PART3${FILEPART}.box
+
+ if [ $MENUBOX = tmp/PART31.box ]
+ then
+ echo "type:text"                                                                                    >$MENUBOX
+ echo "module:text"                                                                                  >>$MENUBOX
+ echo "object-height:20px"                                                                           >>$MENUBOX
+ echo "object-left:30px"                                                                             >>$MENUBOX
+ echo "object-top:${YPOS3}px"                                                                        >>$MENUBOX
+ echo "object-width:330px"                                                                           >>$MENUBOX
+ echo "object-zindex:100"                                                                            >>$MENUBOX
+ echo "text-background-color:transparent"                                                            >>$MENUBOX
+ echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+ echo "text-font-family:ocra,Arial,Geneva,Tahoma,sans-serif"                                         >>$MENUBOX
+ echo "text-font-size:13px"                                                                          >>$MENUBOX
+ echo ""                                                                                             >>$MENUBOX
+ echo "$LIST3"                                                                                       >>$MENUBOX
+
+ else
+
+ AUTHORURL=`grep -i -A2 "$LIST3" $PADGLOBAL2DUMP | grep http | cut -d "." -f4`
+ if [ "$AUTHORURL" == "fsnelting+mfuller" ]
+   then
+   AUTHORURL=fsnelting-mfuller
+ fi
+
+ echo "type:text"                                                                                    >$MENUBOX
+ echo "module:text"                                                                                  >>$MENUBOX
+ echo "object-height:20px"                                                                           >>$MENUBOX
+ echo "object-left:30px"                                                                             >>$MENUBOX
+ echo "object-top:${YPOS3}px"                                                                        >>$MENUBOX
+ echo "object-width:330px"                                                                           >>$MENUBOX
+ echo "object-zindex:100"                                                                            >>$MENUBOX
+ echo "text-background-color:transparent"                                                            >>$MENUBOX
+ echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$MENUBOX
+ echo "text-font-family:Junicode,Georgia,serif"                                                      >>$MENUBOX
+ echo "text-font-size:13px"                                                                          >>$MENUBOX
+ echo ""                                                                                             >>$MENUBOX
+ echo "▹ <a href='$MAINURL$AUTHORURL'>$LIST3</a>"                       >>$MENUBOX
+ fi
+
+ echo "$YPOS3"                                                                                       >>$LASTPOSY
+ sed -i '$!d' $LASTPOSY
+
+ done
+}
+
+function HEADER()
+{
+
+GENERALTITLE=$TMPDIR/generaltitle.box
+
+echo "type:text"                                                                                    >$GENERALTITLE
+echo "module:text"                                                                                  >>$GENERALTITLE
+echo "object-height:45px"                                                                           >>$GENERALTITLE
+echo "object-left:29px"                                                                             >>$GENERALTITLE
+echo "object-top:17px"                                                                              >>$GENERALTITLE
+echo "object-width:923px"                                                                           >>$GENERALTITLE
+echo "object-zindex:100"                                                                            >>$GENERALTITLE
+echo "text-background-color:transparent"                                                            >>$GENERALTITLE
+echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$GENERALTITLE
+echo "text-font-family:ocra,Arial,Geneva,Tahoma,sans-serif"                                         >>$GENERALTITLE
+echo "text-font-size:18px"                                                                          >>$GENERALTITLE
+echo ""                                                                                             >>$GENERALTITLE
+echo "<a href='${MAINURL}home/'>\"I think that conversations are the best, biggest thing that free software has to offer its users\"</a>"                       >>$GENERALTITLE
+
+WITH=$TMPDIR/with.box
+
+echo "type:text"                                                                                    >$WITH
+echo "module:text"                                                                                  >>$WITH
+echo "object-height:100px"                                                                           >>$WITH
+echo "object-left:29px"                                                                             >>$WITH
+echo "object-top:62px"                                                                              >>$WITH
+echo "object-width:923px"                                                                           >>$WITH
+echo "object-zindex:100"                                                                            >>$WITH
+echo "text-background-color:transparent"                                                            >>$WITH
+echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$WITH
+echo "text-font-family:Junicode,Georgia,serif"                                                      >>$WITH
+echo "text-font-size:13px"                                                                          >>$WITH
+echo ""                                                                                             >>$WITH
+echo "<b>With:</b> Alexandre Leray, Andreas Vox, Asheesh Laroia, Carla Bosermans, Cornelia  Sollfrank, Chris Lilley, Christoph Haag, Claire Williams, Claudia  Krummenacher, Denis Jacquery,  Eleanor Greenhalgh, Eric Schrijver, Evan Roth, Femke Snelting, George Williams, Gijs de Heij, Harrisson, John Haltiwanger, Juliane De Moerlooze, Julien Deswaef, Ludivine Loiseau, Matthew Fuller, Michael Murtaugh, Michael Terry, Miguel xxxxx, Pedro  Amado, Pierre Huyghebaert, Pierre Marchand, Ricardo  Lafuente, Stéphanie Vilayphiou, Tom Lechner, Urantsetseg Ulziikhuu, Xavier Klein, Peter Westenberg, Michele Walther, momo3010, Ivan Monroy Lopez, Nicolas Malevé, Manuel Schmalstieg" >>$WITH
+
+CREDITS=$TMPDIR/credits.box
+
+echo "type:text"                                                                                    >$CREDITS
+echo "module:text"                                                                                  >>$CREDITS
+echo "object-height:184px"                                                                           >>$CREDITS
+echo "object-left:29px"                                                                             >>$CREDITS
+echo "object-top:805px"                                                                              >>$CREDITS
+echo "object-width:239px"                                                                           >>$CREDITS
+echo "object-zindex:100"                                                                            >>$CREDITS
+echo "text-background-color:transparent"                                                            >>$CREDITS
+echo "text-font-color:rgb(0, 0, 0)"                                                                 >>$CREDITS
+echo "text-font-family:Junicode,Georgia,serif"                                                      >>$CREDITS
+echo "text-font-size:11px"                                                                          >>$CREDITS
+echo "text-line-height:1.4303em"                                                                    >>$CREDITS
+echo ""                                                                                             >>$CREDITS
+echo "Credits"                                                                                      >>$CREDITS
+echo "Concept, development and design:"                                                              >>$CREDITS
+echo "Christoph Haag, Xavier Klein, Femke Snelting"                                                  >>$CREDITS
+echo "Transcriptions, translations and editing:"                                                      >>$CREDITS
+echo "Ivan Monroy Lopez, ginger coons, Gijs de Heij, John Haltiwanger, Femke Snelting, Urantsetseg Ulziikhuu, Boris Kish"     >>$CREDITS
+echo "Conversations made possible through the Libre Graphics Community and the generous support from the European Commission, De Vlaamse Minister van Cultuur, Jeugd, Sport en Brussel." >>$CREDITS
+echo "License: FAL"                                                                                    >>$CREDITS
+
+STROKEV=$TMPDIR/strokeV.box
+
+echo "type:text"                                                                                    >$STROKEV
+echo "module:text"                                                                                  >>$STROKEV
+echo "object-height:884px"                                                                           >>$STROKEV
+echo "object-left:370px"                                                                             >>$STROKEV
+echo "object-top:200px"                                                                              >>$STROKEV
+echo "object-width:1px"                                                                           >>$STROKEV
+echo "object-zindex:100"                                                                            >>$STROKEV
+echo "text-background-color:rgb(0, 0, 0)"                                                                    >>$STROKEV
+
+STROKEH=$TMPDIR/strokeH.box
+
+echo "type:text"                                                                                    >$STROKEH
+echo "module:text"                                                                                  >>$STROKEH
+echo "object-height:1px"                                                                           >>$STROKEH
+echo "object-left:29px"                                                                             >>$STROKEH
+echo "object-top:165px"                                                                              >>$STROKEH
+echo "object-width:927px"                                                                           >>$STROKEH
+echo "object-zindex:100"                                                                            >>$STROKEH
+echo "text-background-color:rgb(0, 0, 0)"                                                                     >>$STROKEH
+
+
+}

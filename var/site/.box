@@ -1,0 +1,15 @@
+type:text
+module:text
+object-height:10px
+object-left:350px
+object-top:200px
+object-width:550px
+object-zindex:0
+text-background-color:rgb()
+text-font-family:'Courier New',Courier,monospace
+text-font-size:8px
+text-line-height:15px
+text-font-color:rgb(0,0,0)
+text-font-size:13px
+object-lock:locked
+this is: content 
