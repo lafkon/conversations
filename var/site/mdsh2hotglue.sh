@@ -1,5 +1,9 @@
 #!/bin/bash
 
+  MAINURL=http://www.lafkon.net/xk/hotglue/conversations-
+
+  PADNAMEURL=$1
+
   FUNCTIONS=i/sh/hotglue.functions
   source $FUNCTIONS
 
@@ -7,45 +11,28 @@
   EMPTYLINE="EMPTY-LINE-EMPTY-LINE-EMPTY-LINE-TEMPORARY-NOT"
 
   PADDUMP=$TMPDIR/pad.md
-  PADURL=http://note.pad.constantvzw.org:8000/p/conversations.rlafuente/export/txt
+  PADURL=http://note.pad.constantvzw.org:8000/p/conversations.${PADNAMEURL}/export/txt
   PADHTML=$TMPDIR/pad.html
+
+  PADINFODUMP=$TMPDIR/padinfo.md
+  PADINFOURL=http://note.pad.constantvzw.org:8000/p/conversations.informations/export/txt
+
+  PADGLOBAL2DUMP=$TMPDIR/padglobal2.md
+  PADGLOBAL2URL=http://note.pad.constantvzw.org:8000/p/conversations/export/txt
+
+
 
 # COPY THE GENERAL HEADER
 # --------------------------------------------------------------------------- #
-  cp i/canvas/general-title $TMPDIR/general-title.box
-  cp i/canvas/with $TMPDIR/with.box
-  cp i/canvas/credits $TMPDIR/credits.box
-  cp i/canvas/menu00 $TMPDIR/menu00.box
-  cp i/canvas/menu01 $TMPDIR/menu01.box
-  cp i/canvas/menu02 $TMPDIR/menu02.box
-  cp i/canvas/menu03 $TMPDIR/menu03.box
-  cp i/canvas/menu04 $TMPDIR/menu04.box
-  cp i/canvas/menu05 $TMPDIR/menu05.box
-  cp i/canvas/menu06 $TMPDIR/menu06.box
-  cp i/canvas/menu07 $TMPDIR/menu07.box
-  cp i/canvas/menu08 $TMPDIR/menu08.box
-  cp i/canvas/menu09 $TMPDIR/menu09.box
-  cp i/canvas/menu10 $TMPDIR/menu10.box
-  cp i/canvas/menu11 $TMPDIR/menu11.box
-  cp i/canvas/menu12 $TMPDIR/menu12.box
-  cp i/canvas/menu13 $TMPDIR/menu13.box
-  cp i/canvas/menu14 $TMPDIR/menu14.box
-  cp i/canvas/menu15 $TMPDIR/menu15.box
-  cp i/canvas/menu16 $TMPDIR/menu16.box
-  cp i/canvas/menu17 $TMPDIR/menu17.box
-  cp i/canvas/menu18 $TMPDIR/menu18.box
-  cp i/canvas/menu19 $TMPDIR/menu19.box
-  cp i/canvas/menu20 $TMPDIR/menu20.box
-  cp i/canvas/menu21 $TMPDIR/menu21.box
-  cp i/canvas/menu22 $TMPDIR/menu22.box
-  cp i/canvas/menu23 $TMPDIR/menu23.box
-  cp i/canvas/menu24 $TMPDIR/menu24.box
-  cp i/canvas/menu25 $TMPDIR/menu25.box
-  cp i/canvas/menu26 $TMPDIR/menu26.box
+  #cp i/canvas/*.box tmp/
+
 
 # DOWNLOAD THE PAD
 # --------------------------------------------------------------------------- #
   wget --no-check-certificate -O $PADDUMP $PADURL
+  wget --no-check-certificate -O $PADINFODUMP $PADINFOURL
+  wget --no-check-certificate -O $PADGLOBAL2DUMP $PADGLOBAL2URL
+
 
 # MODIFY STRUCTURE
 # --------------------------------------------------- #
@@ -66,10 +53,10 @@
 
 # SET HOTGLUE STANDARD AND START VALUES
 # --------------------------------------------------------------------------- #
-  XPOSSTANDARD=400
+  XPOSSTANDARD=350
   WIDTHSTANDARD=550
 
-  XPOS=$XPOSSTANDARD ; YPOS=274 ; WIDTH=$WIDTHSTANDARD ;  HEIGHT=0
+  XPOS=$XPOSSTANDARD ; YPOS=210 ; WIDTH=$WIDTHSTANDARD ;  HEIGHT=0
 
 # COLORSTANDARD="255,255,255"
   BOXCOLORSTANDARD="none"
@@ -88,18 +75,86 @@
  YFOOTNOTEPOS=0
 
 
+ # --------------------------------------------------------------------------- #
+ # MAKE THE SPEAKERS PRESENTATION
+ # --------------------------------------------------------------------------- #
+
+  # --------------------------------------------------- #
+  # GET THE INITIALS OF THE SPEAKERS
+ `grep "% NOWSPEAKING:" $PADDUMP | cut -d ":" -f2 | sort | uniq  |\
+  sed  's/ //' | sed  '/^$/d'                              >$TMPDIR/SPEAKERLIST`
+
+
+  HEADER
+
+  MENULOOP1
+  LASTYPOS1=`cat $LASTPOSY`
+  echo "-------> $LASTYPOS1"
+
+  MENULOOP2 $LASTYPOS1
+  LASTYPOS1=`cat $LASTPOSY`
+  echo "xxx> $LASTYPOS1"
+
+  MENULOOP3 $LASTYPOS1
+  LASTYPOS1=`cat $LASTPOSY`
+  echo ":::::> $LASTYPOS1"
+  echo "Menu=$MENUBOX"
+  echo "MenuPos1=$YPOS1"
+  echo "MenuPos2=$YPOS2"
+  echo "MenuPos3=$YPOS3"
+
+
+ # --------------------------------------------------- #
+ # LOOP FOR MAKE EACH BOXES
+  cat $TMPDIR/SPEAKERLIST |{ while read INITIAL
+  do
+
+  if [ "$INITIAL" = "X" ]
+    then
+    continue
+  fi
+
+  YPOS=`expr $YPOS + 20`
+  echo  "Les initiaux sont $INITIAL"
+
+  WHO $INITIAL $YPOS
+  done
+
+
+ # --------------------------------------------------- #
+ # LOOP FOR MAKING EACH URL CLICKABLE
+  NOMBEROFLINK=`grep -o -c  http.* tmp/pad.md`
+  echo "$NOMBEROFLINK"
+
+  for ((i=1 ; i<=$NOMBEROFLINK ; i=i+1))
+   do
+   LINK=`grep -o -m$i http.* tmp/pad.md | tail -n1`
+   echo "LINK=$LINK"
+   #sed "s/$Vd/<a href=$Vd>$Vd<\/a>/g"
+   grep $LINK tmp/pad.md | sed -i "s|$LINK|<a href=\"$LINK\" target=\"_blank\">$LINK</a>|g" tmp/pad.md
+
+
+  done
+
+
+
+
 # --------------------------------------------------------------------------- #
 # PARSE MDSH AND SPLIT THE CONTENT IN SEPARATE PARTS FOR SPEAKERS
 # --------------------------------------------------------------------------- #
   FILENAME=4000100
   FILE=$TMPDIR/$FILENAME
 
+
+
   if [ -f $FILE ]; then rm $FILE ; fi
+
 
   for LINE in `cat $PADDUMP | sed -e 's/ /djqteDF34/g'`
    do
      # RESTORE SPACES ON CURRENT LINE
        LINE=`echo $LINE | sed 's/djqteDF34/ /g'`
+
 
      # --------------------------------------------------- #
      # CHECK IF LINE STARTS WITH A %
@@ -135,19 +190,30 @@
        sed -e 's/<blockquote>/<i>/' -e 's/<\/blockquote>/<\/i>/' \
            -e 's/<strong>/<b>/' -e 's/<\/strong>/<\/b>/' \
            -e 's/<p>//g' -e 's/<\/p>//g' \
+           -e 's/<em>/<b>/g' -e 's/<\/em>/<\/b>/g' \
        >> ${FILE}.dump
        fi
      # --------------------------------------------------- #
 
-   done
+
+
+
+
+ done
+
+
+
+
 # --------------------------------------------------------------------------- #
 # FLUSH (EXECUTE A LAST TIME THE NOWSPEAKING COMMAND)
   NOWSPEAKING
 # CLEAN UP
-  rm $TMPDIR/*.dump $TMPDIR/*.md
+   #rm $TMPDIR/*.dump $TMPDIR/*.md
 
 
-
+sed -i "s/^object-height:.*$/object-height:${FULLHEIGHT}px/" $TMPDIR/strokeV.box
+sed -i "s/HH/H/" $TMPDIR/*.box
+sed -i "s/ALA/AL/" $TMPDIR/*.box
 
 
 
@@ -160,7 +226,13 @@
 # UPLOAD TO AN EXISTING HOTGLUE INSTALLATION
 # --------------------------------------------------------------------------- #
 
-  CANVASNAME=conversations-toolsofthetrade
+  if [ "$PADNAMEURL" == "fsnelting+mfuller" ]
+    then
+    PADNAMEURL=fsnelting-mfuller
+  fi
+
+  echo  "$PADNAMEURL"
+  CANVASNAME=conversations-$PADNAMEURL
 
   HOTGLUEBASE=hotglue/content
   HOTGLUECONTENT=$HOTGLUEBASE/$CANVASNAME/head
@@ -189,7 +261,7 @@
 
 # CLEAR GENERATED FILES ONLINE
 # --------------------------------------------------------------------------- #
-  echo "mdelete $HOTGLUECONTENT/4*"                                >> $FTPTMP
+  echo "mdelete $HOTGLUECONTENT/*"                                >> $FTPTMP
 
 
 # UPLOAD FILES
@@ -213,10 +285,10 @@
 # --------------------------------------------------------------------------- #
   ftp -i -p -n $HOST  < $FTPTMP
   rm $FTPTMP
+  rm $TMPDIR/*
 
 
 
 
-
-
+}
 exit 0;
