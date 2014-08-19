@@ -40,8 +40,9 @@
   sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' |    # SAVE FROM PANDOC IF START %
   sed '/zDf7WV362LoP/s/ /c8SJu53LDCNN/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' |    # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/_/Und3rsfd7cdX/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' |    # SAVE FROM PANDOC
-  sed 's/\[^\]{/jWu37CDe73EDc/g'         |    # SAVE FOOTNOTES FROM PANDOC
+  sed 's/\[^\]{/jWu37CDe73EDc/g'        |    # SAVE FOOTNOTES FROM PANDOC
   sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      |    # SAVE CITEP OPEN FROM PANDOC
   sed 's/\[@/\nhFzdu74DsdCW28C/g'        |    # SAVE CITE OPEN FROM PANDOC
   sed '/^hFzdu74DsdCWd34/s/\]/hFFc63DxY/'|    # SAVE CITE OPTION FROM PANDOC
@@ -59,6 +60,7 @@
   sed '/^%/s/SlasH328d1G/\\/g'           |    # BACK TO ORIGINAL
   sed 's/jfdUr63cdZZd/}/g'               |    # BACK TO ORIGINAL
   sed 's/ufBcrKD73Dnc/{/g'               |    # BACK TO ORIGINAL
+  sed 's/Und3rsfd7cdX/_/g'               |    # BACK TO ORIGINAL
   sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
   sed 's/vGzWeTf18XX//g'                 |    # BACK TO ORIGINAL
   sed 's/jWu37CDe73EDc/\\footnote{/g'    |    # FOOTNOTES
@@ -73,10 +75,10 @@
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
       -e 's/%TXIXTXLXE/% TITLE:/g'       |    # REMOVE SPACES FROM TITLE
-  sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
-  sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
-  sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
-  sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
+# sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
+# sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
+# sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
+# sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
   sed    's/\.\.\./\\ldots{}/g'          |    # 
   tee > $MDSHMOD
 
@@ -101,6 +103,7 @@
            CMD=`echo $LINE | \
                 cut -d "%" -f 2 | \
                 cut -d ":" -f 1 | \
+                sed 's/\[/ /g' | sed 's/\]/ /g' |\
                 sed 's, ,,g'`
            ARG=`echo $LINE | cut -d ":" -f 2-`
       # --------------------------------------------------- # 

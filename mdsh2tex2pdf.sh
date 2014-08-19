@@ -51,6 +51,7 @@
 # --------------------------------------------------------------------------- #
 
   MAIN=http://pad.constantvzw.org/p/conversations/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.jhaltiwanger/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
