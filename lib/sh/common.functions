@@ -70,11 +70,10 @@ function TITLE() {
   # TITLE=`grep "^% TITLE:" $MDSHMOD |  tail -1 | \
   #        cut -d ":" -f 2- | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
 
-  TITLE=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
 
-  writeTeXsrc "\cleardoublepage"
-  writeTeXsrc "\setcounter{footnote}{0}"
-  writeTeXsrc "\invisiblechapter{$TITLE}"
+
+
+  TITLE=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
 
   TITLENAME=`echo $TITLE | \
              sed 's/[^a-zA-Z0-9 ]//g' | \
@@ -84,6 +83,7 @@ function TITLE() {
   # echo $TITLENAME >> titlenames.txt
 
   CUSTOMSTY=`find . -name "${TITLENAME}.sty" | \
+             head -n 1 | \
              cut -d "/" -f 2-`
 
   if [ `echo $CUSTOMSTY | wc -c` -gt 3 ]; then
@@ -91,6 +91,11 @@ function TITLE() {
   else
   writeTeXsrc "\input{lib/tex/interview_reset.sty}"
   fi
+
+
+  writeTeXsrc "\cleardoublepage"
+  writeTeXsrc "\setcounter{footnote}{0}"
+  writeTeXsrc "\invisiblechapter{$TITLE}"
 
 }
 

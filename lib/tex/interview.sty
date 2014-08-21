@@ -1,28 +1,47 @@
-
-
-
- \setlength\topmargin{-.06\paperheight}
- \setlength\textheight{.67\paperheight}
-
-
+%\restoregeometry
+ \resetpagestyle
 
 
 % ? \resetfont before every speaker?
 
- \renewcommand{\chaptermark}[1]{\markright{}{}}
+% \renewcommand{\chaptermark}[1]{\markright{}{}}
 
- \setlength{\headheight}{45pt}
+% \setlength{\headheight}{45pt}
 
 %\lhead{\hspace{0pt}\put(-100,-20){\includegraphics[height=2\headheight]{var/labels/conversation_pamado-01.pdf}}}
 %\rhead{}
 
- \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
- \rhead{}
- \pagestyle{fancy}
+% \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
+% \rhead{}
+% \pagestyle{fancy}
 
 
- \newif\ifspeakerchanged
- \speakerchangedtrue
+ 
+ \newcommand\grafikhead[2]{%
+ 
+ \setlength\topmargin{-.06\paperheight}
+ \addtolength{\topmargin}{-255pt}
+ \setlength\textheight{.67\paperheight}
+
+ \addtolength{\topmargin}{#2}
+ \addtolength{\textheight}{-#2}
+
+
+ \setlength{\headheight}{300pt}
+ \lhead{\hspace{0pt}%
+        \put(-110,700){%
+        \includegraphics[width=1.2\paperwidth]%
+        {#1}}
+        \vspace{#2}}
+ }
+
+
+
+
+
+
+
+
 
 
  \newcommand\labelinline[1]{%
@@ -35,6 +54,9 @@
  }
 
  \newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
+
+ \newif\ifspeakerchanged
+ \speakerchangedtrue
 
  \newcommand{\switchspeaker}{%
  \ifspeakerchanged

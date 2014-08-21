@@ -1,22 +1,28 @@
 
- \setlength\topmargin{-.06\paperheight}
- \setlength\textheight{.67\paperheight}
+% RESET
+% \setlength\topmargin{-.06\paperheight}
+% \setlength\textheight{.67\paperheight}
+% \resetpagelengths
+
+% \setlength{\headheight}{45pt}
+
+% \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
+% \rhead{}
+% \pagestyle{fancy}
 
 
- \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
- \rhead{}
- \pagestyle{fancy}
+  \restoregeometry
+  \resetpagestyle
 
- \renewcommand{\switchspeaker}{%
- \ifspeakerchanged
-   \normalfont
-   \speakerchangedfalse
- \else
-   \bf
-   \speakerchangedtrue
- \fi
- }
-
+  \renewcommand{\switchspeaker}{%
+  \ifspeakerchanged
+    \normalfont
+    \speakerchangedfalse
+  \else
+    \bf
+    \speakerchangedtrue
+  \fi
+  }
 
 % -------------------------------------------------------------------- %
   \renewcommand\SPRL[1]{%

@@ -1,28 +1,24 @@
 
- \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
- \rhead{}
- \pagestyle{fancy}
+ \restoregeometry
+ \resetpagestyle
+
+
+ \grafikhead{var/labels/___/i_think_the_ideas_behind_it_are_beautiful_in_my_mind.pdf}{0pt}
+
+  \pagestyle{fancy}
 
 
 % -------------------------------------------------------------------- %
   \renewcommand\SPFS[1]{%
    \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{FS}}}
-      \bf 
+    \labelinline{var/labels/___/FS-01_N.pdf}
+     \normalfont
  }
 % -------------------------------------------------------------------- %
   \renewcommand\SPGW[1]{%
    \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{GW}}}
-      \resetfont 
+    \labelinline{var/labels/___/GW-01_N.pdf}
+     \it
   }
 % -------------------------------------------------------------------- %
-  \renewcommand\SPX[1]{%
-   \resetfont
-    \large
-     \textskip
-  }
-
 
