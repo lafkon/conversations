@@ -131,11 +131,9 @@
 # GENERATE PDF
 # --------------------------------------------------------------------------- #
 
-# pdflatex -interaction=nonstopmode \
-#          -output-directory $OUTDIR \
-#           $TMPTEX  # > /dev/null
-  pdflatex -output-directory $OUTDIR \
-            $TMPTEX
+  pdflatex -interaction=nonstopmode \
+           -output-directory $OUTDIR \
+            $TMPTEX  # > /dev/null
 
 # if [ -f ${TMPTEX%%.*}.ind ]; then bibtex ${TMPTEX%%.*} ; fi
   bibtex ${TMPTEX%%.*}
@@ -143,29 +141,14 @@
 # sed -i 's/newblock/newline/g' ${TMPTEX%%.*}.bbl
 
   makeindex ${TMPTEX%%.*}.idx
-  pdflatex -output-directory $OUTDIR $TMPTEX 
 
-## --------------------------------------------------------------------------- #
-## REMOVE DUPLICATE PAGE/GRAFIK REFERENCES (BASED ON NEWLABEL IN AUX)
-## --------------------------------------------------------------------------- #
-#  for REFERENCE in `cat ${TMPTEX%%.*}.aux | \
-#                    grep "\\\\newlabel" | \
-#                    sed '/\\\\newlabel/s/:[0-9]*}/:Xhdu732cC}/' | \
-#                    sort | uniq | \
-#                    sed 's/Xhdu732cC/\[0-9\]\*/' | \
-#                    sed 's/ /Cjdsu63eTd7/g'`
-#   do
-#      REFERENCE=`echo $REFERENCE | sed 's/Cjdsu63eTd7/ /g'`
-#      for ID in `grep $REFERENCE ${TMPTEX%%.*}.aux | \
-#                 cut -d"{" -f 2 | cut -d "}" -f 1 | \
-#                 sed '$d'`
-#       do
-#          sed -i "s/\\\\pageref{$ID},//g" $TMPTEX
-#      done
-#  done
-#  sed -i 's/^,//g'  $TMPTEX
-## --------------------------------------------------------------------------- #
-   pdflatex -output-directory $OUTDIR $TMPTEX 
+  pdflatex -interaction=nonstopmode \
+           -output-directory $OUTDIR \
+            $TMPTEX  # > /dev/null
+
+  pdflatex -interaction=nonstopmode \
+           -output-directory $OUTDIR \
+            $TMPTEX  # > /dev/null
 
 
 # DEBUG
