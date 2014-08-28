@@ -167,7 +167,9 @@ function INCLUDEPAGESPLUS() {
                   sed 's/[^a-zA-Z0-9 ]//g' | \
                   sed 's/ /_/g' | \
                   tr [:upper:] [:lower:]`
-       
+ 
+       # echo $TITLENAME >> titlenames.txt
+      
        CUSTOMSTY=`find . -name "${TITLENAME}.sty" | \
                   cut -d "/" -f 2-`
     
