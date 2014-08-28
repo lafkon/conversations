@@ -2,7 +2,9 @@
  \resetpagestyle
 
 
-% ? \resetfont before every speaker?
+ \newcounter{chapterpage}
+
+% ?\resetfont before every speaker?
 
 % \renewcommand{\chaptermark}[1]{\markright{}{}}
 
@@ -15,7 +17,6 @@
 % \rhead{}
 % \pagestyle{fancy}
 
-
  
  \newcommand\grafikhead[2]{%
  
@@ -26,7 +27,6 @@
  \addtolength{\topmargin}{#2}
  \addtolength{\textheight}{-#2}
 
-
  \setlength{\headheight}{300pt}
  \lhead{\hspace{0pt}%
         \put(-110,700){%
@@ -36,6 +36,19 @@
  }
 
 
+ \newcommand\grafikheadperpage[2]{%
+  \setlength\topmargin{-.06\paperheight}
+  \addtolength{\topmargin}{-255pt}
+  \setlength\textheight{.67\paperheight}
+  \addtolength{\topmargin}{#2}
+  \addtolength{\textheight}{-#2}
+  \setlength{\headheight}{300pt}
+  \lhead{\hspace{0pt}%
+         \put(-110,700){%
+         \includegraphics[width=1.2\paperwidth]%
+         {#1-\arabic{chapterpage}.pdf}}
+         \vspace{#2}\stepcounter{chapterpage}}
+ }
 
 
 
