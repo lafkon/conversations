@@ -82,6 +82,8 @@
  \setlength\textwidth{.6\paperwidth}
 
 
+ \newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
+
  \newcommand{\resetpagestyle}{%
  \setlength{\headheight}{45pt}
  \setlength\oddsidemargin{.085\paperwidth}
@@ -92,6 +94,7 @@
  \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
  \rhead{}
  \pagestyle{fancy}
+ \renewcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
  }
 
 
@@ -172,8 +175,8 @@
  \addtokomafont{subsection}{\bigskip\medskip}
  \subsectionfont{\fontfamily{ocr}\selectfont\small}
 
- \addtokomafont{subsubsection}{\bigskip}
- \subsubsectionfont{\fontfamily{pju}\selectfont\small}
+ \addtokomafont{subsubsection}{\medskip}
+ \subsubsectionfont{\fontfamily{ocr}\selectfont\footnotesize}
 
 % http://en.wikibooks.org/wiki/LaTeX/Page_Layout#Page_styles
 %\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
