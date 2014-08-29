@@ -1,73 +1,121 @@
-  \restoregeometry
-  \resetpagestyle
 
-
-
-% http://en.wikibooks.org/wiki/LaTeX/Counters
-% \newcounter{chapterpage}
-  \setcounter{chapterpage}{100}
-% \newcommand{\pagecount}{%
-% \stepcounter{chapterpage}\arabic{chapterpage}%
-% }
-
-  \grafikheadperpage{var/labels/___/meaningful_transformations}{30pt}
-
-
-% \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
-% \lhead{{\tiny\fontfamily{ocr}\selectfont  \pagecount }}
-% \rhead{}
-
-
-  \pagestyle{fancy}
-
-
-
-
-
-
-  \renewcommand{\switchspeaker}{%
-  \ifspeakerchanged
-    \normalfont
-    \speakerchangedfalse
-  \else
-    \bf
-    \speakerchangedtrue
-  \fi
-  }
+ \restoregeometry
+ \resetpagestyle
+ \grafikhead{var/labels/___/meaningful_transformations.pdf}{30pt}
+ \pagestyle{fancy}
 
 % -------------------------------------------------------------------- %
   \renewcommand\SPFS[1]{%
    \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{Femke Snelting}}}
-      \switchspeaker 
+    \labelinline{var/labels/___/FS-01_N.pdf}
+     \fontshape{\itdefault}\fontseries{\bfdefault}\selectfont
  }
 % -------------------------------------------------------------------- %
   \renewcommand\SPTL[1]{%
    \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{TL}}}
-      \switchspeaker 
-  }
-% -------------------------------------------------------------------- %
-  \renewcommand\SPLL[1]{%
-   \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{LL}}}
-      \switchspeaker 
+    \labelinline{var/labels/___/TL-01_P.pdf}
+     \normalfont
   }
 % -------------------------------------------------------------------- %
   \renewcommand\SPPM[1]{%
    \textskip
-   {\fontfamily{ocr}\selectfont
-    {\footnotesize\textbf{PM}}}
-      \switchspeaker 
+    \labelinline{var/labels/___/PM-01_N.pdf}
+     \it
   }
 % -------------------------------------------------------------------- %
-  \renewcommand\SPX[1]{%
-   \resetfont
-    \large
-     \textskip
+  \renewcommand\SPLL[1]{%
+   \textskip
+    \labelinline{var/labels/___/LL-02_N.pdf}
+     \it
   }
+% -------------------------------------------------------------------- %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%  \restoregeometry
+%  \resetpagestyle
+%
+%
+%
+%% http://en.wikibooks.org/wiki/LaTeX/Counters
+%% \newcounter{chapterpage}
+%  \setcounter{chapterpage}{100}
+%% \newcommand{\pagecount}{%
+%% \stepcounter{chapterpage}\arabic{chapterpage}%
+%% }
+%
+%  \grafikheadperpage{var/labels/___/meaningful_transformations}{30pt}
+%
+%
+%% \lhead{{\tiny\fontfamily{ocr}\selectfont\currentchaptertitle}}
+%% \lhead{{\tiny\fontfamily{ocr}\selectfont  \pagecount }}
+%% \rhead{}
+%
+%
+%  \pagestyle{fancy}
+%
+%
+%
+%  \renewcommand{\switchspeaker}{%
+%  \ifspeakerchanged
+%    \normalfont
+%    \speakerchangedfalse
+%  \else
+%    \bf
+%    \speakerchangedtrue
+%  \fi
+%  }
+%
+%% -------------------------------------------------------------------- %
+%  \renewcommand\SPFS[1]{%
+%   \textskip
+%   {\fontfamily{ocr}\selectfont
+%    {\footnotesize\textbf{Femke Snelting}}}
+%      \switchspeaker 
+% }
+%% -------------------------------------------------------------------- %
+%  \renewcommand\SPTL[1]{%
+%   \textskip
+%   {\fontfamily{ocr}\selectfont
+%    {\footnotesize\textbf{TL}}}
+%      \switchspeaker 
+%  }
+%% -------------------------------------------------------------------- %
+%  \renewcommand\SPLL[1]{%
+%   \textskip
+%   {\fontfamily{ocr}\selectfont
+%    {\footnotesize\textbf{LL}}}
+%      \switchspeaker 
+%  }
+%% -------------------------------------------------------------------- %
+%  \renewcommand\SPPM[1]{%
+%   \textskip
+%   {\fontfamily{ocr}\selectfont
+%    {\footnotesize\textbf{PM}}}
+%      \switchspeaker 
+%  }
+%% -------------------------------------------------------------------- %
+%  \renewcommand\SPX[1]{%
+%   \resetfont
+%    \large
+%     \textskip
+%  }
 
 
