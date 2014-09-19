@@ -18,15 +18,12 @@
 % \pagestyle{fancy}
 
  
- \newcommand\grafikhead[2]{%
- 
+ \newcommand\grafikhead[2]{% 
  \setlength\topmargin{-.06\paperheight}
  \addtolength{\topmargin}{-255pt}
  \setlength\textheight{.67\paperheight}
-
  \addtolength{\topmargin}{#2}
  \addtolength{\textheight}{-#2}
-
  \setlength{\headheight}{300pt}
  \lhead{\hspace{0pt}%
         \put(-110,700){%
@@ -51,6 +48,26 @@
  }
 
 
+ \newcommand\grafikheadswitch[3]{%
+  \setlength\topmargin{-.06\paperheight}
+  \addtolength{\topmargin}{-255pt}
+  \setlength\textheight{.67\paperheight}
+  \addtolength{\topmargin}{#3}
+  \addtolength{\textheight}{-#3}
+  \setlength{\headheight}{300pt}
+  \lhead{\hspace{0pt}%
+         \put(-110,700){%
+         \ifodd\value{page}%
+         \includegraphics[width=1.2\paperwidth]{#1}%
+         \else%
+         \includegraphics[width=1.2\paperwidth]{#2}%
+         \fi%
+         }%
+         \vspace{#3}}%
+ }
+
+
+
 
 
 
@@ -66,7 +83,7 @@
  }\hspace{-5.0pt}%
  }
 
-% \newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
+%\newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
 
  \newif\ifspeakerchanged
  \speakerchangedtrue
