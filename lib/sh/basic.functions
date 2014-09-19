@@ -42,7 +42,7 @@
   sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/_/Und3rsfd7cdX/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' |    # SAVE FROM PANDOC
-  sed 's/\[^\]{/jWu37CDe73EDc/g'        |    # SAVE FOOTNOTES FROM PANDOC
+  sed 's/\[^\]{/jWu37CDe73EDc/g'         |    # SAVE FOOTNOTES FROM PANDOC
   sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      |    # SAVE CITEP OPEN FROM PANDOC
   sed 's/\[@/\nhFzdu74DsdCW28C/g'        |    # SAVE CITE OPEN FROM PANDOC
   sed '/^hFzdu74DsdCWd34/s/\]/hFFc63DxY/'|    # SAVE CITE OPTION FROM PANDOC
