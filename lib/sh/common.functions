@@ -71,8 +71,6 @@ function TITLE() {
   #        cut -d ":" -f 2- | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
 
 
-
-
   TITLE=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
 
   TITLENAME=`echo $TITLE | \
@@ -282,6 +280,14 @@ function CLEARTOLEFTPAGE(){
 function CLEARDOUBLEPAGE(){
 
   writeTeXsrc "\cleardoublepage"
+
+}
+
+# --------------------------------------------------------------------------- #
+function LABEL(){
+
+  LABEL=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
+  writeTeXsrc "\flag{$LABEL}"
 
 }
 

@@ -75,6 +75,9 @@
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
       -e 's/%TXIXTXLXE/% TITLE:/g'       |    # REMOVE SPACES FROM TITLE
+  sed -e 's/^% LABEL:/%LXAXBXEXL/g' \
+      -e '/^%LXAXBXEXL/s/ /_/g' \
+      -e 's/%LXAXBXEXL/% LABEL:/g'      |    # REMOVE SPACES FROM LABEL
 # sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
 # sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
 # sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
