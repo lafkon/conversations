@@ -1,0 +1,3 @@
+[submodule "var/petter"]
+	path = var/petter
+	url = https://github.com/b3nson/petter.git
