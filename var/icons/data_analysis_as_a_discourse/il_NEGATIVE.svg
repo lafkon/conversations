@@ -1,0 +1,23 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="500"
+   height="500"
+   id="svg3151">
+  
+<path
+     d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 0,-100 L 100,0 0,0 z m 200,0 0,100 0,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 0,-100 0,-100 -100,0 z m 200,0 0,100 0,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 0,-100 0,-100 -100,0 z"
+     id="rect3153"
+     style="fill:#ffffff" />
+  
+<path
+     d="m 100,0 0,100 0,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 0,-100 0,-100 -100,0 z m 200,0 0,100 0,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 0,-100 0,-100 -100,0 z"
+     id="rect3163"
+     style="fill:#000000" />
+
+</svg>
