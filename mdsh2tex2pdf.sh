@@ -51,7 +51,7 @@
 # --------------------------------------------------------------------------- #
 
   MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-# MAIN=http://pad.constantvzw.org/p/conversations.jhaltiwanger/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.csolfrank/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -60,7 +60,6 @@
   mdsh2TeX $MAIN
 
 # =========================================================================== #
-
 
 
 

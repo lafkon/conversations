@@ -83,6 +83,30 @@
        inkscape --export-pdf=$PDF \
                 tmp.svg
 
+       gs                                     \
+         -o ${PDF%%.*}_CONFORMED.pdf          \
+         -sDEVICE=pdfwrite                    \
+         -sColorConversionStrategy=Gray       \
+         -sProcessColorModel=DeviceGray       \
+         -sColorImageDownsampleThreshold=2    \
+         -sColorImageDownsampleType=Bicubic   \
+         -sColorImageResolution=300           \
+         -sGrayImageDownsampleThreshold=2     \
+         -sGrayImageDownsampleType=Bicubic    \
+         -sGrayImageResolution=300            \
+         -sMonoImageDownsampleThreshold=2     \
+         -sMonoImageDownsampleType=Bicubic    \
+         -sMonoImageResolution=1200           \
+         -dSubsetFonts=true                   \
+         -dEmbedAllFonts=true                 \
+         -dAutoRotatePages=/None              \
+         -sCannotEmbedFontPolicy=Error        \
+         -c ".setpdfwrite<</NeverEmbed[ ]>> setdistillerparams" \
+         -f $PDF
+
+       mv ${PDF%%.*}_CONFORMED.pdf $PDF
+
+
        SHIFTSUM=`expr $SHIFTSUM + $SHIFTADD`
        CNT=`expr $CNT + 1`
 
