@@ -70,6 +70,32 @@
                 --export-text-to-path \
                 layer2svg_${LNAME}.svg
 
+
+       gs                                     \
+         -o ${PDF%%.*}_CONFORMED.pdf          \
+         -sDEVICE=pdfwrite                    \
+         -sColorConversionStrategy=Gray       \
+         -sProcessColorModel=DeviceGray       \
+         -sColorImageDownsampleThreshold=2    \
+         -sColorImageDownsampleType=Bicubic   \
+         -sColorImageResolution=300           \
+         -sGrayImageDownsampleThreshold=2     \
+         -sGrayImageDownsampleType=Bicubic    \
+         -sGrayImageResolution=300            \
+         -sMonoImageDownsampleThreshold=2     \
+         -sMonoImageDownsampleType=Bicubic    \
+         -sMonoImageResolution=1200           \
+         -dSubsetFonts=true                   \
+         -dEmbedAllFonts=true                 \
+         -dAutoRotatePages=/None              \
+         -sCannotEmbedFontPolicy=Error        \
+         -c ".setpdfwrite<</NeverEmbed[ ]>> setdistillerparams" \
+         -f $PDF
+
+       mv ${PDF%%.*}_CONFORMED.pdf $PDF
+
+
+
        rm layer2svg_${LNAME}.svg
 
       else
