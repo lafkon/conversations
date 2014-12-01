@@ -22,11 +22,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.87463678"
-     inkscape:cx="662.4042"
-     inkscape:cy="321.46509"
+     inkscape:zoom="1.4509478"
+     inkscape:cx="735.34235"
+     inkscape:cy="320.32176"
      inkscape:document-units="px"
-     inkscape:current-layer="g3377"
+     inkscape:current-layer="g3378"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -570,7 +570,7 @@
      id="g3369"
      inkscape:groupmode="layer"
      inkscape:label="FS-11_P"
-     style="display:inline">
+     style="display:none">
     <g
        transform="matrix(0.05999961,0,0,0.05999961,806.96892,221.6874)"
        id="g3371"
@@ -591,7 +591,7 @@
      id="g3377"
      inkscape:groupmode="layer"
      inkscape:label="PA-02_P"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3379"
        transform="matrix(0,0.05999961,-0.05999961,0,836.96853,221.68768)">
@@ -1925,6 +1925,27 @@
          id="path231"
          style="fill:#000000"
          inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="PH-02_N"
+     inkscape:groupmode="layer"
+     id="g3378">
+    <g
+       style="display:inline"
+       id="g2998"
+       transform="matrix(0.07,0,0,0.07,736.96872,217.68749)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="rect3675-5"
+         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="rect3679-7"
+         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
   </g>
   <g

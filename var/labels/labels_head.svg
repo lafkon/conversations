@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20137865"
-     inkscape:cx="84.597618"
-     inkscape:cy="3204.8083"
+     inkscape:zoom="2.0531546"
+     inkscape:cx="398.60264"
+     inkscape:cy="2861.8296"
      inkscape:document-units="px"
-     inkscape:current-layer="g7166"
+     inkscape:current-layer="layer8"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -8564,7 +8564,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="we_will_get_to_know_the_machine_and_we_will_understand"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g191-2"
@@ -14403,8 +14403,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="even_when_you_are_done_you_are_not_done"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -14557,21 +14556,6 @@
          id="path10269-2"
          style="fill:#ffffff"
          inkscape:connector-curvature="0" />
-    </g>
-    <g
-       transform="matrix(0.06,0,0,0.06,361.77476,1101.5938)"
-       id="g10277-8"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path10279-8"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 200,100 100,0 0,100 0,100 0,100 -100,0 0,-100 0,-100 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path10281-3"
-         d="m 200,100 0,100 0,100 0,100 100,0 0,-100 0,-100 0,-100 -100,0 z" />
     </g>
     <text
        xml:space="preserve"
@@ -15191,12 +15175,28 @@
          style="fill:#000000"
          inkscape:connector-curvature="0" />
     </g>
+    <g
+       style="display:inline"
+       id="g2998"
+       transform="matrix(0.06,0,0,0.06,361.77476,1101.5938)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="rect3675"
+         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="rect3679"
+         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="data_analysis_as_a_discourse"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -20230,7 +20230,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="XX________________________" />
+     inkscape:label="XX________________________"
+     sodipodi:insensitive="true"
+     style="display:inline" />
   <g
      id="eab873b4"
      inkscape:groupmode="layer"
@@ -20245,7 +20247,7 @@
      id="8b1826e1"
      inkscape:groupmode="layer"
      inkscape:label="XX_JH-01_N"
-     style="display:inline" />
+     style="display:none" />
   <g
      id="bc414211"
      inkscape:groupmode="layer"
