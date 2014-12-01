@@ -45,7 +45,7 @@ XX
 
 distributed_versioning_control
 ------------------------------
-Ludivibe Loiseau: 20140811-153029_constant-icon-5x5_N_PLAIN.svg
+Ludivine Loiseau: 20140811-153029_constant-icon-5x5_N_PLAIN.svg
 Sarah Magnan: 20140811-153004_constant-icon-5x5_N_PLAIN.svg
 Alexandere Leray: 20140812-142233_constant-icon-5x5_N_PLAIN.svg
 Stéphanie Vilayphiou: 20140812-141057_constant-icon-5x5_N_PLAIN.svg
