@@ -1,0 +1,142 @@
+
+a_user_should_not_be_able_to_shoot_himself_in_the_foot
+------------------------------------------------------
+Andreas Vox: 20140811-152946_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-141819_constant-icon-5x5_P_PLAIN.svg
+
+
+i_think_the_ideas_behind_it_are_beautiful_in_my_mind
+----------------------------------------------------
+George Williams: 20140812-141057_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-141338_constant-icon-5x5_P_PLAIN.svg
+
+
+we_will_get_to_know_the_machine_and_we_will_understand
+------------------------------------------------------
+Juliane de Moerlooze: 20140811-153004_constant-icon-5x5_P_PLAIN.svg
+An Mertens: 20140812-142051_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-142228_constant-icon-5x5_P_PLAIN.svg
+Agnes Bewer: 20140811-152957_constant-icon-5x5_P_PLAIN.svg
+
+
+context
+-------
+John Haltiwanger: 20140811-152931_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-142228_constant-icon-5x5_P_PLAIN.svg
+
+
+meaningful_transformations
+--------------------------
+Tom Lechner: 20140811-153055_constant-icon-5x5_P_PLAIN.svg
+Ludivine Loiseau: 20140811-153029_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-142228_constant-icon-5x5_P_PLAIN.svg
+Pierre Marchand: 20140811-152933_constant-icon-5x5_N_PLAIN.svg
+
+
+tools_for_a_read_write_world
+----------------------------
+XX
+
+
+constant_variable_etat_des_lieux
+--------------------------------
+XX
+
+
+distributed_versioning_control
+------------------------------
+Ludivibe Loiseau: 20140811-153029_constant-icon-5x5_N_PLAIN.svg
+Sarah Magnan: 20140811-153004_constant-icon-5x5_N_PLAIN.svg
+Alexandere Leray: 20140812-142233_constant-icon-5x5_N_PLAIN.svg
+Stéphanie Vilayphiou: 20140812-141057_constant-icon-5x5_N_PLAIN.svg
+Eric Schrijver: 20140812-141819_constant-icon-5x5_N_PLAIN.svg
+Pierre Huyghebaert: 20140812-142213_constant-icon-5x5_N_PLAIN.svg
+Pierre Marchand: 20140811-152933_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140811-152946_constant-icon-5x5_N_PLAIN.svg
+
+
+even_when_you_are_done_you_are_not_done
+---------------------------------------
+Chris Lilley: 20140811-153108_constant-icon-5x5_N_PLAIN.svg
+Nicolas Maléve: 20140812-142228_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-141819_constant-icon-5x5_P_PLAIN.svg
+Pierre Huyghebaert: 20140812-141358_constant-icon-5x5_N_PLAIN.svg
+
+
+dave_crossland
+--------------
+XX
+
+
+data_analysis_as_a_discourse
+----------------------------
+Michael Terry: 20140812-141358_constant-icon-5x5_P_PLAIN.svg
+Ivan Monroy Lopez: 20140811-152946_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-142228_constant-icon-5x5_N_PLAIN.svg
+
+
+why_you_should_own_the_beercompany_you_design_for
+-------------------------------------------------
+XX
+
+
+just_ask_and_that_will_be_that
+------------------------------
+Asheesh Laroia: 20140812-141057_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-141338_constant-icon-5x5_P_PLAIN.svg
+
+
+tying_the_story_to_data
+-----------------------
+XX
+
+
+unicodes
+--------
+Denis Jacquerye: 20140811-153029_constant-icon-5x5_N_PLAIN.svg
+Pierre Marchand: 20140811-152933_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140811-152908_constant-icon-5x5_P_PLAIN.svg
+Nicolas Maléve: 20140812-142228_constant-icon-5x5_N_PLAIN.svg
+
+
+collision
+---------
+XX
+
+
+if_the_design_thinking_is_correct_the_tools_should_be_irrelevant
+----------------------------------------------------------------
+Pedro Amado: 20140811-152908_constant-icon-5x5_P_PLAIN.svg
+Femke Snelting: 20140812-142213_constant-icon-5x5_P_PLAIN.svg
+
+
+you_need_to_copy_to_understand
+------------------------------
+Harrison: 20140811-153128_constant-icon-5x5_N_PLAIN.svg
+Femke Snelting: 20140812-142213_constant-icon-5x5_P_PLAIN.svg
+
+
+whats_the_thinking_here
+-----------------------
+Femke Snelting: 20140812-141338_constant-icon-5x5_N_PLAIN.svg
+Matthew Fuller: 20140812-141819_constant-icon-5x5_N_PLAIN.svg
+
+
+the_construction_of_a_book_aether9
+----------------------------------
+Manuel Schmalstieg: 20140812-141358_constant-icon-5x5_P_PLAIN.svg
+Pierre Marchand: 20140811-152933_constant-icon-5x5_N_PLAIN.svg
+Ludivine Loiseau: 20140812-141358_constant-icon-5x5_P_PLAIN.svg
+
+
+performing_libre_graphics
+-------------------------
+XX
+
+
+the_making_of_conversations
+---------------------------
+Christoph Haag: 20140811-152908_constant-icon-5x5_P_PLAIN.svg
+Xavier Klein: 20140811-153055_constant-icon-5x5_P_PLAIN.svg
+Femke Snelting: 20140811-152908_constant-icon-5x5_N_PLAIN.svg
+
