@@ -26,7 +26,7 @@
 ## --------------------------------------------------------------------------- #
 
 
-  for PDF in `ls $INPUT/*/*.pdf`
+  for PDF in `ls $INPUT/*/*.pdf | grep -v "+GUI.pdf"`
   do
     FILENAME=`basename $PDF`
     SVG=$TMPDIR/${FILENAME%%.*}.svg
