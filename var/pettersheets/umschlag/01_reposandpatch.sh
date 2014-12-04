@@ -17,7 +17,7 @@
   
   OVERLAYNAME=`basename $OVERLAYSVG`
   OVERLAYPDF=$TMPDIR/${OVERLAYNAME%%.*}.pdf
-  inkscape --export-pdf=$OVERLAYPDF $OVERLAYSVG
+  inkscape --export-text-to-path --export-pdf=$OVERLAYPDF $OVERLAYSVG
 
   
 

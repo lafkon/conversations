@@ -132,31 +132,32 @@ function CREATEBGPDF {
 
       # OPEN LAYER GROUP
       # ---------------------------------------------------------------------- #
-      echo "<g id=\""`echo XX_IMGREF_${IMGFILENAME%%.*} | md5sum | cut -c 1-8`"\" \
-	    inkscape:groupmode=\"layer\" \
-	    inkscape:label=\"XX_IMGREF_${IMGFILENAME%%.*}\">" | \
-      tr -s ' '              				 >> $TMPDIR/$DIRNAME.tmp
+      GROUPBEGIN="<g id=\"XX_IMGREF_${IMGFILENAME%%.*}\"
+            inkscape:groupmode=\"layer\"
+            inkscape:label=\"XX_IMGREF_${IMGFILENAME%%.*}\">" 
 
       # PLACE IMG-REF
       # ---------------------------------------------------------------------- #	
-      echo "<image"  					 >> $TMPDIR/$DIRNAME.tmp
-      echo "  y=\"0\"" 					 >> $TMPDIR/$DIRNAME.tmp
-      echo "  x=\"0\""  				 >> $TMPDIR/$DIRNAME.tmp
-      echo "  id=\"image10\""  				 >> $TMPDIR/$DIRNAME.tmp
-      echo "  height=\"$PAPERH\"" 		 	 >> $TMPDIR/$DIRNAME.tmp
-      echo "  width=\"$PAPERW\""  			 >> $TMPDIR/$DIRNAME.tmp
-      echo "  xlink:href=\"../$IMGREF\""  		 >> $TMPDIR/$DIRNAME.tmp
-      echo "/>"  					 >> $TMPDIR/$DIRNAME.tmp
-      
+      GROUPBODY="<image y=\"0\" x=\"0\" id=\"image${IMGFILENAME%%.*}\"		  
+           height=\"$PAPERH\"
+           width=\"$PAPERW\"
+           xlink:href=\"../$IMGREF\"
+           />"
+
       # CLOSE LAYER GROUP
       # ---------------------------------------------------------------------- #
-      echo "</g>"               			 >> $TMPDIR/$DIRNAME.tmp
+      GROUPEND="</g>"
+      
+      # WRITE NEW LAYER (on one line)
+      # ---------------------------------------------------------------------- #
+      echo $GROUPBEGIN $GROUPBODY $GROUPEND              >> $TMPDIR/$DIRNAME.tmp
       
     done
 
     # WRITE ALL REMAINING NON-IMGREF-LAYERS / KEEP RENAMED ONCE (non XX)
     # ------------------------------------------------------------------------ #
-    grep "^<g" $SUPERSVG | grep -v "XX_IMGREF_" 	 >> $TMPDIR/$DIRNAME.tmp
+    #grep "^<g" $SUPERSVG | grep -v "XX_IMGREF_" 	 >> $TMPDIR/$DIRNAME.tmp
+    grep "^<g" $SUPERSVG  	 >> $TMPDIR/$DIRNAME.tmp
       
 
     # CLOSE SVG
