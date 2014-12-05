@@ -20,13 +20,7 @@
   OUTDIR=.
   PDFDIR=tmp
   TMPDIR=tmp
-
-
-# IMGNFO=$TMPDIR/imginformation.txt
-# if [ -f $IMGNFO ]; then rm $IMGNFO ; touch $IMGNFO ; fi
-# IMGCNT=0
-#
-# KEYWORDLIST=i/var/keywords_140523.list
+  KEYWORDLIST=var/keywords.list
 
 
   EMPTYLINE="EMPTY-LINE-EMPTY-LINE-EMPTY-LINE-TEMPORARY-NOT"
@@ -87,58 +81,61 @@
 # RESET FONT
   writeTeXsrc "\normalsize"
   writeTeXsrc "\resetfont"
+
 # INDEX AND BIBLIOGRAPHY
-  writeTeXsrc "\emptypage"
+  writeTeXsrc "\clearpage"
+  writeTeXsrc "\pagenumbering{gobble}"
+  writeTeXsrc "\cleartoleftpage"
   writeTeXsrc "\cleardoublepage"
-# writeTeXsrc "\pagenumbering{gobble}"
-  writeTeXsrc "\pagestyle{empty}"
-  writeTeXsrc "\titlespacing{\chapter}"
-  writeTeXsrc "{0pc}{0mm}{3em}[0pc]"
+  writeTeXsrc "\renewcommand{\indexname}{}"
+  writeTeXsrc "\addtolength{\topmargin}{-10pt}"
   writeTeXsrc "\printindex"
 
-# writeTeXsrc "\pagestyle{fancy}"
-# writeTeXsrc "\addcontentsline{toc}{chapter}{Read this!}"
   writeTeXsrc "\bibliographystyle{plain}"
   writeTeXsrc "\nobibliography{$TMPDIR/ref}"
 
-# writeTeXsrc "\emptypage\emptypage"
-
-# INCLUDE COLLECTED INDEX INFO
-# cat $IMGNFO  >> $TMPTEX
-
   writeTeXsrc "\end{document}"
 
+# --------------------------------------------------------------------------- #
 # GENERATE INDEX REFERENCE ACCORDING TO LIST
-# for KEYWORD in `cat $KEYWORDLIST | sed 's/ /jfh7Gd54Dcw/g'`
-#  do
-#     KEYWORD=`echo $KEYWORD | sed 's/jfh7Gd54Dcw/ /g'`
-#     sed -i "s/ $KEYWORD /&\\\index{$KEYWORD} /g" $TMPTEX
-# done
+# --------------------------------------------------------------------------- #
+  for INDEXTHIS in `cat $KEYWORDLIST      | \
+                    grep -v "^#"          | \
+                    sed 's= =jfh7Gd54Dcw=g'`
+   do
+      MAINKEYWORD=`echo $INDEXTHIS         | \
+                   sed 's=jfh7Gd54Dcw= =g' | \
+                   cut -d "|" -f 1`
+      KEYWORD=$MAINKEYWORD
+      for KEYWORD in `echo $INDEXTHIS         | \
+                      sed 's=|= =g'`
+
+      do
+         KEYWORD=`echo $KEYWORD | sed 's=jfh7Gd54Dcw= =g'`
+         sed -i "s= $KEYWORD =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
+      done
+  done
+# --------------------------------------------------------------------------- #
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
 
-  sleep 5
+
 
 # --------------------------------------------------------------------------- #
 # GET REFERENCE FILE 
 # --------------------------------------------------------------------------- #
   BIBURL=http://note.pad.constantvzw.org:8000/p/references.bib/export/txt
   wget --no-check-certificate -O ${TMPDIR}/ref.bib $BIBURL > /dev/null 2>&1
-  sleep 5
 
 # --------------------------------------------------------------------------- #
-# GENERATE PDF
+# GENERATE PDF (multiple cycles for index,bibliography)
 # --------------------------------------------------------------------------- #
 
   pdflatex -interaction=nonstopmode \
            -output-directory $OUTDIR \
             $TMPTEX  # > /dev/null
 
-# if [ -f ${TMPTEX%%.*}.ind ]; then bibtex ${TMPTEX%%.*} ; fi
   bibtex ${TMPTEX%%.*}
-# sed -i '/].$/s/newblock/newline/g' ${TMPTEX%%.*}.bbl
-# sed -i 's/newblock/newline/g' ${TMPTEX%%.*}.bbl
-
   makeindex ${TMPTEX%%.*}.idx
 
   pdflatex -interaction=nonstopmode \
@@ -149,10 +146,8 @@
            -output-directory $OUTDIR \
             $TMPTEX  # > /dev/null
 
-
-# DEBUG
-# cp ${TMPTEX%%.*}.aux debug.aux
-  cp $TMPTEX debug.tex
+  # DEBUG
+  # cp $TMPTEX debug.tex
 
 
 # --------------------------------------------------------------------------- #
@@ -161,7 +156,6 @@
   cp ${TMPTEX%.*}.pdf latest.pdf
 # mv ${TMPTEX%.*}.pdf $PDFDIR/`date +%s`.pdf
   rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh
-# rm $TEXBODY $FUNCTIONS
 
 # if [ `find $TMPDIR -name "*.*" | grep -v .gitignore | wc -l` -gt 0 ] 
 # then
@@ -170,5 +164,4 @@
 
 
 exit 0;
-
 
