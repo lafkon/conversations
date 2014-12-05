@@ -58,7 +58,7 @@
 # sed '/^%/{N;s/\n.*//;}'                |    # REMOVE NEWLINES FROM FUNCTIONS
   sed '/^%/s/c8SJu53LDCNN/ /g'           |    # BACK TO ORIGINAL
   sed '/^%/s/SlasH328d1G/\\/g'           |    # BACK TO ORIGINAL
-  sed 's/jfdUr63cdZZd/}/g'               |    # BACK TO ORIGINAL
+  sed 's/jfdUr63cdZZd/ }/g'              |    # BACK TO ORIGINAL
   sed 's/ufBcrKD73Dnc/{/g'               |    # BACK TO ORIGINAL
   sed 's/Und3rsfd7cdX/_/g'               |    # BACK TO ORIGINAL
   sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
