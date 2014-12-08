@@ -90,7 +90,6 @@ function TITLE() {
   writeTeXsrc "\input{lib/tex/interview_reset.sty}"
   fi
 
-
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\setcounter{footnote}{0}"
   writeTeXsrc "\invisiblechapter{$TITLE}"
@@ -289,6 +288,20 @@ function LABEL(){
   LABEL=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
   writeTeXsrc "\flag{$LABEL}"
 
+}
+
+# --------------------------------------------------------------------------- #
+
+function PAGESTYLE() {
+
+  writeTeXsrc "\clearpage"
+  writeTeXsrc "\pagestyle{$1}"
+
+  if [ X$1 = Xreset ]; then
+
+  writeTeXsrc "\resetpagestyle"
+
+  fi
 }
 
 # --------------------------------------------------------------------------- #
