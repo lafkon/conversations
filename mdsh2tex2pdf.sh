@@ -82,9 +82,9 @@
   writeTeXsrc "\normalsize"
   writeTeXsrc "\resetfont"
 
-# INDEX AND BIBLIOGRAPHY
+# KEYWORDS,BIBLIOGRAPHY,LICENSE,COLOPHON,THE REST
   writeTeXsrc "\clearpage"
-  writeTeXsrc "\pagenumbering{gobble}"
+# writeTeXsrc "\pagenumbering{gobble}"
   writeTeXsrc "\cleartoleftpage"
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\renewcommand{\indexname}{}"
@@ -93,6 +93,13 @@
 
   writeTeXsrc "\bibliographystyle{plain}"
   writeTeXsrc "\nobibliography{$TMPDIR/ref}"
+
+  writeTeXsrc "\cleardoublepage"
+  writeTeXsrc "\input{lib/tex/free_art_license.sty}"
+  writeTeXsrc "\includepagesplus{var/license/fal_1-3.pdf}{1}{.85}%
+               {offset=10 0}{trim=0 0 0 0}{Free Art License}"
+
+  writeTeXsrc "\cleartofour"
 
   writeTeXsrc "\end{document}"
 
@@ -109,7 +116,6 @@
       KEYWORD=$MAINKEYWORD
       for KEYWORD in `echo $INDEXTHIS         | \
                       sed 's=|= =g'`
-
       do
          KEYWORD=`echo $KEYWORD | sed 's=jfh7Gd54Dcw= =g'`
          sed -i "s= $KEYWORD =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
@@ -136,7 +142,12 @@
             $TMPTEX  # > /dev/null
 
   bibtex ${TMPTEX%%.*}
-  makeindex ${TMPTEX%%.*}.idx
+
+  # PAGESTYLE FOR INDEX
+    echo 'preamble
+         "\\begin{theindex}\n\\thispagestyle{empty}\n"
+         postamble "\n\n\\end{theindex}\n"' > ${TMPTEX%%.*}.ist
+  makeindex -s ${TMPTEX%%.*}.ist ${TMPTEX%%.*}.idx
 
   pdflatex -interaction=nonstopmode \
            -output-directory $OUTDIR \
@@ -147,7 +158,7 @@
             $TMPTEX  # > /dev/null
 
   # DEBUG
-  # cp $TMPTEX debug.tex
+    cp $TMPTEX debug.tex
 
 
 # --------------------------------------------------------------------------- #
