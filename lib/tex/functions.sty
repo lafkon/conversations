@@ -89,20 +89,10 @@
     \onecolumn}
 % -------------------------------------------------------------------- %
    \newcommand\includepages[3]{
-
-  % \includepdf[pages={#2},offset=15 0,scale=.9]{#1}
-  % \includepdf[pages={#2},offset=15 1.5cm,trim=0 3cm 0 0,clip,%
-  %             scale=.9,pagecommand={\pagestyle{plain}}]{#1}
-
+    \includepdf[pages={#2},offset=15 0,scale=.9]{#1}
   }
 % -------------------------------------------------------------------- %
-% \newcommand\invisiblesection[1]{%
-% \refstepcounter{section}%
-% \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
-% \sectionmark{#1}}
-
   \newcommand{\currentchaptertitle}{}
-
   \newcommand\invisiblechapter[1]{%
   \refstepcounter{chapter}%
   \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}%
@@ -110,7 +100,7 @@
 % CUSTOM COMMAND TO STORE THE CHAPTER TITLE
   \renewcommand{\currentchaptertitle}{#1}
   }
-
+% -------------------------------------------------------------------- %
   \newcommand\includepagesplus[6]{
  % \cleardoublepage
     \invisiblechapter{#6}
@@ -141,8 +131,8 @@
   \newcommand{\introskip}{\vspace{20pt plus 10pt minus 10pt}}
 % -------------------------------------------------------------------- %
   \newcommand\flag[1]{%
-   \bigskip
-
+   \textskip
+    \textskip
    {\fontfamily{ocr}\selectfont\small #1}\newline
      \vspace{-.5\baselineskip}
   }

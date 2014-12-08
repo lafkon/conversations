@@ -294,12 +294,16 @@ function LABEL(){
 
 function PAGESTYLE() {
 
+  if [ X$1 = Xreset ]; then
+
+  writeTeXsrc "\clearpage"
+  writeTeXsrc "\resetpagestyle"
+
+  else
+
   writeTeXsrc "\clearpage"
   writeTeXsrc "\pagestyle{$1}"
 
-  if [ X$1 = Xreset ]; then
-
-  writeTeXsrc "\resetpagestyle"
 
   fi
 }

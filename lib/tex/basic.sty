@@ -308,4 +308,17 @@
 
 
 
+ \newcommand\changetopmargin[2]{% 
+ \setlength\topmargin{-.06\paperheight}
+ \addtolength{\topmargin}{-255pt}
+ \setlength\textheight{.67\paperheight}
+ \addtolength{\topmargin}{#1}
+ \addtolength{\textheight}{-#1}
+ \setlength{\headheight}{300pt}
+ \lhead{\vspace{#1}}
+
+ }
+
+
+
 

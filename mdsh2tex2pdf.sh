@@ -78,7 +78,8 @@
   sed 's/{quote}/{quotation}/g' | \
   sed '$!N; /^\(.*\)\n\1$/!P; D' >> $TMPTEX
 
-# RESET FONT
+# RESET 
+  writeTeXsrc "\clearpage"
   writeTeXsrc "\normalsize"
   writeTeXsrc "\resetfont"
 
