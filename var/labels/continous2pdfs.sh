@@ -17,7 +17,6 @@
 # --------------------------------------------------------------------------- #
 
   SVG=$1
-# PDF=${SVG%%.*}.pdf
   OUTDIR=___
   BASENAME=`echo ${SVG%%.*} | rev | cut -d "-" -f 1 | rev`
 
@@ -36,6 +35,19 @@
        if [ $ANSWER != y ] ; then echo "Bye"; exit 0; fi
   fi
 
+
+# --------------------------------------------------------------------------- #
+# EXPORT HOW MANY LAYERS? (STANDARD 20, COUNT STARTS AT 100)
+# --------------------------------------------------------------------------- #
+  EXPORTPAGES=`sed 's/exportpagenum="/\n&/g' $SVG | #
+               grep "^exportpagenum" | head -n 1  | #
+               cut -d "\"" -f 2`
+  if [ `echo $EXPORTPAGES | \
+        sed 's/[0-9].*/X/g' | grep X | wc -l` -gt 0 ]; then
+        EXPORTPAGES=`expr 100 + $EXPORTPAGES + 1`
+  else
+        EXPORTPAGES=120
+  fi
 
 # --------------------------------------------------------------------------- #
 # MOVE ALL LAYERS ON SEPARATE LINES IN A TMP FILE
@@ -61,7 +73,7 @@
 
   SVGHEADER=`head -n 1 ${SVG%%.*}.tmp`
 
-  while [ $CNT -lt 120 ];
+  while [ $CNT -lt $EXPORTPAGES ];
    do
        PDF=$OUTDIR/${BASENAME}-${CNT}.pdf
 

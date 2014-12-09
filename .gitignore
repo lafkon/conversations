@@ -1,3 +1,6 @@
 *~
 *.*~
 *.*.swp
+*.aux
+*.log
+debug.*

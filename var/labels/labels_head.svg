@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0531546"
-     inkscape:cx="398.60264"
-     inkscape:cy="2861.8296"
+     inkscape:zoom="0.36646684"
+     inkscape:cx="847.5125"
+     inkscape:cy="2981.3183"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer17"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -14403,7 +14403,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="even_when_you_are_done_you_are_not_done"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -19221,8 +19221,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="the_construction_of_a_book_aether9"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -19363,7 +19362,7 @@
          id="tspan5624-5-3-4-2-8-93" /></text>
     <g
        id="g10253-9"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,376.77476,1095.3806)"
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,376.77476,1035.3806)"
        style="display:inline">
       <path
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
@@ -19377,7 +19376,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0.06,0,0,0.06,361.77476,1063.5938)"
+       transform="matrix(0.06,0,0,0.06,361.77476,1003.5938)"
        id="g10283-9"
        style="display:inline">
       <path
@@ -19395,38 +19394,38 @@
        xml:space="preserve"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
        x="417.73132"
-       y="1087.1133"
+       y="1027.1133"
        id="text6230-02-03-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6232-4-6-9"
          x="417.73132"
-         y="1087.1133">Pierre Marchand</tspan></text>
+         y="1027.1133">Pierre Marchand</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
        x="417.73132"
-       y="1124.5392"
+       y="1064.5392"
        id="text6230-02-6-3-5-2-4-6-0-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6232-4-8-5-2-8-9-2-66-1"
          x="417.73132"
-         y="1124.5392">Ludvine Loiseau</tspan></text>
+         y="1064.5392">Ludvine Loiseau</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
        x="417.73132"
-       y="1048.5392"
+       y="988.53918"
        id="text6230-02-6-3-5-2-4-6-7-7-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6232-4-8-5-2-8-9-2-8-2-8"
          x="417.73132"
-         y="1048.5392">Manuel Schmalstieg</tspan></text>
+         y="988.53918">Manuel Schmalstieg</tspan></text>
     <g
        id="g10253-9-1"
-       transform="matrix(0,0.06,-0.06,0,391.77476,1025.5938)"
+       transform="matrix(0,0.06,-0.06,0,391.77476,965.5938)"
        style="display:inline">
       <path
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
@@ -19442,7 +19441,7 @@
     <g
        id="g6692-8-4-1-5"
        style="font-size:10.68729687px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       transform="translate(0,20)">
+       transform="translate(0,-30)">
       <path
          inkscape:connector-curvature="0"
          id="path6694-84-7-7-1"
@@ -19972,12 +19971,12 @@
        xml:space="preserve"
        style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        x="1419.4277"
-       y="1052.3854"
+       y="992.38538"
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-5-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1419.4277"
-         y="1052.3854"
+         y="992.38538"
          id="tspan6600-2-8">The construction of a book</tspan></text>
   </g>
   <g
