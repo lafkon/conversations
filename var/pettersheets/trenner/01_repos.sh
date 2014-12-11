@@ -113,7 +113,7 @@ function CREATEBGPDF {
     sed '/groupmode="layer"/s/<g/4Fgt7R/g' | # PLACEHOLDER FOR LAYERGROUP OPEN
     sed ':a;N;$!ba;s/\n/ /g'               | # REMOVE ALL LINEBREAKS
     sed 's/4Fgt7R/\n<g/g'                  | # RESTORE LAYERGROUP OPEN + NEWLINE
-    sed 's/display:none/display:inline/g'  | # MAKE VISIBLE EVEN WHEN HIDDEN
+    #sed 's/display:none/display:inline/g'  | # MAKE VISIBLE EVEN WHEN HIDDEN
     grep -v 'label="XX_'                   | # REMOVE EXCLUDED LAYERS
     sed 's/<\/svg>/\n&/g'                  | # CLOSE TAG ON SEPARATE LINE
     sed "s/^[ \t]*//"                      | # REMOVE LEADING BLANKS
