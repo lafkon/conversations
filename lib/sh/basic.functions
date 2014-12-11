@@ -150,6 +150,8 @@ function GRAFIK() {
          cut -d "." -f 2- | rev`
 
  # -------------------------------------------------------------------- #
+ # PARSE OPTIONS
+ # -------------------------------------------------------------------- #
    TEXMACRO=\\grafik`echo $2 | egrep "^inline$|^fullpage$|^side$"`
    if [ `echo $TEXMACRO | wc -c` -le 8 ]; then
     TEXMACRO=\\grafikinline
@@ -305,45 +307,7 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
        fi
     done
 
-# # -------------------------------------------------------------------- #
-# # COLLECT IMAGE INFO FOR LATER INCLUSION
-# # -------------------------------------------------------------------- #
-#   LABELBASE=`echo $LABEL | cut -d ":" -f 1`
-#   REF="\\pageref{$LABEL}"
-#
-#   if [ `grep $LABELBASE $IMGNFO | wc -l` -gt 0 ]; then
-#
-#         REF="\\\\pageref{$LABEL}"
-#         ADDHERE=`sed 's/}/}\n/g' $IMGNFO | \
-#                  grep $LABELBASE | \
-#                  sed "s/\\\\pageref{$LABELBASE/\n&/g" | \
-#                  tail -1`
-#         sed -i "s/$ADDHERE/&,$REF/" $IMGNFO
-#   else
-#         echo "\hrule"            >> $IMGNFO
-#         echo "$REF:    \newline" >> $IMGNFO
-#
-#     if [ -f $TMPDIR/${NAME}.mdsh ]; then
-#       # echo $TMPDIR/${NAME}.mdsh "exists"
-#       # PRESERVE
-#         TMPTEXKEEP=$TMPTEX
-#         TEXBODYKEEP=$TEXBODY
-#       # CHANGE
-#         TMPTEX=$IMGNFO
-#         TEXBODY=$IMGNFO
-#       # WRITE
-#         mdx2TeX $TMPDIR/${NAME}.mdx
-#       # RESTORE
-#         TMPTEX=$TMPTEXKEEP
-#         TEXBODY=$TEXBODYKEEP
-#     fi
-#         echo "\url{$1} \newline" >> $IMGNFO
-#         echo "\newline"          >> $IMGNFO
-#   fi
-# # -------------------------------------------------------------------- #
-
    IMGCNT=`expr $IMGCNT + 1`
-
 fi
 
 }
