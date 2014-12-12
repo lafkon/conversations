@@ -16,7 +16,32 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="overlay-sticker.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 595.28,0 0,841.89 L 0,841.89 0,0 z"
+         id="path22" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath32">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,0 595,0 595,842 0,842 0,0 z"
+         id="path34" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,0 595,0 595,842 0,842 0,0 z"
+         id="path38" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,17 +50,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="804.72019"
-     inkscape:cy="483.83176"
+     inkscape:cx="453.90799"
+     inkscape:cy="499.53012"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
      units="mm"
-     inkscape:window-width="1861"
-     inkscape:window-height="1111"
-     inkscape:window-x="59"
-     inkscape:window-y="21"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1347"
+     inkscape:window-height="1116"
+     inkscape:window-x="468"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0"
+     borderlayer="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -93,9 +119,10 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="title"
-     transform="translate(0,3.2302534e-5)">
+     transform="translate(0,3.2302534e-5)"
+     style="display:inline">
     <g
-       transform="matrix(0.63548979,0,0,0.63548979,-440.74075,383.16433)"
+       transform="matrix(0.89398165,0,0,0.89398165,-680.06756,147.48413)"
        style="font-size:23.81598091px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        id="text3832">
       <path
@@ -153,14 +180,20 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode"
-       x="112.30025"
-       y="938.59125"
+       style="font-size:19.47112465px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       x="98.382744"
+       y="924.61804"
        id="text3133"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="107.00001%"><tspan
          sodipodi:role="line"
-         id="tspan3135"
-         x="112.30025"
-         y="938.59125">I think that conversations are the best, biggest thing that free software has to offer its user.</tspan></text>
+         x="98.382744"
+         y="924.61804"
+         id="tspan3007"
+         style="line-height:107.00000525%">I think that conversations are the best, biggest thing </tspan><tspan
+         sodipodi:role="line"
+         x="98.382744"
+         y="945.45215"
+         id="tspan3011"
+         style="line-height:107.00000525%">that free software has to offer its user.</tspan></text>
   </g>
 </svg>

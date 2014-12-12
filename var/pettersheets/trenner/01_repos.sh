@@ -49,7 +49,7 @@ function CREATEBGPDF {
   rm $OUTPUT/*/*_notext.png
   rm $OUTPUT/*/*_notext.pdf  
   
-  for PDF in `ls $INPUT/*/*.pdf | grep -v "+GUI.pdf"`
+  for PDF in `ls $INPUT/*/*.pdf | grep -v "+GUI.pdf" | grep -v "_OUT"`
   do
 
     DIRNAME=`dirname $PDF | rev | cut -d "/" -f 1 | rev`
