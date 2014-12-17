@@ -1,5 +1,6 @@
 # --------------------------------------------------------------------------- #
   if [[ "$OSTYPE" == "darwin"* ]]; then
+   echo "This is OSX"
    alias md5sum='md5 -r'
    alias expr=gexpr
    alias sed=gsed
