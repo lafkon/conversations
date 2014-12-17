@@ -1,3 +1,4 @@
+  shopt -s expand_aliases
 # --------------------------------------------------------------------------- #
   if [[ "$OSTYPE" == "darwin"* ]]; then
    echo "This is OSX"
