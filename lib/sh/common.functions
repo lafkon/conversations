@@ -1,3 +1,11 @@
+# --------------------------------------------------------------------------- #
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+   alias md5sum='md5 -r'
+   alias expr=gexpr
+   alias sed=gsed
+  fi
+# --------------------------------------------------------------------------- #
+
 
 # GOOD TO KNOW:
 # - where tex body is collected: $TMPTEX (add code with >>)
@@ -219,6 +227,14 @@ function VFILL() {
 function BIGSKIP() {
 
   writeTeXsrc "\bigskip"
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function SMALLSKIP() {
+
+  writeTeXsrc "\smallskip"
 
 }
 
