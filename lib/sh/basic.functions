@@ -1,7 +1,7 @@
-  shopt -s expand_aliases
+
 # --------------------------------------------------------------------------- #
   if [[ "$OSTYPE" == "darwin"* ]]; then
-   echo "This is OSX"
+   shopt -s expand_aliases
    alias md5sum='md5 -r'
    alias expr=gexpr
    alias sed=gsed
