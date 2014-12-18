@@ -60,6 +60,7 @@
   sed '/^hFzdu74DsdCW/s/\]/hIe4X3v7s/'   |    # SAVE CITE CLOSE FROM PANDOC
   sed 's/}/jfdUr63cdZZd/g'               |    # SAVE FROM PANDOC
   sed 's/{/ufBcrKD73Dnc/g'               |    # SAVE FROM PANDOC
+  sed 's/Open Source/0P3n50urc3/g'       |    # SAVE FROM PANDOC
   pandoc -S -r markdown -w latex         |    # MD TO LATEX
   sed 's/\\href{/\\url{/g'               |    # CONVERT LINKS
   sed 's/hFg76VCdJueW/"/g'               |    # BACK TO ORIGINAL
@@ -74,6 +75,7 @@
   sed 's/Und3rsfd7cdX/_/g'               |    # BACK TO ORIGINAL
   sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
   sed 's/vGzWeTf18XX//g'                 |    # BACK TO ORIGINAL
+  sed 's/0P3n50urc3/Open~Source/g'       |    # NO BREAK FOR Open Source
   sed 's/jWu37CDe73EDc/\\footnote{/g'    |    # FOOTNOTES
   sed 's/hFzdu74DsdCWd34/\\citep[/g'     |    # CITE OPEN
   sed 's/hFzdu74DsdCW28C/\\cite{/g'      |    # CITE OPEN
