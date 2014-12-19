@@ -17,12 +17,6 @@
 #                                                                             #
 # --------------------------------------------------------------------------- #
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  alias md5sum='md5 -r'
-  alias expr=gexpr
-  alias sed=gsed
-fi
-
   OUTDIR=.
   PDFDIR=tmp
   TMPDIR=tmp
@@ -51,7 +45,7 @@ fi
 # --------------------------------------------------------------------------- #
 
   MAIN=http://pad.constantvzw.org/p/conversations/export/txt
- # MAIN=http://pad.constantvzw.org/p/conversations.harrison/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.versioning/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -113,7 +107,10 @@ fi
 # --------------------------------------------------------------------------- #
 # GENERATE INDEX REFERENCE ACCORDING TO LIST
 # --------------------------------------------------------------------------- #
-  for INDEXTHIS in `cat $KEYWORDLIST      | \
+  KEYWORDURL=http://pad.constantvzw.org/p/conversations.keywords/export/txt
+  wget --no-check-certificate -O ${TMPDIR}/k.list $KEYWORDURL > /dev/null 2>&1
+
+  for INDEXTHIS in `cat ${TMPDIR}/k.list      | \
                     grep -v "^#"          | \
                     sed 's= =jfh7Gd54Dcw=g'`
    do
@@ -125,14 +122,15 @@ fi
                       sed 's=|= =g'`
       do
          KEYWORD=`echo $KEYWORD | sed 's=jfh7Gd54Dcw= =g'`
-         sed -i "s= $KEYWORD =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
+       # sed -i "s= $KEYWORD =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
+         sed -i "s= ${KEYWORD}[.,]* =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
       done
   done
 # --------------------------------------------------------------------------- #
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
 
- 
+
 
 # --------------------------------------------------------------------------- #
 # GET REFERENCE FILE 
