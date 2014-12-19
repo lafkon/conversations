@@ -17,6 +17,12 @@
 #                                                                             #
 # --------------------------------------------------------------------------- #
 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  alias md5sum='md5 -r'
+  alias expr=gexpr
+  alias sed=gsed
+fi
+
   OUTDIR=.
   PDFDIR=tmp
   TMPDIR=tmp
@@ -45,7 +51,7 @@
 # --------------------------------------------------------------------------- #
 
   MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-# MAIN=http://pad.constantvzw.org/p/conversations.csolfrank/export/txt
+ # MAIN=http://pad.constantvzw.org/p/conversations.harrison/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -126,7 +132,7 @@
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
 
-
+ 
 
 # --------------------------------------------------------------------------- #
 # GET REFERENCE FILE 
