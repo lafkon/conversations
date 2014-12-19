@@ -1,7 +1,7 @@
-  shopt -s expand_aliases
+
 # --------------------------------------------------------------------------- #
   if [[ "$OSTYPE" == "darwin"* ]]; then
-   echo "This is OSX"
+   shopt -s expand_aliases
    alias md5sum='md5 -r'
    alias expr=gexpr
    alias sed=gsed
@@ -53,6 +53,7 @@
   sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/_/Und3rsfd7cdX/g' |    # SAVE FROM PANDOC
   sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' |    # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/|/34RtP1P34fcg/g' |    # SAVE FROM PANDOC
   sed 's/\[^\]{/jWu37CDe73EDc/g'         |    # SAVE FOOTNOTES FROM PANDOC
   sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      |    # SAVE CITEP OPEN FROM PANDOC
   sed 's/\[@/\nhFzdu74DsdCW28C/g'        |    # SAVE CITE OPEN FROM PANDOC
@@ -60,6 +61,7 @@
   sed '/^hFzdu74DsdCW/s/\]/hIe4X3v7s/'   |    # SAVE CITE CLOSE FROM PANDOC
   sed 's/}/jfdUr63cdZZd/g'               |    # SAVE FROM PANDOC
   sed 's/{/ufBcrKD73Dnc/g'               |    # SAVE FROM PANDOC
+  sed 's/Open Source/0P3n50urc3/g'       |    # SAVE FROM PANDOC
   pandoc -S -r markdown -w latex         |    # MD TO LATEX
   sed 's/\\href{/\\url{/g'               |    # CONVERT LINKS
   sed 's/hFg76VCdJueW/"/g'               |    # BACK TO ORIGINAL
@@ -74,6 +76,8 @@
   sed 's/Und3rsfd7cdX/_/g'               |    # BACK TO ORIGINAL
   sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
   sed 's/vGzWeTf18XX//g'                 |    # BACK TO ORIGINAL
+  sed 's/34RtP1P34fcg/|/g'               |    # BACK TO ORIGINAL
+  sed 's/0P3n50urc3/Open~Source/g'       |    # NO BREAK FOR Open Source
   sed 's/jWu37CDe73EDc/\\footnote{/g'    |    # FOOTNOTES
   sed 's/hFzdu74DsdCWd34/\\citep[/g'     |    # CITE OPEN
   sed 's/hFzdu74DsdCW28C/\\cite{/g'      |    # CITE OPEN
@@ -86,9 +90,13 @@
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
       -e 's/%TXIXTXLXE/% TITLE:/g'       |    # REMOVE SPACES FROM TITLE
+  sed -e 's/^% HIDDENKEYWORDS:/%HXIXDX/g' \
+      -e '/^%HXIXDX/s/ /_/g' \
+      -e 's/%HXIXDX/% HIDDENKEYWORDS:/g' |    # REMOVE SPACES FROM HIDDENKEYWORDS
   sed -e 's/^% LABEL:/%LXAXBXEXL/g' \
       -e '/^%LXAXBXEXL/s/ /_/g' \
-      -e 's/%LXAXBXEXL/% LABEL:/g'      |    # REMOVE SPACES FROM LABEL
+      -e 's/%LXAXBXEXL/% LABEL:/g'       |    # REMOVE SPACES FROM LABEL
+  sed 's/\\\\/ \n&/g'                    |    # MOVE NEWLINE ON NEW LINE
 # sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
 # sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
 # sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO

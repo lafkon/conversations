@@ -91,6 +91,10 @@
  \OldTexttt{\fontfamily{ocr}\selectfont{\scalefont{.75}{#1}}}}
 
 
+ \newlength{\standardparindent}
+ \setlength{\standardparindent}{\parindent}
+%\parindent=0pt
+
  \newcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
 
  \newcommand{\resetpagestyle}{%
@@ -104,7 +108,10 @@
  \rhead{}
  \pagestyle{fancy}
  \renewcommand{\textskip}{\vspace{5pt plus 4pt minus 2pt}}
+ \parindent=0pt
  }
+
+
 
 
 
@@ -189,7 +196,8 @@
  \widowpenalty = 100000 
  \displaywidowpenalty = 100000
 
- \parindent=0pt
+ \looseness=1
+
 
 % http://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes
  \usepackage{marginnote}
@@ -210,7 +218,7 @@
   
  \renewcommand\cite[1]{%
  \iffootnote 
-  { \tiny\bibentry{#1}}
+  { \mbox{\tiny\bibentry{#1}}}
  \else
   \footnote{\bibentry{#1}}%
  \fi
