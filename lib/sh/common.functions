@@ -347,3 +347,24 @@ function HIDDENTITLE() {
 
 # --------------------------------------------------------------------------- #
 
+function MEANWHILE() {
+ 
+  HAPPENING=`echo $1 | sed "s/^_*//" | sed "s/_*$//"`
+  COLLECT=
+
+  for CHARACTER in `echo $HAPPENING | sed 's/./ &/g'`
+   do
+      COLLECT=$COLLECT$CHARACTER"\hfill "
+  done
+
+  COLLECT=`echo $COLLECT | sed 's/_/ /g' | sed 's/\\\hfill$//g'`
+
+  writeTeXsrc "\bigskip"
+# writeTeXsrc "{\fontfamily{ocr}\selectfont ${COLLECT} }"
+  writeTeXsrc "{\scalefont{.7}\textit{ ${COLLECT} }}"
+  writeTeXsrc "\bigskip"
+
+}
+
+# --------------------------------------------------------------------------- #
+
