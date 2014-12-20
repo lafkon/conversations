@@ -83,12 +83,26 @@
     \normalsize%
    }
 % -------------------------------------------------------------------- %
-  \newcommand\doublepage[1]{
+  \newcommand\doublepage[2]{
    \cleartoleftpage
-      \includepdf[scale=2.01,offset=-220 0]
+      \includepdf[scale=2.01,offset=-220 0,angle=#2]
        {#1}
-      \includepdf[scale=2.01,offset=-220 0]
+      \includepdf[scale=2.01,offset=-220 0,angle=#2]
        {#1}
+   \clearpage
+  }
+% -------------------------------------------------------------------- %
+% \doublepageplus{var/layouts/futuretools-02/futuretools-01_01.pdf}{90}{1}{20}
+  \newcounter{doublepageplusnum}
+   \newcommand\doublepageplus[4]{
+     \cleartoleftpage
+      \forloop{doublepageplusnum}{#3}{\value{doublepageplusnum} < #4}{
+%     \includepdf[scale=2.01,offset=-220 0,angle=90]
+%      {#1}
+%     \includepdf[scale=2.01,offset=-220 0,angle=90]
+%      {#1}
+      \arabic{doublepageplusnum}
+    }
    \clearpage
   }
 % -------------------------------------------------------------------- %

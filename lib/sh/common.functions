@@ -187,6 +187,11 @@ function DOUBLEPAGE() {
 
    URL=$1
 
+   ROTATE=`echo $2 | sed 's/[^0-9-]*//g'`
+   if [ `echo $ROTATE | wc -c` -le 2 ]; then
+    ROTATE=0
+   fi
+
    NAME=`echo $URL | rev | cut -d "/" -f 1 | \
          cut -d "." -f 2- | rev`
 
@@ -201,7 +206,7 @@ function DOUBLEPAGE() {
 
    for PDF in `find . -name "${NAME}.pdf" | head -1`
     do
-       writeTeXsrc "\doublepage{$PDF}"
+       writeTeXsrc "\doublepage{$PDF}{$ROTATE}"
    done
 
 }
@@ -327,6 +332,16 @@ function HIDDENKEYWORDS() {
                sed "s/^ *//g" | sed "s/* $//g"`
       writeTeXsrc "\index{$KEYWORD}"
   done
+
+}
+
+# --------------------------------------------------------------------------- #
+
+function HIDDENTITLE() {
+ 
+  TITLE=`echo $1 | sed 's/_/ /g' | sed "s/^[ \t]*//" | sed "s/[ \t]*$//"`
+  writeTeXsrc "\newpage"
+  writeTeXsrc "\invisiblechapter{$TITLE}"
 
 }
 
