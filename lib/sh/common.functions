@@ -329,7 +329,7 @@ function HIDDENKEYWORDS() {
   for KEYWORD in `echo $KEYWORDS | sed 's=|= =g'`
    do
       KEYWORD=`echo $KEYWORD | sed 's/_/ /g' | \
-               sed "s/^ *//g" | sed "s/* $//g"`
+               sed "s/^ *//g" | sed "s/ *$//g"`
       writeTeXsrc "\index{$KEYWORD}"
   done
 

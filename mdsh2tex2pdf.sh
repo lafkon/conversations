@@ -110,8 +110,11 @@
   KEYWORDURL=http://pad.constantvzw.org/p/conversations.keywords/export/txt
   wget --no-check-certificate -O ${TMPDIR}/k.list $KEYWORDURL > /dev/null 2>&1
 
-  for INDEXTHIS in `cat ${TMPDIR}/k.list      | \
-                    grep -v "^#"          | \
+# SORT ACCORDING TO LENGTH TO PREVENT RECURSION
+  for INDEXTHIS in `cat ${TMPDIR}/k.list       | \
+                    grep -v "^#"               | \
+                    awk 'BEGIN { FS = "|" } ; { print length($1) ":" $0; }' | \
+                    sort -n | cut -d ":" -f 2- | \
                     sed 's= =jfh7Gd54Dcw=g'`
    do
       MAINKEYWORD=`echo $INDEXTHIS         | \
