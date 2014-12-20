@@ -74,7 +74,8 @@
 # writeTeXsrc "\usepackage{showframe}"
 
   writeTeXsrc "\begin{document}"
-  cat $TEXBODY | sed '/^$/d' | \
+  cat $TEXBODY | sed '/^$/d'    | \
+  sed 's/^/ /g'                 | # PAD THE WORDS
   sed 's/{quote}/{quotation}/g' | \
   sed '$!N; /^\(.*\)\n\1$/!P; D' >> $TMPTEX
 
@@ -98,7 +99,7 @@
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\input{lib/tex/free_art_license.sty}"
   writeTeXsrc "\includepagesplus{var/license/fal_1-3.pdf}{1}{.85}%
-               {offset=10 0}{trim=0 0 0 0}{Free Art License}"
+               {offset=10 0,pagecommand={\index{Free Art License}}}{trim=0 0 0 0}{Free Art License}"
 
   writeTeXsrc "\cleartofour"
 
@@ -110,8 +111,11 @@
   KEYWORDURL=http://pad.constantvzw.org/p/conversations.keywords/export/txt
   wget --no-check-certificate -O ${TMPDIR}/k.list $KEYWORDURL > /dev/null 2>&1
 
-  for INDEXTHIS in `cat ${TMPDIR}/k.list      | \
-                    grep -v "^#"          | \
+# SORT ACCORDING TO LENGTH TO PREVENT RECURSION
+  for INDEXTHIS in `cat ${TMPDIR}/k.list       | \
+                    grep -v "^#"               | \
+                    awk 'BEGIN { FS = "|" } ; { print length($1) ":" $0; }' | \
+                    sort -n | cut -d ":" -f 2- | \
                     sed 's= =jfh7Gd54Dcw=g'`
    do
       MAINKEYWORD=`echo $INDEXTHIS         | \
