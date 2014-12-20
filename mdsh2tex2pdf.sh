@@ -74,7 +74,8 @@
 # writeTeXsrc "\usepackage{showframe}"
 
   writeTeXsrc "\begin{document}"
-  cat $TEXBODY | sed '/^$/d' | \
+  cat $TEXBODY | sed '/^$/d'    | \
+  sed 's/^/ /g'                 | # PAD THE WORDS
   sed 's/{quote}/{quotation}/g' | \
   sed '$!N; /^\(.*\)\n\1$/!P; D' >> $TMPTEX
 
@@ -98,7 +99,7 @@
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\input{lib/tex/free_art_license.sty}"
   writeTeXsrc "\includepagesplus{var/license/fal_1-3.pdf}{1}{.85}%
-               {offset=10 0}{trim=0 0 0 0}{Free Art License}"
+               {offset=10 0,pagecommand={\index{Free Art License}}}{trim=0 0 0 0}{Free Art License}"
 
   writeTeXsrc "\cleartofour"
 
