@@ -89,13 +89,16 @@
   sed "s/^ *$/$EMPTYLINE/g"              |    # PLACEHOLDER FOR EMPTY LINES
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
-      -e 's/%TXIXTXLXE/% TITLE:/g'       |    # REMOVE SPACES FROM TITLE
+      -e 's/%TXIXTXLXE/% TITLE:/g'       | # REMOVE SPACES FROM TITLE
+  sed -e 's/^% HIDDENTITLE:/%HXIXTXLXE/g' \
+      -e '/^%HXIXTXLXE/s/ /_/g' \
+      -e 's/%HXIXTXLXE/% HIDDENTITLE:/g' | # REMOVE SPACES FROM HIDDENTITLE
   sed -e 's/^% HIDDENKEYWORDS:/%HXIXDX/g' \
       -e '/^%HXIXDX/s/ /_/g' \
-      -e 's/%HXIXDX/% HIDDENKEYWORDS:/g' |    # REMOVE SPACES FROM HIDDENKEYWORDS
+      -e 's/%HXIXDX/% HIDDENKEYWORDS:/g' | # REMOVE SPACES FROM HIDDENKEYWORDS
   sed -e 's/^% LABEL:/%LXAXBXEXL/g' \
       -e '/^%LXAXBXEXL/s/ /_/g' \
-      -e 's/%LXAXBXEXL/% LABEL:/g'       |    # REMOVE SPACES FROM LABEL
+      -e 's/%LXAXBXEXL/% LABEL:/g'       | # REMOVE SPACES FROM LABEL
   sed 's/\\\\/ \n&/g'                    |    # MOVE NEWLINE ON NEW LINE
 # sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
 # sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
