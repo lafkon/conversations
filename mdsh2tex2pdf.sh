@@ -130,6 +130,9 @@
          sed -i "s= ${KEYWORD}[.,]* =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
       done
   done
+  MAINKEYWORD="Laughing"; KEYWORD="laugh"
+  sed -i "s=${KEYWORD}=&\\\index{$MAINKEYWORD}=gI" $TMPTEX
+
 # --------------------------------------------------------------------------- #
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
