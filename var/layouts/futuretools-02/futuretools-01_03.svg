@@ -22,9 +22,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3290807"
-     inkscape:cx="364.37737"
-     inkscape:cy="76.530996"
+     inkscape:zoom="0.66454034"
+     inkscape:cx="215.21519"
+     inkscape:cy="790.62349"
      inkscape:document-units="px"
      inkscape:current-layer="g5130"
      showgrid="false"
@@ -3742,11 +3742,11 @@
            id="g8269">
           <polygon
              style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-             points="366,122 348,122 348,88 354,88 366,100 "
+             points="366,100 366,122 348,122 348,88 354,88 "
              id="polygon8271" />
           <polygon
              style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-             points="366,122 348,122 348,88 354,88 366,100 "
+             points="366,100 366,122 348,122 348,88 354,88 "
              id="polygon8273" />
           <polyline
              style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -4989,11 +4989,11 @@
          id="g7492">
         <polygon
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           points="348,88 354,88 366,100 366,122 348,122 "
+           points="354,88 366,100 366,122 348,122 348,88 "
            id="polygon7494" />
         <polygon
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           points="348,88 354,88 366,100 366,122 348,122 "
+           points="354,88 366,100 366,122 348,122 348,88 "
            id="polygon7496" />
         <polyline
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -6069,11 +6069,11 @@
          id="g10225">
         <polygon
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           points="366,100 366,122 348,122 348,88 354,88 "
+           points="354,88 366,100 366,122 348,122 348,88 "
            id="polygon10227" />
         <polygon
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           points="366,100 366,122 348,122 348,88 354,88 "
+           points="354,88 366,100 366,122 348,122 348,88 "
            id="polygon10229" />
         <polyline
            style="color:#000000;fill:#000000;stroke:#ffffff;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -6969,11 +6969,11 @@
          style="color:#000000;fill:none;stroke:#000000;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate">
         <polygon
            id="polygon10497"
-           points="366,100 366,122 348,122 348,88 354,88 "
+           points="348,88 354,88 366,100 366,122 348,122 "
            style="color:#000000;fill:none;stroke:#000000;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <polygon
            id="polygon10499"
-           points="366,100 366,122 348,122 348,88 354,88 "
+           points="348,88 354,88 366,100 366,122 348,122 "
            style="color:#000000;fill:none;stroke:#000000;stroke-width:0.94117945;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         <polyline
            id="polyline10501"
