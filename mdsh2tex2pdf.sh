@@ -75,7 +75,6 @@
 
   writeTeXsrc "\begin{document}"
   cat $TEXBODY | sed '/^$/d'    | \
-  sed 's/^/ /g'                 | # PAD THE WORDS
   sed 's/{quote}/{quotation}/g' | \
   sed '$!N; /^\(.*\)\n\1$/!P; D' >> $TMPTEX
 
@@ -98,12 +97,14 @@
 
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\input{lib/tex/free_art_license.sty}"
-  writeTeXsrc "\includepagesplus{var/license/fal_1-3.pdf}{1}{.85}%
-               {offset=10 0,pagecommand={\index{Free Art License}}}{trim=0 0 0 0}{Free Art License}"
+  writeTeXsrc "\includepagesplus{var/license/fal_1-3.pdf}{1}{.85}"
+  writeTeXsrc "{offset=10 0,pagecommand={\index{Free Art License}}}{trim=0 0 0 0}{Free Art License}"
 
   writeTeXsrc "\cleartofour"
 
   writeTeXsrc "\end{document}"
+
+
 
 # --------------------------------------------------------------------------- #
 # GENERATE INDEX REFERENCE ACCORDING TO LIST
@@ -111,27 +112,54 @@
   KEYWORDURL=http://pad.constantvzw.org/p/conversations.keywords/export/txt
   wget --no-check-certificate -O ${TMPDIR}/k.list $KEYWORDURL > /dev/null 2>&1
 
-# SORT ACCORDING TO LENGTH TO PREVENT RECURSION
-  for INDEXTHIS in `cat ${TMPDIR}/k.list       | \
-                    grep -v "^#"               | \
-                    awk 'BEGIN { FS = "|" } ; { print length($1) ":" $0; }' | \
-                    sort -n | cut -d ":" -f 2- | \
+# SAVE SOME FORMATTING
+  NL=NL$RANDOM
+  sed -i "s/^\\\\/$NL\\\\/g"                 $TMPTEX
+  sed -i ':a;N;$!ba;s/\n/ /g'                $TMPTEX
+  sed -i "s/${EMPTYLINE}/\n${EMPTYLINE}\n/g" $TMPTEX
+  sed -i "s/$NL/\n/g"                        $TMPTEX
+  S=XYX${RANDOM}SP ; UN=YXY${RANDOM}UN # RANDOM PLACEHOLDER FOR SPACE AND EVERYTHING
+
+  for INDEXTHIS in `cat ${TMPDIR}/k.list          | # DISPLAY LIST
+                    grep -v "^#"                  | # IGNORE SOMETHING
+                    awk 'BEGIN { FS = "|" } ; \
+                    { print length($1) ":" $0; }' | # ADD LENGTH OF FIELD 1
+                    sort -n                       | # NUMERIC SORT
+                    cut -d ":" -f 2-              | # REMOVE LENGTH AGAIN
+                    tac                           | # BACKUP SPACES
                     sed 's= =jfh7Gd54Dcw=g'`
    do
-      MAINKEYWORD=`echo $INDEXTHIS         | \
-                   sed 's=jfh7Gd54Dcw= =g' | \
-                   cut -d "|" -f 1`
-      KEYWORD=$MAINKEYWORD
-      for KEYWORD in `echo $INDEXTHIS         | \
-                      sed 's=|= =g'`
+      MAINKEYWORD=`echo $INDEXTHIS         | # START
+                   sed 's=jfh7Gd54Dcw= =g' | # RESTORE SPACE 
+                   cut -d "|" -f 1`          # SELECT FIRST FIELD 
+      MAINFOO=`echo $MAINKEYWORD  | #
+               sed  "s/./&$UN/g"  | # ADD UNID TO EACH LETTER
+               sed  "s/ /$S/g"`
+      for KEYWORD in `echo $INDEXTHIS                   | # START
+                      sed 's/|/\n/g'                    | # PIPE TO NEWLINE
+                      awk '{ print length($1) ":" $0; }'| # PRINT LENGTH
+                      sort -n | cut -d ":" -f 2- | tac`   # SORT, CLEAN, REVERT
       do
-         KEYWORD=`echo $KEYWORD | sed 's=jfh7Gd54Dcw= =g'`
-       # sed -i "s= $KEYWORD =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
-         sed -i "s= ${KEYWORD}[.,]* =&\\\index{$MAINKEYWORD} =gI" $TMPTEX
+          KEYWORD=`echo $KEYWORD | sed 's=jfh7Gd54Dcw= =g' | sed 's/\./\\\./g'`
+          KEYFOO=`echo $KEYWORD     | # START WITH KEYWORD
+                  sed  "s/./&$UN/g" | # ADD FOO TO EVERY LETTER
+                  sed  "s/ /$S/g"`    # PLACEHOLDER FOR SPACE
+
+        # DISABLE KEYWORD IF PART OF SOMETHING
+          sed -ir "s/[a-z]$KEYWORD/&$UN/gI"   $TMPTEX
+          sed -ir "s/$KEYWORD[a-z]+/&$UN/gI"   $TMPTEX
+        # PLACE INDEX REF
+          sed -ir "s=[({]*${KEYWORD}[.,?\!})']*[s]* =&\\\index{$MAINFOO} =gI" \
+                  $TMPTEX
+        # DISABLE KEYWORD WHEN DONE
+          sed -ir "s=${KEYWORD}[.,?\!})']*[s]*=$UN&$UN=gI" \
+                  $TMPTEX
       done
+
   done
-  MAINKEYWORD="Laughing"; KEYWORD="laugh"
-  sed -i "s=${KEYWORD}=&\\\index{$MAINKEYWORD}=gI" $TMPTEX
+
+  sed -i "s/$S/ /g" $TMPTEX # RESTORE SPACEFOO
+  sed -i "s/$UN//g" $TMPTEX # RESTORE UNID
 
 # --------------------------------------------------------------------------- #
 
