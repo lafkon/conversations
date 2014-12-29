@@ -1,0 +1,1 @@
+for CHAPTER in `grep "blechapter" ../../debug.tex | cut -d "{" -f 2 | cut -d "}" -f 1 | sed 's/ /CSeCXhf/g'`; do for FONT in `ls ../fonts/figlet/*.flf`; do figlet -w 400 -f $FONT `echo $CHAPTER | sed 's/CSeCXhf/ /g'`; echo;echo; done ; done
