@@ -1,22 +1,19 @@
 
- % \resetpagestyle
+% \newgeometry{textwidth=.55\paperwidth,textheight=.67\paperheight}
+% \setlength\topmargin{-.06\paperheight}
+% \setlength\oddsidemargin{.135\paperwidth}
+% \setlength\evensidemargin{.035\paperwidth}
 
- % \newgeometry{textwidth=.55\paperwidth,textheight=.67\paperheight}
- % \setlength\topmargin{-.06\paperheight}
- % \setlength\oddsidemargin{.135\paperwidth}
- % \setlength\evensidemargin{.035\paperwidth}
+  \restoregeometry
+  \resetpagestyle
 
- \restoregeometry
- \resetpagestyle
-
- \renewcommand{\textskip}{\vspace{9pt plus 10pt minus 7pt}}
-
-%\grafikhead{var/labels/___/distributed_versioning_control.pdf}{45pt}
   \setcounter{chapterpage}{100}
   \grafikheadperpage{var/labels/___/distributed_versioning_control}{45pt}
 
+  \pagestyle{fancy}
 
- \pagestyle{fancy}
+% \renewcommand{\textskip}{\vspace{9pt plus 14pt minus 8pt}}  % OK
+  \renewcommand{\textskip}{\vspace{5pt plus 15pt minus 10pt}} % BEST
 
 
 % -------------------------------------------------------------------- %
