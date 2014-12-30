@@ -47,6 +47,7 @@
   cat $MDSH                              |    # USELESS USE OF CAT
   sed 's/^%/zDf7WV362LoP/g'              |    # SAVE COMMENTS FROM PANDOC
 # sed '/zDf7WV362LoP/s/$/vGzWeTf18XX/g'  |    # SAVE FROM PANDOC IF START %
+  sed 's/]{_/]{ _/g'                     |    # MAKE PANDOC RECOGNIZE EMPH(?)
   sed '/zDf7WV362LoP/s/$/    /g'         |    # FORCE NEWLINE (MD)
   sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' |    # SAVE FROM PANDOC IF START %
   sed '/zDf7WV362LoP/s/ /c8SJu53LDCNN/g' |    # SAVE FROM PANDOC
