@@ -108,10 +108,10 @@
 # sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
 # sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
   sed    's/\.\.\./\\ldots{}/g'          |    # 
-   sed -e :a \
-      -e '$!N;s/\n\\/\\/;ta' \
-      -e 'P;D'                           |    # APPEND IF STARTS WITH \
- tee > $MDSHMOD
+  sed -e :a \
+      -e '$!N;s/\n\\ldots/\\ldots/;ta' \
+      -e 'P;D'                           |    # APPEND IF STARTS WITH \ldot
+  tee > $MDSHMOD
 
 # cp $MDXMOD `date +%s`.mdsh
 
