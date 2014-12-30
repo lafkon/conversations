@@ -165,6 +165,7 @@
   sed -i "s/[ ]*\\\\cite/\\\\cite/g" $TMPTEX       # NO SPACE BEFORE CITATION
   sed -i "s/[ ]*\\\\foot/\\\\foot/g" $TMPTEX       # NO SPACE BEFORE FOOTNOTE
   sed -i 's/[ ]*\\ldots{}[ ]*/\\ldots{}/g' $TMPTEX # NO SPACE FOR LDOTS 
+  sed -i 's/[ ]*\\index{/\\index{/g' $TMPTEX       # NO SPACE FOR KEYWORDS 
   sed -i "s/^[ \t]*//" $TMPTEX                     # NO LEADING BLANKS
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
