@@ -113,7 +113,7 @@
       -e 'P;D'                           |    # APPEND IF STARTS WITH \ldot
   tee > $MDSHMOD
 
-# cp $MDXMOD `date +%s`.mdsh
+  cp $MDSHMOD `date +%s`.mdsh
 
 # --------------------------------------------------------------------------- #
 # PARSE COMMANDS 
