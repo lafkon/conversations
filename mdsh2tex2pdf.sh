@@ -45,7 +45,7 @@
 # --------------------------------------------------------------------------- #
 
 # MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-  MAIN=http://pad.constantvzw.org/p/conversations.avox/export/txt
+  MAIN=http://pad.constantvzw.org/p/conversations.jdmoerlooze/549/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -74,9 +74,14 @@
 # writeTeXsrc "\usepackage{showframe}"
 
   writeTeXsrc "\begin{document}"
+
   cat $TEXBODY | sed '/^$/d'    | \
   sed 's/{quote}/{quotation}/g' | \
   sed '$!N; /^\(.*\)\n\1$/!P; D' >> $TMPTEX
+
+  writeTeXsrc "$EMPTYLINE";
+  writeTeXsrc "$EMPTYLINE";
+  writeTeXsrc "$EMPTYLINE";
 
 # RESET 
   writeTeXsrc "\clearpage"
