@@ -101,14 +101,17 @@
       -e 's/%LXAXBXEXL/% LABEL:/g'       | # REMOVE SPACES FROM LABEL
   sed -e 's/^% MEANWHILE:/%MX34NXW1/g' \
       -e '/^%MX34NXW1/s/ /_/g' \
-      -e 's/%MX34NXW1/% MEANWHILE:/g'    | # REMOVE SPACES FROM LABEL
+      -e 's/%MX34NXW1/% MEANWHILE:/g'    |    # REMOVE SPACES FROM LABEL
   sed 's/\\\\/ \n&/g'                    |    # MOVE NEWLINE ON NEW LINE
 # sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
 # sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
 # sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
 # sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
   sed    's/\.\.\./\\ldots{}/g'          |    # 
-  tee > $MDSHMOD
+   sed -e :a \
+      -e '$!N;s/\n\\/\\/;ta' \
+      -e 'P;D'                           |    # APPEND IF STARTS WITH \
+ tee > $MDSHMOD
 
 # cp $MDXMOD `date +%s`.mdsh
 
