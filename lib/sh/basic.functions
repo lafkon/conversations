@@ -109,11 +109,13 @@
 # sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
   sed    's/\.\.\./\\ldots{}/g'          |    # 
   sed -e :a \
-      -e '$!N;s/\n\\ldots/\\ldots/;ta' \
+      -e '$!N;s/\n\\ldots/XX\\ldots/;ta' \
       -e 'P;D'                           |    # APPEND IF STARTS WITH \ldot
+  sed '/^%/s/XX\\ldots/\nXX\\ldots/g'    |    # CORRECT IF WRONGLY APPENDED
+  sed 's/XX\\ldots/\\ldots/g'            |    # CORRECT IF WRONGLY APPENDED
   tee > $MDSHMOD
 
-  cp $MDSHMOD `date +%s`.mdsh
+# cp $MDSHMOD `date +%s`.mdsh
 
 # --------------------------------------------------------------------------- #
 # PARSE COMMANDS 
