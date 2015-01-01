@@ -4,6 +4,7 @@
  \renewcommand{\textskip}{\vspace{4pt plus 1pt minus 1pt}}
 
 
+
 % -------------------------------------------------------------------- %
   \renewcommand\SPFS[1]{%
    \textskip
@@ -12,9 +13,21 @@
       \switchspeaker
  }
 % -------------------------------------------------------------------- %
-  \renewcommand\flag[1]{%
-   \medskip
-   {\fontfamily{ocr}\selectfontl #1}\newline
-     \vspace{-.5\baselineskip}
-  }
-% -------------------------------------------------------------------- %
+
+%\newcounter{challenge}
+% \setcounter{challenge}{1}
+%  \renewcommand\subsubsection[1]{
+%   \bigskip\bigskip
+%   {\fontfamily{ocr}\selectfont
+%     \arabic{challenge}}\newline
+%     {\scalefont{1.3}\it #1 }%
+%       \stepcounter{challenge}%
+%        \medskip
+%   }
+
+  \renewcommand\subsubsection[1]{
+   \bigskip\bigskip
+    \hspace{-1em}--
+   { \LARGE\it #1 }%
+   }
+
