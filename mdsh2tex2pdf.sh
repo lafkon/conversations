@@ -44,8 +44,8 @@
 # ACTION HAPPENS HERE!
 # --------------------------------------------------------------------------- #
 
-# MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-  MAIN=http://pad.constantvzw.org/p/conversations.jdmoerlooze/549/export/txt
+  MAIN=http://pad.constantvzw.org/p/conversations/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.aether9/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -95,6 +95,7 @@
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\renewcommand{\indexname}{}"
   writeTeXsrc "\addtolength{\topmargin}{-10pt}"
+  writeTeXsrc "\invisiblechapter{Keywords}"
   writeTeXsrc "\printindex"
 
   writeTeXsrc "\bibliographystyle{plain}"
@@ -195,21 +196,37 @@
   bibtex ${TMPTEX%%.*}
 
   # PAGESTYLE FOR INDEX
+  # ------------------------------------------------------------------------ #
     echo 'preamble
          "\\begin{theindex}\n\\thispagestyle{empty}\n"
          postamble "\n\n\\end{theindex}\n"' > ${TMPTEX%%.*}.ist
+  # ------------------------------------------------------------------------ #
   makeindex -s ${TMPTEX%%.*}.ist ${TMPTEX%%.*}.idx
 
   pdflatex -interaction=nonstopmode \
            -output-directory $OUTDIR \
             $TMPTEX  # > /dev/null
 
+  # DIFFERENT STYLE FOR SOME THINGS IN TOC
+  # ------------------------------------------------------------------------ #
+    for SPECIALTOC in "Introduction" \
+                      "Colophon"      \
+                      "Keywords"       \
+                      "Free Art License"
+     do
+        SPECIALSTYLE="\\\\fontfamily{ocr}\\\\selectfont\\\\footnotesize{" 
+        NEWTOC="{$SPECIALSTYLE$SPECIALTOC}}"
+        sed -i "s/$SPECIALTOC/$NEWTOC/gI" ${TMPTEX%%.*}.toc
+    done
+
+  # ------------------------------------------------------------------------ #
+
   pdflatex -interaction=nonstopmode \
            -output-directory $OUTDIR \
             $TMPTEX  # > /dev/null
 
   # DEBUG
-    cp $TMPTEX debug.tex
+  cp $TMPTEX debug.tex
 
 
 # --------------------------------------------------------------------------- #
