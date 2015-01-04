@@ -31,15 +31,15 @@
   fi
   if [ -f $PDF ]; then
        echo "$PDF does exist"
-       read -p "overwrite ${PDF}? [y/n]" ANSWER
-       if [ $ANSWER = n ] ; then echo "Bye"; exit 0; fi
+       read -p "overwrite ${PDF}? [y/n] " ANSWER
+       if [ X$ANSWER != Xy ] ; then echo "Bye"; exit 0; fi
   fi
 
-  SPACEFOO=SP${RANDOM}F00
+  BREAKFOO=NL${RANDOM}F00
 # --------------------------------------------------------------------------- #
 # MOVE ALL LAYERS ON SEPARATE LINES 
 # --------------------------------------------------------------------------- #
-  sed ":a;N;\$!ba;s/\n/$SPACEFOO/g" $SVG | # REMOVE ALL LINEBREAKS (BUT SAVE)
+  sed ":a;N;\$!ba;s/\n/$BREAKFOO/g" $SVG | # REMOVE ALL LINEBREAKS (BUT SAVE)
   sed 's/<g/4Fgt7RfjIoPg7/g'             | # PLACEHOLDER FOR GROUP OPEN
   sed ':a;N;$!ba;s/\n/ /g'               | # REMOVE ALL NEW LINES
   sed 's/4Fgt7RfjIoPg7/\n<g/g'           | # RESTORE GROUP OPEN + NEWLINE
@@ -84,12 +84,12 @@
              grep "^THIS" | head -n 1 | cut -d "\"" -f 2 | sed 's/ /_/g'`
 
       echo $SVGHEADER        | # THE HEADER
-      sed "s/$SPACEFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
+      sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
       tee                    >   layer2svg_${NUM}_${LNAME}.svg
       echo "<g $SHIFT>"      >>  layer2svg_${NUM}_${LNAME}.svg
 
       echo $LAYER            | # THE LAYER
-      sed "s/$SPACEFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
+      sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
       tee                    >>  layer2svg_${NUM}_${LNAME}.svg
       echo "</g>"            >>  layer2svg_${NUM}_${LNAME}.svg
       echo "</svg>"          >>  layer2svg_${NUM}_${LNAME}.svg
