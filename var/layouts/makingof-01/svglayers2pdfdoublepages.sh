@@ -16,9 +16,6 @@
 #                                                                             #
 # --------------------------------------------------------------------------- #
 
-# NEW VERSION!!!
-
-
   SVG=$1
   PDF=${SVG%%.*}.pdf
 
@@ -36,10 +33,12 @@
   fi
 
   BREAKFOO=NL${RANDOM}F00
+  SPACEFOO=SP${RANDOM}F0O
 # --------------------------------------------------------------------------- #
-# MOVE ALL LAYERS ON SEPARATE LINES 
+# MOVE ALL LAYERS ON SEPARATE LINES (TEMPORARILY; EASIFY PARSING LATER ON)
 # --------------------------------------------------------------------------- #
   sed ":a;N;\$!ba;s/\n/$BREAKFOO/g" $SVG | # REMOVE ALL LINEBREAKS (BUT SAVE)
+  sed "s/ /$SPACEFOO/g"                  | # REMOVE ALL SPACE (BUT SAVE)
   sed 's/<g/4Fgt7RfjIoPg7/g'             | # PLACEHOLDER FOR GROUP OPEN
   sed ':a;N;$!ba;s/\n/ /g'               | # REMOVE ALL NEW LINES
   sed 's/4Fgt7RfjIoPg7/\n<g/g'           | # RESTORE GROUP OPEN + NEWLINE
@@ -69,38 +68,39 @@
    do
       for PAGE in 1 2
       do
-
-      if [ $PAGE -eq 1 ]; then
-
-          SHIFT=$TRANSFORM 
-      else
-          SHIFT=""
-      fi
-
-      NUM=`echo 0000$COUNT | rev | cut -c 1-4 | rev`
-
-      LAYER=`echo $LAYER | sed 's/df73SAc/ /g'`
-      LNAME=`echo $LAYER | sed 's/inkscape:label/\nTHIS/g' | \
-             grep "^THIS" | head -n 1 | cut -d "\"" -f 2 | sed 's/ /_/g'`
-
-      echo $SVGHEADER        | # THE HEADER
-      sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
-      tee                    >   layer2svg_${NUM}_${LNAME}.svg
-      echo "<g $SHIFT>"      >>  layer2svg_${NUM}_${LNAME}.svg
-
-      echo $LAYER            | # THE LAYER
-      sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
-      tee                    >>  layer2svg_${NUM}_${LNAME}.svg
-      echo "</g>"            >>  layer2svg_${NUM}_${LNAME}.svg
-      echo "</svg>"          >>  layer2svg_${NUM}_${LNAME}.svg
-
-      inkscape --export-pdf=layer2svg_${NUM}_${LNAME}.pdf \
-	       --export-text-to-path \
-	       layer2svg_${NUM}_${LNAME}.svg
-
-      rm layer2svg_${NUM}_${LNAME}.svg
-      COUNT=`expr $COUNT + 1`
-
+          if [ $PAGE -eq 1 ]; then
+               SHIFT=$TRANSFORM 
+          else
+               SHIFT=""
+          fi
+    
+          NUM=`echo 0000$COUNT | rev | cut -c 1-4 | rev`
+    
+          LAYER=`echo $LAYER | sed 's/df73SAc/ /g'`
+          LNAME=`echo $LAYER | sed 's/inkscape:label/\nTHIS/g' | \
+                 grep "^THIS" | head -n 1 | \
+                 cut -d "\"" -f 2 | sed 's/ /_/g'`
+    
+          echo $SVGHEADER        | # THE HEADER
+          sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
+          sed "s/$SPACEFOO/ /g"  | # RESTORE ORIGINAL SPACES
+          tee                    >   layer2svg_${NUM}_${LNAME}.svg
+    
+          echo "<g $SHIFT>"      >>  layer2svg_${NUM}_${LNAME}.svg
+          echo $LAYER            | # THE LAYER
+          sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
+          sed "s/$SPACEFOO/ /g"  | # RESTORE ORIGINAL SPACES
+          tee                    >>  layer2svg_${NUM}_${LNAME}.svg
+          echo "</g>"            >>  layer2svg_${NUM}_${LNAME}.svg
+    
+          echo "</svg>"          >>  layer2svg_${NUM}_${LNAME}.svg
+    
+          inkscape --export-pdf=layer2svg_${NUM}_${LNAME}.pdf \
+    	       --export-text-to-path \
+    	       layer2svg_${NUM}_${LNAME}.svg
+    
+          rm layer2svg_${NUM}_${LNAME}.svg
+          COUNT=`expr $COUNT + 1`
       done
   done
 
@@ -112,11 +112,10 @@
 # --------------------------------------------------------------------------- #
 # CLEAN UP 
 # --------------------------------------------------------------------------- #
-  rm ${SVG%%.*}.tmp layer2svg_*.pdf
+  rm ${SVG%%.*}.tmp  layer2svg_*.pdf
 
 
 
 exit 0; 
-
 
 
