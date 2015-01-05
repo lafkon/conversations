@@ -235,17 +235,17 @@ function SMALLSKIP() {
 
 }
 
-# --------------------------------------------------------------------------- #
-
-function COVERGRAFIK() {
-
-  writeTeXsrc "\emptypage"
-  writeTeXsrc "\cleardoublepage"
-  GRAFIK $1 fullpage 1 0
-
-}
-
-# --------------------------------------------------------------------------- #
+## --------------------------------------------------------------------------- #
+#
+#function COVERGRAFIK() {
+#
+#  writeTeXsrc "\emptypage"
+#  writeTeXsrc "\cleardoublepage"
+#  GRAFIK $1 fullpage 1 0
+#
+#}
+#
+## --------------------------------------------------------------------------- #
 
 function TABLEOFCONTENTS(){
 
@@ -364,6 +364,119 @@ function MEANWHILE() {
   writeTeXsrc "{\scalefont{.7}\textit{ ${COLLECT} }}"
   writeTeXsrc "\bigskip"
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------- #
+
+function LOOKTHROUGHPAGE(){
+
+   URL=$1
+
+   NAME=`echo $URL | rev | cut -d "/" -f 1 | \
+         cut -d "." -f 2- | rev`
+
+   if [ ! -f $TMPDIR/${NAME}.* ]; then
+        wget --no-check-certificate \
+             -P $TMPDIR $URL > /dev/null 2>&1
+   fi
+
+   FILE=`find . -name "${NAME}.*" | head -1`
+   TYPE=`echo $FILE | rev | cut -d "." -f 1 | rev`
+
+   if [ "X$TYPE" = "Xjpg" ]; then
+         convert $FILE $TMPDIR/`basename $NAME | cut -d "." -f 1`.pdf
+   fi
+ # -------------------------------------------------------------------- #
+   IMG=`find . -name "${NAME}.pdf" | head -1`
+
+   if [ `echo $IMG | wc -c` -gt 2 ]; then
+
+   rgb2cmyk $IMG
+   IMG=`find . -name "${NAME}.pdf" | head -1`
+
+         PDF=${IMG} ; SUPERTMP=${RANDOM}.tex
+     PDFINFO=`identify -format "%wx%h" "$PDF"[0]`
+    PDFWIDTH=`echo $PDFINFO | cut -d "x" -f 1`
+   PDFHEIGHT=`echo $PDFINFO | cut -d "x" -f 2`
+ 
+   echo "\documentclass{memoir}"                 >  $SUPERTMP
+   echo "\usepackage{graphicx}"                  >> $SUPERTMP
+   echo "\usepackage{fullpage}"                  >> $SUPERTMP
+   echo "\usepackage{geometry}"                  >> $SUPERTMP
+   echo "\geometry{paperwidth=${PDFWIDTH}pt,"    >> $SUPERTMP
+   echo "          paperheight=${PDFHEIGHT}pt}"  >> $SUPERTMP
+   echo "\setlength{\textwidth}{\paperwidth}"    >> $SUPERTMP
+   echo "\setlength{\textheight}{\paperheight}"  >> $SUPERTMP
+   echo "\newlength{\pdfwidth}"                  >> $SUPERTMP
+   echo "\newlength{\pdfheight}"                 >> $SUPERTMP
+   echo "\setlength{\pdfwidth}{\paperwidth}"     >> $SUPERTMP
+   echo "\setlength{\pdfheight}{\paperheight}"   >> $SUPERTMP
+   echo "\setlength{\oddsidemargin}{-1.2in}"     >> $SUPERTMP
+   echo "\setlength{\evensidemargin}{-1.2in}"    >> $SUPERTMP
+   echo "\setlength{\topmargin}{-1in}"           >> $SUPERTMP
+   echo "\pagestyle{empty}"                      >> $SUPERTMP
+   echo "\begin{document}"                       >> $SUPERTMP
+   echo "\includegraphics[width=-1\pdfwidth,"    >> $SUPERTMP
+   echo "height=\pdfheight,page=1]{$PDF}"        >> $SUPERTMP
+   echo "\end{document}"                         >> $SUPERTMP
+  
+  #pdflatex -output-directory=$TMPDIR $SUPERTMP
+   pdflatex -interaction=nonstopmode \
+            -output-directory $TMPDIR \
+            $SUPERTMP  > /dev/null
+
+   pdftk $TMPDIR/${SUPERTMP%.*}.pdf burst output \
+         ${PDF%.*}_MIRROR.pdf
+  
+   rm $SUPERTMP doc_data.txt
+
+     if [ "X$2" == "XNEGATIVE" ]; then
+  
+     PDFSRC=${PDF%.*}_MIRROR.pdf
+     SVG=${PDFSRC%.*}.svg
+     MOD=${PDFSRC%.*}_MOD.pdf
+  
+     inkscape --export-plain-svg=$SVG \
+              $PDFSRC
+  
+     sed -re 's/#[Ff]{6}/XxXxXx/g' $SVG | \
+     sed -re 's/#[a-fA-F0-9]{6}/#ffffff/g' | \
+     sed 's/XxXxXx/#000000/g'      > tmp.svg
+  
+     inkscape --export-pdf=$MOD \
+              tmp.svg
+  
+     rm tmp.svg $SVG
+  
+     writeTeXsrc "\lookthroughpage{$IMG}{${MOD}}"
+  
+     else
+  
+     writeTeXsrc "\lookthroughpage{$IMG}{${PDF%.*}_MIRROR.pdf}"
+  
+     fi
+   fi
+}
+
+# --------------------------------------------------------------------------- #
+
+function COVERGRAFIK() {
+
+  writeTeXsrc "\emptypage"
+# writeTeXsrc "\cleardoublepage"
+# GRAFIK $1 fullpage 1 0
+  LOOKTHROUGHPAGE $1 NEGATIVE
 }
 
 # --------------------------------------------------------------------------- #

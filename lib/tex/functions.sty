@@ -116,4 +116,12 @@
      \vspace{-.5\baselineskip}
   }
 % -------------------------------------------------------------------- %
-
+  \newcommand\lookthroughpage[2]{
+   \cleardoublepage
+      \includepdf[scale=1.0,offset=0 0]
+       {#1}
+      \includepdf[scale=1.0,offset=0 0]
+       {#2}
+   \clearpage
+  }
+% -------------------------------------------------------------------- %
