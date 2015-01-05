@@ -22,11 +22,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0996698"
-     inkscape:cx="812.97024"
-     inkscape:cy="286.00083"
+     inkscape:zoom="1.2556425"
+     inkscape:cx="678.42818"
+     inkscape:cy="213.07757"
      inkscape:document-units="px"
-     inkscape:current-layer="g3405"
+     inkscape:current-layer="g3349"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -869,7 +869,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="PM-02_N"
      inkscape:groupmode="layer"
      id="g3397">
@@ -1209,6 +1209,26 @@
     </g>
   </g>
   <g
+     id="g3349"
+     inkscape:groupmode="layer"
+     inkscape:label="MS-02_N"
+     style="display:inline">
+    <g
+       id="g3351"
+       transform="matrix(0.07,0,0,0.07,800.96895,217.68716)">
+      <path
+         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+         id="path3353"
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+         id="path3355"
+         style="fill:#000000"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
      style="display:none"
      inkscape:label="DJ-01_N"
      inkscape:groupmode="layer"
@@ -1292,7 +1312,7 @@
      id="g3405"
      inkscape:groupmode="layer"
      inkscape:label="LL-03_N"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3407"
        transform="matrix(0.04949747,0.04949747,-0.04949747,0.04949747,818.46872,210.43875)">
@@ -1472,7 +1492,7 @@
      id="g3389"
      inkscape:groupmode="layer"
      inkscape:label="TL-02_P"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3391"
        transform="matrix(0.04949747,-0.04949747,0.04949747,0.04949747,793.72021,235.18716)">
