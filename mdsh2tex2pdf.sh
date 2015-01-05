@@ -44,8 +44,8 @@
 # ACTION HAPPENS HERE!
 # --------------------------------------------------------------------------- #
 
-  MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-# MAIN=http://pad.constantvzw.org/p/conversations.aether9/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations/export/txt
+  MAIN=http://pad.constantvzw.org/p/conversations.aether9/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -124,6 +124,8 @@
   sed -i ':a;N;$!ba;s/\n/ /g'                $TMPTEX
   sed -i "s/${EMPTYLINE}/\n${EMPTYLINE}\n/g" $TMPTEX
   sed -i "s/$NL/\n/g"                        $TMPTEX
+  sed -i "s/\\\\footnote/ Fo0Tn073/g"        $TMPTEX # RECOGNIZE KEYWORDS WITH FOOTNOTE
+
   S=XYX${RANDOM}SP ; UN=YXY${RANDOM}UN # RANDOM PLACEHOLDER FOR SPACE AND EVERYTHING
 
   for INDEXTHIS in `cat ${TMPDIR}/k.list          | # DISPLAY LIST
@@ -168,8 +170,9 @@
 
   sed -i "s/$S/ /g" $TMPTEX                        # RESTORE SPACEFOO
   sed -i "s/$UN//g" $TMPTEX                        # RESTORE UNID
-  sed -i "s/[ ]*\\\\cite/\\\\cite/g" $TMPTEX       # NO SPACE BEFORE CITATION
-  sed -i "s/[ ]*\\\\foot/\\\\foot/g" $TMPTEX       # NO SPACE BEFORE FOOTNOTE
+  sed -i "s/ Fo0Tn073/\\\\footnote/g" $TMPTEX      # RESTORE FOOTNOTE MACRO
+  sed -i "s/[ ]*\\\\cite/\\\\cite/g"  $TMPTEX      # NO SPACE BEFORE CITATION
+  sed -i "s/[ ]*\\\\foot/\\\\foot/g"  $TMPTEX      # NO SPACE BEFORE FOOTNOTE
   sed -i 's/[ ]*\\ldots{}[ ]*/\\ldots{}/g' $TMPTEX # NO SPACE FOR LDOTS 
   sed -i 's/[ ]*\\index{/\\index{/g' $TMPTEX       # NO SPACE FOR KEYWORDS 
   sed -i "s/^[ \t]*//" $TMPTEX                     # NO LEADING BLANKS
