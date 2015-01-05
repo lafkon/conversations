@@ -84,50 +84,50 @@
 # - CONVERT CUSTOM MDSH CODE (FOOTNOTES,CITES) TO TEX CODE
 # --------------------------------------------------------------------------- #
 
-  cat $MDSH                              |    # USELESS USE OF CAT
-  sed 's/^%/zDf7WV362LoP/g'              |    # SAVE COMMENTS FROM PANDOC
-# sed '/zDf7WV362LoP/s/$/vGzWeTf18XX/g'  |    # SAVE FROM PANDOC IF START %
-  sed 's/]{_/]{ _/g'                     |    # MAKE PANDOC RECOGNIZE EMPH(?)
-  sed '/zDf7WV362LoP/s/$/    /g'         |    # FORCE NEWLINE (MD)
-  sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' |    # SAVE FROM PANDOC IF START %
-  sed '/zDf7WV362LoP/s/ /c8SJu53LDCNN/g' |    # SAVE FROM PANDOC
-  sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' |    # SAVE FROM PANDOC
-  sed '/zDf7WV362LoP/s/_/Und3rsfd7cdX/g' |    # SAVE FROM PANDOC
-  sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' |    # SAVE FROM PANDOC
-  sed '/zDf7WV362LoP/s/|/34RtP1P34fcg/g' |    # SAVE FROM PANDOC
-  sed 's/\[^\]{/jWu37CDe73EDc/g'         |    # SAVE FOOTNOTES FROM PANDOC
-  sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      |    # SAVE CITEP OPEN FROM PANDOC
-  sed 's/\[@/\nhFzdu74DsdCW28C/g'        |    # SAVE CITE OPEN FROM PANDOC
-  sed '/^hFzdu74DsdCWd34/s/\]/hFFc63DxY/'|    # SAVE CITE OPTION FROM PANDOC
-  sed '/^hFzdu74DsdCW/s/\]/hIe4X3v7s/'   |    # SAVE CITE CLOSE FROM PANDOC
-  sed 's/}/jfdUr63cdZZd/g'               |    # SAVE FROM PANDOC
-  sed 's/{/ufBcrKD73Dnc/g'               |    # SAVE FROM PANDOC
-  sed 's/Open Source/0P3n50urc3/g'       |    # SAVE FROM PANDOC
-  pandoc -S -r markdown -w latex         |    # MD TO LATEX
-  sed 's/\\href{/\\url{/g'               |    # CONVERT LINKS
-  sed 's/hFg76VCdJueW/"/g'               |    # BACK TO ORIGINAL
-  sed '/zDf7WV362LoP/s/\\//g'            |    # REMOVE ESCAPES FROM FUNCTIONS
-# sed 's/zDf7WV362LoP/\n%/g'             |    # BACK TO ORIGINAL
-  sed 's/zDf7WV362LoP/%/g'               |    # BACK TO ORIGINAL
-# sed '/^%/{N;s/\n.*//;}'                |    # REMOVE NEWLINES FROM FUNCTIONS
-  sed '/^%/s/c8SJu53LDCNN/ /g'           |    # BACK TO ORIGINAL
-  sed '/^%/s/SlasH328d1G/\\/g'           |    # BACK TO ORIGINAL
-  sed 's/jfdUr63cdZZd/ }/g'              |    # BACK TO ORIGINAL
-  sed 's/ufBcrKD73Dnc/{/g'               |    # BACK TO ORIGINAL
-  sed 's/Und3rsfd7cdX/_/g'               |    # BACK TO ORIGINAL
-  sed 's/emD4sH83Cd7z/-/g'               |    # BACK TO ORIGINAL
-  sed 's/vGzWeTf18XX//g'                 |    # BACK TO ORIGINAL
-  sed 's/34RtP1P34fcg/|/g'               |    # BACK TO ORIGINAL
-  sed 's/0P3n50urc3/Open~Source/g'       |    # NO BREAK FOR Open Source
-  sed 's/jWu37CDe73EDc/\\footnote{/g'    |    # FOOTNOTES
-  sed 's/hFzdu74DsdCWd34/\\citep[/g'     |    # CITE OPEN
-  sed 's/hFzdu74DsdCW28C/\\cite{/g'      |    # CITE OPEN
-  sed 's/hFFc63DxY/\]{/g'                |    # CITE OPTION
-  sed 's/hIe4X3v7s/}/g'                  |    # CITE CLOSE
+  cat $MDSH                              | # USELESS USE OF CAT
+  sed 's/^%/zDf7WV362LoP/g'              | # SAVE COMMENTS FROM PANDOC
+# sed '/zDf7WV362LoP/s/$/vGzWeTf18XX/g'  | # SAVE FROM PANDOC IF START %
+  sed 's/]{_/]{ _/g'                     | # MAKE PANDOC RECOGNIZE EMPH(?)
+  sed '/zDf7WV362LoP/s/$/    /g'         | # FORCE NEWLINE (MD)
+  sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' | # SAVE FROM PANDOC IF START %
+  sed '/zDf7WV362LoP/s/ /c8SJu53LDCNN/g' | # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/\\/SlasH328d1G/g' | # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/_/Und3rsfd7cdX/g' | # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/-/emD4sH83Cd7z/g' | # SAVE FROM PANDOC
+  sed '/zDf7WV362LoP/s/|/34RtP1P34fcg/g' | # SAVE FROM PANDOC
+  sed 's/\[^\]{/jWu37CDe73EDc/g'         | # SAVE FOOTNOTES FROM PANDOC
+  sed 's/\[@\[/\nhFzdu74DsdCWd34/g'      | # SAVE CITEP OPEN FROM PANDOC
+  sed 's/\[@/\nhFzdu74DsdCW28C/g'        | # SAVE CITE OPEN FROM PANDOC
+  sed '/^hFzdu74DsdCWd34/s/\]/hFFc63DxY/'| # SAVE CITE OPTION FROM PANDOC
+  sed '/^hFzdu74DsdCW/s/\]/hIe4X3v7s/'   | # SAVE CITE CLOSE FROM PANDOC
+  sed 's/}/jfdUr63cdZZd/g'               | # SAVE FROM PANDOC
+  sed 's/{/ufBcrKD73Dnc/g'               | # SAVE FROM PANDOC
+  sed 's/Open Source/0P3n50urc3/g'       | # SAVE FROM PANDOC
+  pandoc -S -r markdown -w latex         | # MD TO LATEX
+  sed 's/\\href{/\\url{/g'               | # CONVERT LINKS
+  sed 's/hFg76VCdJueW/"/g'               | # BACK TO ORIGINAL
+  sed '/zDf7WV362LoP/s/\\//g'            | # REMOVE ESCAPES FROM FUNCTIONS
+# sed 's/zDf7WV362LoP/\n%/g'             | # BACK TO ORIGINAL
+  sed 's/zDf7WV362LoP/%/g'               | # BACK TO ORIGINAL
+# sed '/^%/{N;s/\n.*//;}'                | # REMOVE NEWLINES FROM FUNCTIONS
+  sed '/^%/s/c8SJu53LDCNN/ /g'           | # BACK TO ORIGINAL
+  sed '/^%/s/SlasH328d1G/\\/g'           | # BACK TO ORIGINAL
+  sed 's/jfdUr63cdZZd/ }/g'              | # BACK TO ORIGINAL
+  sed 's/ufBcrKD73Dnc/{/g'               | # BACK TO ORIGINAL
+  sed 's/Und3rsfd7cdX/_/g'               | # BACK TO ORIGINAL
+  sed 's/emD4sH83Cd7z/-/g'               | # BACK TO ORIGINAL
+  sed 's/vGzWeTf18XX//g'                 | # BACK TO ORIGINAL
+  sed 's/34RtP1P34fcg/|/g'               | # BACK TO ORIGINAL
+  sed 's/0P3n50urc3/Open~Source/g'       | # NO BREAK FOR Open Source
+  sed 's/jWu37CDe73EDc/\\footnote{/g'    | # FOOTNOTES
+  sed 's/hFzdu74DsdCWd34/\\citep[/g'     | # CITE OPEN
+  sed 's/hFzdu74DsdCW28C/\\cite{/g'      | # CITE OPEN
+  sed 's/hFFc63DxY/\]{/g'                | # CITE OPTION
+  sed 's/hIe4X3v7s/}/g'                  | # CITE CLOSE
   sed -e :a \
       -e '$!N;s/\n\\cite/\\cite/;ta' \
-      -e 'P;D'                           |    # APPEND IF STARTS WITH \cite
-  sed "s/^ *$/$EMPTYLINE/g"              |    # PLACEHOLDER FOR EMPTY LINES
+      -e 'P;D'                           | # APPEND IF STARTS WITH \cite
+  sed "s/^ *$/$EMPTYLINE/g"              | # PLACEHOLDER FOR EMPTY LINES
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
       -e 's/%TXIXTXLXE/% TITLE:/g'       | # REMOVE SPACES FROM TITLE
@@ -142,15 +142,15 @@
       -e 's/%LXAXBXEXL/% LABEL:/g'       | # REMOVE SPACES FROM LABEL
   sed -e 's/^% MEANWHILE:/%MX34NXW1/g' \
       -e '/^%MX34NXW1/s/ /_/g' \
-      -e 's/%MX34NXW1/% MEANWHILE:/g'    |    # REMOVE SPACES FROM LABEL
-  sed 's/\\\\/ \n&/g'                    |    # MOVE NEWLINE ON NEW LINE
-  sed    's/\.\.\./\\ldots{}/g'          |    # 
+      -e 's/%MX34NXW1/% MEANWHILE:/g'    | # REMOVE SPACES FROM MEANWHILE
+  sed 's/\\\\/ \n&/g'                    | # MOVE NEWLINE ON NEW LINE
+  sed    's/\.\.\./\\ldots{}/g'          | # 3 DOTS TO MACRO
   sed -e :a \
       -e '$!N;s/\n\\ldots/XX\\ldots/;ta' \
-      -e 'P;D'                           |    # APPEND IF STARTS WITH \ldot
-  sed '/^%/s/XX\\ldots/\nXX\\ldots/g'    |    # CORRECT IF WRONGLY APPENDED
-  sed 's/XX\\ldots/\\ldots/g'            |    # CORRECT IF WRONGLY APPENDED
-  tee > $MDSHMOD
+      -e 'P;D'                           | # APPEND IF STARTS WITH \ldot
+  sed '/^%/s/XX\\ldots/\nXX\\ldots/g'    | # CORRECT IF WRONGLY APPENDED
+  sed 's/XX\\ldots/\\ldots/g'            | # CORRECT IF WRONGLY APPENDED
+  tee > $MDSHMOD                           # WRITE TO FILE
 
 # cp $MDSHMOD `date +%s`.mdsh
 
