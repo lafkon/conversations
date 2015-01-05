@@ -474,9 +474,8 @@ function LOOKTHROUGHPAGE(){
 function COVERGRAFIK() {
 
   writeTeXsrc "\emptypage"
-# writeTeXsrc "\cleardoublepage"
-# GRAFIK $1 fullpage 1 0
-  LOOKTHROUGHPAGE $1 NEGATIVE
+# LOOKTHROUGHPAGE $1 NEGATIVE
+  LOOKTHROUGHPAGE $1
 }
 
 # --------------------------------------------------------------------------- #
