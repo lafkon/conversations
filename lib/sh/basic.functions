@@ -18,12 +18,8 @@
     COLORCHECK=`identify -format '%[colorspace]' $PDF2CHECK`
 
     if [ `echo $COLORCHECK | grep -i RGB | wc -l` -gt 0 ]; then
-          echo "this is a rgb"
-          echo $PDF2CHECK
-        # echo $COLORCHECK
           CMYK=`echo $PDF2CHECK | rev | \
                 cut -d "." -f 2- | rev`_CMYK.pdf
-          echo $CMYK
           gs                                     \
             -o $CMYK                             \
             -sDEVICE=pdfwrite                    \
@@ -43,7 +39,7 @@
             -dAutoRotatePages=/None              \
             -sCannotEmbedFontPolicy=Error        \
             -c ".setpdfwrite<</NeverEmbed[ ]>> setdistillerparams" \
-            -f $PDF2CHECK
+            -f $PDF2CHECK > /dev/null
 
            cp $CMYK $TMPDIR/cmyk.pdf
 
@@ -148,10 +144,6 @@
       -e '/^%MX34NXW1/s/ /_/g' \
       -e 's/%MX34NXW1/% MEANWHILE:/g'    |    # REMOVE SPACES FROM LABEL
   sed 's/\\\\/ \n&/g'                    |    # MOVE NEWLINE ON NEW LINE
-# sed    's/ConTeXt/\\ConTeXt/g'         |    # ConTeXt LOGO MACRO
-# sed    's/ TeX/ XZDchdwZdcjw/g'        |    # TeX LOGO MACRO
-# sed    's/TeX /\\TeX /g'               |    # TeX LOGO MACRO
-# sed    's/XZDchdwZdcjw/\\TeX/g'        |    # TeX LOGO MACRO
   sed    's/\.\.\./\\ldots{}/g'          |    # 
   sed -e :a \
       -e '$!N;s/\n\\ldots/XX\\ldots/;ta' \
