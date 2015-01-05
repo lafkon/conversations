@@ -3,28 +3,55 @@
  \resetpagestyle
  \pagestyle{fancy}
 
- \grafikhead{var/labels/___/the_construction_of_a_book_aether9.pdf}{40pt}
+ \grafikhead{var/labels/___/the_construction_of_a_book_aether9.pdf}{0pt}
 
 %\renewcommand{\textskip}{\vspace{3pt plus 2pt minus 1pt}}
- \renewcommand{\textskip}{\vspace{9pt plus 6pt minus 6pt}}
+%\renewcommand{\textskip}{\vspace{9pt plus 6pt minus 6pt}}
+ \renewcommand{\textskip}{\vspace{4pt plus 3pt minus 2pt}}
+
 
 % -------------------------------------------------------------------- %
-  \renewcommand\SPMS[1]{%
-   \textskip
-    \labelinline{var/labels/___/MS-01_N.pdf}
-     \fontshape{\itdefault}\fontseries{\bfdefault}\selectfont
- }
-% -------------------------------------------------------------------- %
   \renewcommand\SPLL[1]{%
-   \textskip
-    \labelinline{var/labels/___/LL-02_N.pdf}
-     \normalfont
+   \resetfont
+    \textskip
+     \labelinline{var/labels/___/LL-03_N.pdf}
+      \normalfont\hspace{1.2em}
   }
 % -------------------------------------------------------------------- %
   \renewcommand\SPPM[1]{%
-   \textskip
-    \labelinline{var/labels/___/PM-01_N.pdf}
-     \bf
+   \resetfont
+    \textskip
+     \labelinline{var/labels/___/PM-02_N.pdf}
+      \it\hspace{1.2em}
   }
+% -------------------------------------------------------------------- %
+  \renewcommand\SPMS[1]{%
+   \resetfont
+    \textskip
+     \labelinline{var/labels/___/MS-02_N.pdf}
+      \fontshape{\itdefault}\fontseries{\bfdefault}%
+       \selectfont\hspace{1.2em}
+ }
+% -------------------------------------------------------------------- %
+
+
+% -------------------------------------------------------------------- %
+%  \renewcommand\SPMS[1]{%
+%   \textskip
+%    \labelinline{var/labels/___/MS-01_N.pdf}
+%     \fontshape{\itdefault}\fontseries{\bfdefault}\selectfont
+% }
+% -------------------------------------------------------------------- %
+%  \renewcommand\SPLL[1]{%
+%   \textskip
+%    \labelinline{var/labels/___/LL-02_N.pdf}
+%     \normalfont
+%  }
+% -------------------------------------------------------------------- %
+%  \renewcommand\SPPM[1]{%
+%   \textskip
+%    \labelinline{var/labels/___/PM-01_N.pdf}
+%     \bf
+%  }
 % -------------------------------------------------------------------- %
 
