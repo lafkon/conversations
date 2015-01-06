@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.17561737"
-     inkscape:cx="595.97851"
-     inkscape:cy="2692.4206"
+     inkscape:zoom="0.24214651"
+     inkscape:cx="794.34056"
+     inkscape:cy="2989.4537"
      inkscape:document-units="px"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="layer15"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -15314,7 +15314,8 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="XX_if_the_design_thinking_is_correct_the_tools_should_be_irrelevant"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -16052,9 +16053,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer15"
-     inkscape:label="you_need_to_copy_to_understand"
-     style="display:none"
-     sodipodi:insensitive="true">
+     inkscape:label="XX_you_need_to_copy_to_understand"
+     style="display:inline">
     <g
        style="display:inline"
        id="g126-0"
