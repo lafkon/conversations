@@ -28,7 +28,7 @@
      inkscape:cx="794.34056"
      inkscape:cy="2989.4537"
      inkscape:document-units="px"
-     inkscape:current-layer="layer15"
+     inkscape:current-layer="layer16"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -14243,7 +14243,8 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="XX_unicodes"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -16054,7 +16055,8 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="XX_you_need_to_copy_to_understand"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="g126-0"
@@ -16789,8 +16791,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer16"
-     inkscape:label="whats_the_thinking_here"
-     style="display:none">
+     inkscape:label="XX_whats_the_thinking_here"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -16955,12 +16957,12 @@
        xml:space="preserve"
        style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        x="1423.4277"
-       y="1086.3853"
+       y="1087.3853"
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="1423.4277"
-         y="1086.3853"
+         y="1087.3853"
          id="tspan6600-4">What's the thinking here?</tspan></text>
     <path
        style="fill:#000000"
