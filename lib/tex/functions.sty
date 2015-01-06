@@ -116,20 +116,12 @@
      \vspace{-.5\baselineskip}
   }
 % -------------------------------------------------------------------- %
-%  \newcommand\lookthroughpage[2]{
-%   \cleardoublepage
-%%      \includepdf[scale=1.0,offset=0 0]
-%%       {#1}
-%%      \includepdf[scale=1.0,offset=0 0]
-%%       {#2}
-%   \clearpage
-%  }
-% -------------------------------------------------------------------- %
   \newcommand\lookthroughpage[2]{
-  \setlength{\fboxrule}{0pt}%
-  \includepdf[frame=true,offset=0 0,scale=1,angle=0,
-   pagecommand={\addlabelstoallincludedpages{}%
-                \thispagestyle{empty}}]
-   {#1}
-  } 
-
+   \cleardoublepage
+      \includepdf[scale=1.0,offset=0 0]
+       {#1}
+      \includepdf[scale=1.0,offset=0 0]
+       {#2}
+   \clearpage
+  }
+% -------------------------------------------------------------------- %
