@@ -28,7 +28,7 @@
      inkscape:cx="794.34056"
      inkscape:cy="2989.4537"
      inkscape:document-units="px"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="layer17"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -16792,7 +16792,8 @@
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="XX_whats_the_thinking_here"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -17004,8 +17005,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer17"
-     inkscape:label="the_construction_of_a_book_aether9"
-     style="display:none">
+     inkscape:label="XX_the_construction_of_a_book_aether9"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
