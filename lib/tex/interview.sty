@@ -33,7 +33,37 @@
  }
 
 
+
+
+
+%\newcommand\grafikheadperpage[2]{%
+% \setlength\topmargin{-.06\paperheight}
+% \addtolength{\topmargin}{-255pt}
+% \setlength\textheight{.67\paperheight}
+% \addtolength{\topmargin}{#2}
+% \addtolength{\textheight}{-#2}
+% \setlength{\headheight}{300pt}
+% \lhead{\hspace{0pt}%
+%        \put(-110,700){%
+%        \includegraphics[width=1.2\paperwidth]%
+%        {#1-\arabic{chapterpage}.pdf}}
+%        \vspace{#2}\stepcounter{chapterpage}}
+%}
+
+
+% SETTING LENGTHS DID NOT AFFECT FIRSTPAGE
+% WHEN USING LOOKTHROUGH OPENER
+
  \newcommand\grafikheadperpage[2]{%
+  \fancypagestyle{firstpagestyle}{
+   \setlength\topmargin{-292pt}
+    \lhead{\hspace{0pt}%
+           \put(-110,700){%
+           \includegraphics[width=1.2\paperwidth]%
+           {#1-\arabic{chapterpage}.pdf}}
+           \vspace{#2}\stepcounter{chapterpage}}
+  }
+  \thispagestyle{firstpagestyle}
   \setlength\topmargin{-.06\paperheight}
   \addtolength{\topmargin}{-255pt}
   \setlength\textheight{.67\paperheight}
@@ -46,6 +76,12 @@
          {#1-\arabic{chapterpage}.pdf}}
          \vspace{#2}\stepcounter{chapterpage}}
  }
+
+
+
+
+
+
 
 
  \newcommand\grafikheadswitch[3]{%
