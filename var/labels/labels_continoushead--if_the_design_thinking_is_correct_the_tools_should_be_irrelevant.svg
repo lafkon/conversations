@@ -324,11 +324,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.082446757"
-     inkscape:cx="15516.734"
-     inkscape:cy="2194.4039"
+     inkscape:zoom="0.040983708"
+     inkscape:cx="5368.6532"
+     inkscape:cy="2504.431"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g3547"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -2517,10 +2517,11 @@
          id="tspan10430-8" /></text>
   </g>
   <g
-     inkscape:label="PEOPLE"
+     inkscape:label="XX_PEOPLE"
      id="g5748"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -3095,10 +3096,537 @@
     </g>
   </g>
   <g
+     style="display:inline"
+     inkscape:groupmode="layer"
+     id="g3675"
+     inkscape:label="PEOPLE">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3697"
+       y="1087.1133"
+       x="1907.7313"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="1907.7313"
+         id="tspan3699"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3701"
+       y="1125.1309"
+       x="1907.3242"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="1907.3242"
+         id="tspan3703"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(1490,-38)"
+       id="g3705"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3707"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3709"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,1851.7748,1101.5938)"
+       id="g3711"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3713"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3715"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3717"
+       y="1087.1133"
+       x="3671.7314"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="3671.7314"
+         id="tspan3719"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3721"
+       y="1125.1309"
+       x="3671.3242"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="3671.3242"
+         id="tspan3723"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(3254,-38)"
+       id="g3725"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3727"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3729"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,3615.7748,1101.5938)"
+       id="g3731"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3733"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3735"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3737"
+       y="1087.1133"
+       x="5102.7314"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="5102.7314"
+         id="tspan3739"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3741"
+       y="1125.1309"
+       x="5102.3242"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="5102.3242"
+         id="tspan3743"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(4685,-38)"
+       id="g3745"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3747"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3749"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,5046.7748,1101.5938)"
+       id="g3751"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3753"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3755"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3757"
+       y="1087.1133"
+       x="6866.7314"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="6866.7314"
+         id="tspan3759"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3761"
+       y="1125.1309"
+       x="6866.3242"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="6866.3242"
+         id="tspan3763"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(6449,-38)"
+       id="g3765"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3767"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3769"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,6810.7748,1101.5938)"
+       id="g3771"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3773"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3775"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3777"
+       y="1087.1133"
+       x="8297.7314"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="8297.7314"
+         id="tspan3779"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3781"
+       y="1125.1309"
+       x="8297.3242"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="8297.3242"
+         id="tspan3783"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(7880,-38)"
+       id="g3785"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3787"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3789"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,8241.7748,1101.5938)"
+       id="g3791"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3793"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3795"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3797"
+       y="1087.1133"
+       x="10061.731"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="10061.731"
+         id="tspan3799"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3801"
+       y="1125.1309"
+       x="10061.324"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="10061.324"
+         id="tspan3803"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(9644,-38)"
+       id="g3805"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3807"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3809"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,10005.775,1101.5938)"
+       id="g3811"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3813"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3815"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3817"
+       y="1087.1133"
+       x="11492.731"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="11492.731"
+         id="tspan3819"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3821"
+       y="1125.1309"
+       x="11492.324"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="11492.324"
+         id="tspan3823"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(11075,-38)"
+       id="g3825"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3827"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3829"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,11436.775,1101.5938)"
+       id="g3831"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3833"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3835"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3837"
+       y="1087.1133"
+       x="13256.731"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="13256.731"
+         id="tspan3839"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3841"
+       y="1125.1309"
+       x="13256.324"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="13256.324"
+         id="tspan3843"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(12839,-38)"
+       id="g3845"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3847"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3849"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,13200.775,1101.5938)"
+       id="g3851"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3853"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3855"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3857"
+       y="1087.1133"
+       x="14687.731"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="14687.731"
+         id="tspan3859"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3861"
+       y="1125.1309"
+       x="14687.324"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="14687.324"
+         id="tspan3863"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(14270,-38)"
+       id="g3865"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3867"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3869"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,14631.775,1101.5938)"
+       id="g3871"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3873"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3875"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3877"
+       y="1087.1133"
+       x="16451.73"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"><tspan
+         y="1087.1133"
+         x="16451.73"
+         id="tspan3879"
+         sodipodi:role="line">Pedro Amado</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3881"
+       y="1125.1309"
+       x="16451.324"
+       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"><tspan
+         y="1125.1309"
+         x="16451.324"
+         id="tspan3883"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="translate(16034,-38)"
+       id="g3885"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 361.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3887"
+         style="fill:#ffffff;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 367.77476,1101.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+         id="path3889"
+         style="fill:#000000;display:inline" />
+    </g>
+    <g
+       transform="matrix(0.06,0,0,0.06,16395.775,1101.5938)"
+       id="g3891"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3893"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3895"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="TITLE"
-     style="display:inline">
+     inkscape:label="XX_TITLE"
+     style="display:none"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
@@ -3317,7 +3845,7 @@
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-59-0-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="4639.0068"
+         x="4639.0073"
          y="1092.3853"
          id="tspan11685-1-6">If the design thinking is correct </tspan><tspan
          sodipodi:role="line"
@@ -3332,7 +3860,7 @@
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-59-0-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="6070.0068"
+         x="6070.0073"
          y="1092.3853"
          id="tspan11685-1-8">If the design thinking is correct </tspan><tspan
          sodipodi:role="line"
@@ -3362,7 +3890,7 @@
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-59-0-4-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="9265.0078"
+         x="9265.0068"
          y="1092.3853"
          id="tspan11685-1-8-7">If the design thinking is correct </tspan><tspan
          sodipodi:role="line"
@@ -3377,7 +3905,7 @@
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-59-0-5-9-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="11029.008"
+         x="11029.007"
          y="1092.3853"
          id="tspan11685-1-6-2-9">If the design thinking is correct </tspan><tspan
          sodipodi:role="line"
@@ -3437,12 +3965,336 @@
        id="text6230-02-6-3-5-2-4-6-7-7-5-5-59-0-5-9-7-9-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="17419.008"
+         x="17419.01"
          y="1092.3853"
          id="tspan11685-1-6-2-9-1-6">If the design thinking is correct </tspan><tspan
          sodipodi:role="line"
          x="17398.43"
          y="1128.371"
          id="tspan11687-6-2-5-2-7-1">the tools should be irrelevant</tspan></text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="TITLE"
+     id="g3547"
+     inkscape:groupmode="layer">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3549"
+       y="1160.6311"
+       x="1848.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="1848.1182"
+         id="tspan3551"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3553"
+       y="1160.6311"
+       x="3612.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="3612.1182"
+         id="tspan3555"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3557"
+       y="1160.6311"
+       x="5043.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="5043.1182"
+         id="tspan3559"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3561"
+       y="1160.6311"
+       x="6807.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="6807.1182"
+         id="tspan3563"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3565"
+       y="1160.6311"
+       x="8238.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="8238.1182"
+         id="tspan3567"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3569"
+       y="1160.6311"
+       x="10002.118"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="10002.118"
+         id="tspan3571"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3573"
+       y="1160.6311"
+       x="11433.118"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="11433.118"
+         id="tspan3575"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3577"
+       y="1160.6311"
+       x="13197.118"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="13197.118"
+         id="tspan3579"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3581"
+       y="1160.6311"
+       x="14628.118"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="14628.118"
+         id="tspan3583"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3585"
+       y="1160.6311"
+       x="16392.117"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="16392.117"
+         id="tspan3587"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3589"
+       y="1160.6311"
+       x="17823.117"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="17823.117"
+         id="tspan3591"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3593"
+       y="1160.6311"
+       x="19587.117"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="19587.117"
+         id="tspan3595"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3597"
+       y="1160.6311"
+       x="21018.117"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="21018.117"
+         id="tspan3599"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3601"
+       y="1160.6311"
+       x="22782.117"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="22782.117"
+         id="tspan3603"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3615"
+       y="1092.3853"
+       x="2854.4277"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3617"
+         y="1092.3853"
+         x="2875.0071"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3619"
+         y="1128.371"
+         x="2854.4277"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3621"
+       y="1092.3853"
+       x="4618.4277"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3623"
+         y="1092.3853"
+         x="4639.0068"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3625"
+         y="1128.371"
+         x="4618.4277"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3627"
+       y="1092.3853"
+       x="6049.4277"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3629"
+         y="1092.3853"
+         x="6070.0068"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3631"
+         y="1128.371"
+         x="6049.4277"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3633"
+       y="1092.3853"
+       x="7813.4277"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3635"
+         y="1092.3853"
+         x="7834.0073"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3637"
+         y="1128.371"
+         x="7813.4277"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3639"
+       y="1092.3853"
+       x="9244.4277"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3641"
+         y="1092.3853"
+         x="9265.0078"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3643"
+         y="1128.371"
+         x="9244.4277"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3645"
+       y="1092.3853"
+       x="11008.428"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3647"
+         y="1092.3853"
+         x="11029.008"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3649"
+         y="1128.371"
+         x="11008.428"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3651"
+       y="1092.3853"
+       x="12439.428"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3653"
+         y="1092.3853"
+         x="12460.007"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3655"
+         y="1128.371"
+         x="12439.428"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3657"
+       y="1092.3853"
+       x="14203.428"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3659"
+         y="1092.3853"
+         x="14224.007"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3661"
+         y="1128.371"
+         x="14203.428"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3663"
+       y="1092.3853"
+       x="15634.428"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3665"
+         y="1092.3853"
+         x="15655.007"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3667"
+         y="1128.371"
+         x="15634.428"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3669"
+       y="1092.3853"
+       x="17398.43"
+       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         id="tspan3671"
+         y="1092.3853"
+         x="17419.008"
+         sodipodi:role="line">If the design thinking is correct </tspan><tspan
+         id="tspan3673"
+         y="1128.371"
+         x="17398.43"
+         sodipodi:role="line">the tools should be irrelevant</tspan></text>
   </g>
 </svg>
