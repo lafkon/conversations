@@ -1,0 +1,89 @@
+
+  \restoregeometry
+  \resetpagestyle
+
+  \setcounter{chapterpage}{100}
+  \grafikheadperpage{var/labels/___/having_the_tools_is_just_the_beginning}{0pt}
+
+% \rhead{}
+% \lhead{}
+% \pagestyle{fancy}
+% \renewcommand{\textskip}{\vspace{10pt plus 5pt minus 5pt}}
+
+% -------------------------------------------------------------------- %
+  \newif\ifdavefirst
+   \davefirsttrue
+    \renewcommand\SPDC[1]{%
+     \textskip
+      \ifdavefirst
+      {\normalfont\textbf{\footnotesize Dave Crossland 
+       ({{\scriptsize \fontfamily{ocr}\selectfont DC})}}}
+        \davefirstfalse
+         \else
+         {\normalfont\textbf{\footnotesize
+         {\fontfamily{ocr}\selectfont DC }}}
+     \fi
+      \normalfont 
+  }
+% -------------------------------------------------------------------- %
+  \newif\ifharrisonfirst
+   \harrisonfirsttrue
+    \renewcommand\SPHH[1]{%
+     \textskip
+      \ifharrisonfirst
+      {\normalfont\textbf{\footnotesize Harrison 
+       ({{\scriptsize \fontfamily{ocr}\selectfont H})}}}
+        \harrisonfirstfalse
+         \else
+         {\normalfont\textbf{\footnotesize
+         {\fontfamily{ocr}\selectfont H }}}
+     \fi
+      \it
+  }
+% -------------------------------------------------------------------- %
+  \newif\ifludivinefirst
+   \ludivinefirsttrue
+    \renewcommand\SPLL[1]{%
+     \textskip
+      \ifludivinefirst
+      {\normalfont\textbf{\footnotesize Ludivine Loiseau 
+       ({{\scriptsize \fontfamily{ocr}\selectfont LL})}}}
+        \ludivinefirstfalse
+         \else
+         {\normalfont\textbf{\footnotesize
+         {\fontfamily{ocr}\selectfont LL }}}
+     \fi
+      \it
+  }
+% -------------------------------------------------------------------- %
+  \newif\ifpierrefirst
+   \pierrefirsttrue
+    \renewcommand\SPPH[1]{%
+     \textskip
+      \ifpierrefirst
+      {\normalfont\textbf{\footnotesize Pierre Huyghebaert 
+       ({{\scriptsize \fontfamily{ocr}\selectfont PH})}}}
+        \pierrefirstfalse
+         \else
+         {\normalfont\textbf{\footnotesize
+         {\fontfamily{ocr}\selectfont PH }}}
+     \fi
+      \it
+  }
+% -------------------------------------------------------------------- %
+  \newif\iffemkefirst
+   \femkefirsttrue
+    \renewcommand\SPFS[1]{%
+     \textskip
+      \iffemkefirst
+      {\normalfont\textbf{\footnotesize Femke Snelting 
+       ({{\scriptsize \fontfamily{ocr}\selectfont FS})}}}
+        \femkefirstfalse
+         \else
+         {\normalfont\textbf{\footnotesize
+         {\fontfamily{ocr}\selectfont FS }}}
+     \fi
+      \it
+  }
+% -------------------------------------------------------------------- %
+
