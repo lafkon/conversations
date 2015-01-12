@@ -27,7 +27,12 @@
 
   \renewcommand\subsubsection[1]{
    \bigskip\bigskip
-    \hspace{-1em}--
-   { \LARGE\it #1 }%
+    \sloppy
+     \hspace{-1em}--
+%  { \LARGE\it #1 }%
+   { \footnotesize
+      \fontfamily{ocr}\selectfont #1 }%
+       \medskip
+        \fussy
    }
 
