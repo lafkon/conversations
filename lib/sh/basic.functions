@@ -147,6 +147,9 @@
   sed -e 's/^% MEANWHILE:/%MX34NXW1/g' \
       -e '/^%MX34NXW1/s/ /_/g' \
       -e 's/%MX34NXW1/% MEANWHILE:/g'    | # REMOVE SPACES FROM MEANWHILE
+  sed -e 's/^% INLINE:/%1N71N3/g' \
+      -e '/^%1N71N3/s/ /_/g' \
+      -e 's/%1N71N3/% INLINE:/g'         | # REMOVE SPACES FROM INLINE
   sed 's/\\\\/ \n&/g'                    | # MOVE NEWLINE ON NEW LINE
   sed    's/\.\.\./\\ldots{}/g'          | # 3 DOTS TO MACRO
   sed -e :a \
