@@ -87,6 +87,7 @@
   cat $MDSH                              | # USELESS USE OF CAT
   sed 's/^%/zDf7WV362LoP/g'              | # SAVE COMMENTS FROM PANDOC
 # sed '/zDf7WV362LoP/s/$/vGzWeTf18XX/g'  | # SAVE FROM PANDOC IF START %
+  sed 's/_\[/_ \[/g'                     | # MAKE PANDOC RECOGNIZE EMPH(?)
   sed 's/]{_/]{ _/g'                     | # MAKE PANDOC RECOGNIZE EMPH(?)
   sed '/zDf7WV362LoP/s/$/    /g'         | # FORCE NEWLINE (MD)
   sed '/zDf7WV362LoP/s/"/hFg76VCdJueW/g' | # SAVE FROM PANDOC IF START %
@@ -126,6 +127,9 @@
   sed 's/hIe4X3v7s/}/g'                  | # CITE CLOSE
   sed -e :a \
       -e '$!N;s/\n\\cite/\\cite/;ta' \
+      -e 'P;D'                           | # APPEND IF STARTS WITH \cite
+  sed -e :a \
+      -e '$!N;s/\n\\footn/\\footn/;ta' \
       -e 'P;D'                           | # APPEND IF STARTS WITH \cite
   sed "s/^ *$/$EMPTYLINE/g"              | # PLACEHOLDER FOR EMPTY LINES
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
