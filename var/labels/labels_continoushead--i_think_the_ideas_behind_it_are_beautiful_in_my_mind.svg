@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90500318"
-     inkscape:cx="6172.8313"
-     inkscape:cy="2122.1656"
+     inkscape:zoom="0.3961955"
+     inkscape:cx="6148.1403"
+     inkscape:cy="2192.0849"
      inkscape:document-units="px"
      inkscape:current-layer="g10450"
      showgrid="false"
@@ -2324,7 +2324,7 @@
     <path
        id="path10470"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 6202.1152,2029.625 0,-42.5478 526.1525,0 m -566.1525,54.5478 0,-153.5478 566.0144,0"
+       d="m 6202.1152,2029.625 0,-518.5478 526.1525,0 m -566.1525,530.5478 0,-794.5478 566.0144,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <text
@@ -2343,36 +2343,36 @@
        transform="matrix(0,-1,1,0,0,0)"
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       x="-1924.2676"
+       x="-1944.2676"
        y="11101.795"
        id="text10476"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan10478"
-         x="-1924.2676"
+         x="-1944.2676"
          y="11101.795">Femke Snelting</tspan></text>
     <path
        id="path10482"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 11095.172,1705.6249 0,-300.5478 259.324,0 m -222.324,262.5478 0,-203.5478 222.324,0"
+       d="m 11095.172,1725.6249 0,-300.5478 259.324,0 m -222.324,262.5478 0,-208.5478 222.324,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <text
        transform="matrix(0,-1,1,0,0,0)"
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       x="-1897.528"
+       x="-1917.528"
        y="11138.999"
        id="text10484"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan10486"
-         x="-1897.528"
+         x="-1917.528"
          y="11138.999">George Williams</tspan></text>
     <path
        id="path10470-1"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 3532.2677,1560.0772 -60.1525,0 0,1339.5478 2689.9998,0 2e-4,-611.548 m -2629.9856,-779.9998 -120.0144,0 0,1481.5478 2789.9998,0 2e-4,-701.548"
+       d="m 3532.2677,1737.0772 -60.1525,0 0,1162.5478 2689.9998,0 2e-4,-611.548 m -2629.9856,-608.9998 -120.0144,0 0,1310.5478 2789.9998,0 2e-4,-701.548"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
   </g>
