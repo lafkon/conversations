@@ -324,11 +324,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.062455314"
-     inkscape:cx="567.33327"
-     inkscape:cy="4457.8513"
+     inkscape:zoom="0.29637884"
+     inkscape:cx="21446.437"
+     inkscape:cy="3015.6528"
      inkscape:document-units="px"
-     inkscape:current-layer="g5748"
+     inkscape:current-layer="g3644"
      showgrid="false" />
   <metadata
      id="metadata7">
@@ -3625,65 +3625,68 @@
      inkscape:label="PEOPLE">
     <text
        sodipodi:linespacing="125%"
-       id="text3796"
-       y="1125.1309"
-       x="1848.3242"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="1848.3242"
-         id="tspan3798"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,1792.7748,1101.5938)"
-       id="g3800"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3802"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3804"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3806"
-       y="1048.5129"
-       x="1848.7313"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="1848.7313"
-         id="tspan3808"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
        id="text3810"
-       y="1087.1133"
-       x="1848.7313"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="1848.7313"
+       y="-3025.6772"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-3025.6772"
+         x="1356.3822"
          id="tspan3812"
          sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
     <path
        style="fill:#000000;display:inline"
        id="path3814"
-       d="m 1792.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       d="m 3019.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#ffffff;display:inline"
        id="path3816"
-       d="m 1798.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       d="m 3025.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
        inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0"
+       y="-3074.7952"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-3074.7952"
+         x="1355.9751"
+         id="tspan3798-1"
+         sodipodi:role="line">Femke Snelting</tspan></text>
+    <g
+       transform="matrix(0.06,0,0,0.06,3068.3322,1290.4257)"
+       id="g3800-9"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3802-3"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3804-4"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3806"
+       y="-2977.1418"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-2977.1418"
+         x="1356.3822"
+         id="tspan3808"
+         sodipodi:role="line">Michael Terry</tspan></text>
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,1807.7748,1019.3806)"
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,2985.0609,1284.2125)"
        id="g3818">
       <path
          inkscape:connector-curvature="0"
@@ -3698,951 +3701,382 @@
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3824"
-       y="1125.1309"
-       x="3612.3242"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="3612.3242"
-         id="tspan3826"
+       id="text3810-5"
+       y="-6220.6772"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-6220.6772"
+         x="1356.3822"
+         id="tspan3812-7"
+         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
+    <path
+       style="fill:#000000;display:inline"
+       id="path3814-7"
+       d="m 6214.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;display:inline"
+       id="path3816-6"
+       d="m 6220.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0-8"
+       y="-6269.7949"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-6269.7949"
+         x="1355.9751"
+         id="tspan3798-1-2"
          sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="matrix(0.06,0,0,0.06,3556.7748,1101.5938)"
-       id="g3828"
+       transform="matrix(0.06,0,0,0.06,6263.3322,1290.4257)"
+       id="g3800-9-0"
        style="display:inline">
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3830"
+         id="path3802-3-5"
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3832"
+         id="path3804-4-3"
          d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3834"
-       y="1048.5129"
-       x="3612.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="3612.7314"
-         id="tspan3836"
+       id="text3806-2"
+       y="-6172.1416"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-6172.1416"
+         x="1356.3822"
+         id="tspan3808-2"
          sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3838"
-       y="1087.1133"
-       x="3612.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="3612.7314"
-         id="tspan3840"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3842"
-       d="m 3556.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3844"
-       d="m 3562.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,3571.7748,1019.3806)"
-       id="g3846">
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,6180.0609,1284.2125)"
+       id="g3818-4">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3848"
+         id="path3820-4"
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3850"
+         id="path3822-5"
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3852"
-       y="1125.1309"
-       x="5043.3242"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="5043.3242"
-         id="tspan3854"
+       id="text3810-5-8"
+       y="-9415.6777"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-9415.6777"
+         x="1356.3822"
+         id="tspan3812-7-5"
+         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
+    <path
+       style="fill:#000000;display:inline"
+       id="path3814-7-3"
+       d="m 9409.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;display:inline"
+       id="path3816-6-9"
+       d="m 9415.1966,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0-8-5"
+       y="-9464.7949"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-9464.7949"
+         x="1355.9751"
+         id="tspan3798-1-2-5"
          sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="matrix(0.06,0,0,0.06,4987.7748,1101.5938)"
-       id="g3856"
+       transform="matrix(0.06,0,0,0.06,9458.3322,1290.4257)"
+       id="g3800-9-0-1"
        style="display:inline">
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3858"
+         id="path3802-3-5-6"
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3860"
+         id="path3804-4-3-6"
          d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3862"
-       y="1048.5129"
-       x="5043.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="5043.7314"
-         id="tspan3864"
+       id="text3806-2-0"
+       y="-9367.1416"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-9367.1416"
+         x="1356.3822"
+         id="tspan3808-2-9"
          sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3866"
-       y="1087.1133"
-       x="5043.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="5043.7314"
-         id="tspan3868"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3870"
-       d="m 4987.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3872"
-       d="m 4993.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,5002.7748,1019.3806)"
-       id="g3874">
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,9375.0609,1284.2125)"
+       id="g3818-4-6">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3876"
+         id="path3820-4-4"
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3878"
+         id="path3822-5-9"
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3880"
-       y="1125.1309"
-       x="6807.3242"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="6807.3242"
-         id="tspan3882"
+       id="text3810-5-8-6"
+       y="-12610.678"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-12610.678"
+         x="1356.3822"
+         id="tspan3812-7-5-0"
+         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
+    <path
+       style="fill:#000000;display:inline"
+       id="path3814-7-3-6"
+       d="m 12604.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;display:inline"
+       id="path3816-6-9-1"
+       d="m 12610.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0-8-5-7"
+       y="-12659.795"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-12659.795"
+         x="1355.9751"
+         id="tspan3798-1-2-5-5"
          sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="matrix(0.06,0,0,0.06,6751.7748,1101.5938)"
-       id="g3884"
+       transform="matrix(0.06,0,0,0.06,12653.332,1290.4257)"
+       id="g3800-9-0-1-8"
        style="display:inline">
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3886"
+         id="path3802-3-5-6-5"
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3888"
+         id="path3804-4-3-6-7"
          d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3890"
-       y="1048.5129"
-       x="6807.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="6807.7314"
-         id="tspan3892"
+       id="text3806-2-0-0"
+       y="-12562.142"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-12562.142"
+         x="1356.3822"
+         id="tspan3808-2-9-2"
          sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3894"
-       y="1087.1133"
-       x="6807.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="6807.7314"
-         id="tspan3896"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3898"
-       d="m 6751.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3900"
-       d="m 6757.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,6766.7748,1019.3806)"
-       id="g3902">
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,12570.061,1284.2125)"
+       id="g3818-4-6-0">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3904"
+         id="path3820-4-4-2"
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3906"
+         id="path3822-5-9-7"
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3908"
-       y="1125.1309"
-       x="8238.3242"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="8238.3242"
-         id="tspan3910"
+       id="text3810-5-8-6-6"
+       y="-15805.678"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-15805.678"
+         x="1356.3822"
+         id="tspan3812-7-5-0-9"
+         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
+    <path
+       style="fill:#000000;display:inline"
+       id="path3814-7-3-6-4"
+       d="m 15799.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;display:inline"
+       id="path3816-6-9-1-6"
+       d="m 15805.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0-8-5-7-4"
+       y="-15854.795"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-15854.795"
+         x="1355.9751"
+         id="tspan3798-1-2-5-5-7"
          sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="matrix(0.06,0,0,0.06,8182.7748,1101.5938)"
-       id="g3912"
+       transform="matrix(0.06,0,0,0.06,15848.332,1290.4257)"
+       id="g3800-9-0-1-8-5"
        style="display:inline">
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3914"
+         id="path3802-3-5-6-5-9"
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3916"
+         id="path3804-4-3-6-7-5"
          d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3918"
-       y="1048.5129"
-       x="8238.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="8238.7314"
-         id="tspan3920"
+       id="text3806-2-0-0-9"
+       y="-15757.142"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-15757.142"
+         x="1356.3822"
+         id="tspan3808-2-9-2-8"
          sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3922"
-       y="1087.1133"
-       x="8238.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="8238.7314"
-         id="tspan3924"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3926"
-       d="m 8182.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3928"
-       d="m 8188.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,8197.7748,1019.3806)"
-       id="g3930">
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,15765.061,1284.2125)"
+       id="g3818-4-6-0-3">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3932"
+         id="path3820-4-4-2-1"
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3934"
+         id="path3822-5-9-7-7"
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3936"
-       y="1125.1309"
-       x="10002.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="10002.324"
-         id="tspan3938"
+       id="text3810-5-8-6-6-9"
+       y="-19000.678"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-19000.678"
+         x="1356.3822"
+         id="tspan3812-7-5-0-9-6"
+         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
+    <path
+       style="fill:#000000;display:inline"
+       id="path3814-7-3-6-4-6"
+       d="m 18994.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;display:inline"
+       id="path3816-6-9-1-6-5"
+       d="m 19000.197,1290.4257 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3796-0-8-5-7-4-8"
+       y="-19049.795"
+       x="1355.9751"
+       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-19049.795"
+         x="1355.9751"
+         id="tspan3798-1-2-5-5-7-4"
          sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="matrix(0.06,0,0,0.06,9946.7748,1101.5938)"
-       id="g3940"
+       transform="matrix(0.06,0,0,0.06,19043.332,1290.4257)"
+       id="g3800-9-0-1-8-5-7"
        style="display:inline">
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3942"
+         id="path3802-3-5-6-5-9-7"
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3944"
+         id="path3804-4-3-6-7-5-1"
          d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <text
        sodipodi:linespacing="125%"
-       id="text3946"
-       y="1048.5129"
-       x="10002.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="10002.731"
-         id="tspan3948"
+       id="text3806-2-0-0-9-7"
+       y="-18952.141"
+       x="1356.3822"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+       xml:space="preserve"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         y="-18952.141"
+         x="1356.3822"
+         id="tspan3808-2-9-2-8-4"
          sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3950"
-       y="1087.1133"
-       x="10002.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="10002.731"
-         id="tspan3952"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3954"
-       d="m 9946.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3956"
-       d="m 9952.7748,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,9961.7748,1019.3806)"
-       id="g3958">
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,18960.061,1284.2125)"
+       id="g3818-4-6-0-3-8">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
-         id="path3960"
+         id="path3820-4-4-2-1-9"
          d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
       <path
          inkscape:connector-curvature="0"
          style="fill:#000000"
-         id="path3962"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3964"
-       y="1125.1309"
-       x="11433.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="11433.324"
-         id="tspan3966"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,11377.775,1101.5938)"
-       id="g3968"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3970"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3972"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3974"
-       y="1048.5129"
-       x="11433.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="11433.731"
-         id="tspan3976"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3978"
-       y="1087.1133"
-       x="11433.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="11433.731"
-         id="tspan3980"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path3982"
-       d="m 11377.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path3984"
-       d="m 11383.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,11392.775,1019.3806)"
-       id="g3986">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3988"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3990"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3992"
-       y="1125.1309"
-       x="13197.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="13197.324"
-         id="tspan3994"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,13141.775,1101.5938)"
-       id="g3996"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3998"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4000"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4002"
-       y="1048.5129"
-       x="13197.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="13197.731"
-         id="tspan4004"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4006"
-       y="1087.1133"
-       x="13197.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="13197.731"
-         id="tspan4008"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4010"
-       d="m 13141.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4012"
-       d="m 13147.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,13156.775,1019.3806)"
-       id="g4014">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4016"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4018"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4020"
-       y="1125.1309"
-       x="14628.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="14628.324"
-         id="tspan4022"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,14572.775,1101.5938)"
-       id="g4024"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4026"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4028"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4030"
-       y="1048.5129"
-       x="14628.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="14628.731"
-         id="tspan4032"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4034"
-       y="1087.1133"
-       x="14628.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="14628.731"
-         id="tspan4036"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4038"
-       d="m 14572.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4040"
-       d="m 14578.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,14587.775,1019.3806)"
-       id="g4042">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4044"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4046"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4048"
-       y="1125.1309"
-       x="16392.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="16392.324"
-         id="tspan4050"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,16336.775,1101.5938)"
-       id="g4052"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4054"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4056"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4058"
-       y="1048.5129"
-       x="16392.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="16392.73"
-         id="tspan4060"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4062"
-       y="1087.1133"
-       x="16392.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="16392.73"
-         id="tspan4064"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4066"
-       d="m 16336.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4068"
-       d="m 16342.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,16351.775,1019.3806)"
-       id="g4070">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4072"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4074"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4076"
-       y="1125.1309"
-       x="17823.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="17823.324"
-         id="tspan4078"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,17767.775,1101.5938)"
-       id="g4080"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4082"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4084"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4086"
-       y="1048.5129"
-       x="17823.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="17823.73"
-         id="tspan4088"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4090"
-       y="1087.1133"
-       x="17823.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="17823.73"
-         id="tspan4092"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4094"
-       d="m 17767.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4096"
-       d="m 17773.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,17782.775,1019.3806)"
-       id="g4098">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4100"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4102"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4104"
-       y="1125.1309"
-       x="19587.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="19587.324"
-         id="tspan4106"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,19531.775,1101.5938)"
-       id="g4108"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4110"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4112"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4114"
-       y="1048.5129"
-       x="19587.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="19587.73"
-         id="tspan4116"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4118"
-       y="1087.1133"
-       x="19587.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="19587.73"
-         id="tspan4120"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4122"
-       d="m 19531.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4124"
-       d="m 19537.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,19546.775,1019.3806)"
-       id="g4126">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4128"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4130"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4132"
-       y="1125.1309"
-       x="21018.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="21018.324"
-         id="tspan4134"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,20962.775,1101.5938)"
-       id="g4136"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4138"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4140"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4142"
-       y="1048.5129"
-       x="21018.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="21018.73"
-         id="tspan4144"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4146"
-       y="1087.1133"
-       x="21018.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="21018.73"
-         id="tspan4148"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4150"
-       d="m 20962.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4152"
-       d="m 20968.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,20977.775,1019.3806)"
-       id="g4154">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4156"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4158"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4160"
-       y="1125.1309"
-       x="22782.324"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1125.1309"
-         x="22782.324"
-         id="tspan4162"
-         sodipodi:role="line">Femke Snelting</tspan></text>
-    <g
-       transform="matrix(0.06,0,0,0.06,22726.775,1101.5938)"
-       id="g4164"
-       style="display:inline">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4166"
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4168"
-         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4170"
-       y="1048.5129"
-       x="22782.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1048.5129"
-         x="22782.73"
-         id="tspan4172"
-         sodipodi:role="line">Michael Terry</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4174"
-       y="1087.1133"
-       x="22782.73"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1087.1133"
-         x="22782.73"
-         id="tspan4176"
-         sodipodi:role="line">Ivan Monroy Lopez</tspan></text>
-    <path
-       style="fill:#000000;display:inline"
-       id="path4178"
-       d="m 22726.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;display:inline"
-       id="path4180"
-       d="m 22732.775,1063.5938 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z m 12,0 0,6 0,6 0,6 0,6 0,6 6,0 0,-6 0,-6 0,-6 0,-6 0,-6 -6,0 z"
-       inkscape:connector-curvature="0" />
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,22741.775,1019.3806)"
-       id="g4182">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path4184"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path4186"
+         id="path3822-5-9-7-7-7"
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
   </g>
@@ -5003,327 +4437,268 @@
      inkscape:label="TITLE"
      id="g3644"
      inkscape:groupmode="layer">
-    <text
-       sodipodi:linespacing="125%"
-       id="text3650"
-       y="1052.3854"
-       x="2850.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3652"
-         y="1052.3854"
-         x="2850.4277"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3654"
-       y="1052.3854"
-       x="4614.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3656"
-         y="1052.3854"
-         x="4614.4277"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3658"
-       y="1052.3854"
-       x="6045.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3660"
-         y="1052.3854"
-         x="6045.4277"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3662"
-       y="1052.3854"
-       x="7809.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3664"
-         y="1052.3854"
-         x="7809.4277"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3666"
-       y="1052.3854"
-       x="9240.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3668"
-         y="1052.3854"
-         x="9240.4277"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3670"
-       y="1052.3854"
-       x="11004.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3672"
-         y="1052.3854"
-         x="11004.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3674"
-       y="1052.3854"
-       x="12435.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3676"
-         y="1052.3854"
-         x="12435.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3678"
-       y="1052.3854"
-       x="14199.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3680"
-         y="1052.3854"
-         x="14199.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3682"
-       y="1052.3854"
-       x="15630.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3684"
-         y="1052.3854"
-         x="15630.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3686"
-       y="1052.3854"
-       x="17394.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3688"
-         y="1052.3854"
-         x="17394.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3690"
-       y="1052.3854"
-       x="18825.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3692"
-         y="1052.3854"
-         x="18825.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3694"
-       y="1052.3854"
-       x="20589.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3696"
-         y="1052.3854"
-         x="20589.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3698"
-       y="1052.3854"
-       x="22020.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3700"
-         y="1052.3854"
-         x="22020.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3702"
-       y="1052.3854"
-       x="23784.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         id="tspan3704"
-         y="1052.3854"
-         x="23784.428"
-         sodipodi:role="line">Data analysis as discourse</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1896.6034,-498.0359 49.9097,0 m 806.2156,0 20.2629,0 m -881.7917,2.7054 -12.1576,25.7002 m 256.3276,-25.7002 -12.1577,25.7002 m 624.1132,-25.7002 -12.1578,25.7002 m 33.7714,-25.7002 -12.1577,25.7002 m 1207.5418,-25.7002 -12.1577,25.7002 m -1998.898,-22.9949 c 4.5348,8.6623 4.5348,15.6852 0,24.3475 m 144.2786,0 20.2628,0 m 22.9646,0 20.2627,0 m -291.4497,2.7053 -12.1578,25.7002 m 85.0319,-25.7002 -12.1576,25.7002 m 183.4533,-25.7002 -12.1576,25.7002 m 624.1131,-25.7002 -12.1577,25.7002 m 33.7714,-25.7002 -12.1578,25.7002 m 1207.5418,-25.7002 -12.1577,25.7002 m -891.9674,-15.9936 c 7.5108,-2.8447 11.951,9.6429 3.9107,12.1372 -7.9633,2.5038 -11.485,-9.2074 -3.9107,-12.1372 m 949.2473,0 c 7.5108,-2.8447 11.9511,9.6429 3.9108,12.1372 -7.9633,2.5038 -11.4849,-9.2074 -3.9108,-12.1372 m -1954.3198,10.583 0,1.3526 m 192.9094,-1.3526 0,1.3526 m 161.2956,-1.3526 0,1.3526 m 257.7505,-1.3526 0,1.3526 m 253.435,-1.3526 -1.3509,5.4106 m 752.0042,-5.4106 0,1.3526 m 522.2734,-1.3526 0,1.3526 m 118.0684,-1.3526 0,1.3526 m 53.2273,-1.3526 0,1.3526 m -2373.647,5.4106 51.8764,0 m 141.0329,0 51.8765,0 m 109.4192,0 51.8765,0 m 76.1919,0 85.1038,0 m 54.5781,0 41.8766,0 m 141.0329,0 61.8765,0 m 97.8054,0 30.2629,0 m 109.4192,0 30.2628,0 m 481.5522,0 51.8765,0 m 76.1919,0 30.2627,0 m 129.4192,0 51.8765,0 m 107.8056,0 30.2627,0 m 66.1919,0 30.2629,0 m 44.5781,0 51.8766,0 m 129.4191,0 41.8765,0 m 44.5782,0 30.2628,0 m 66.1919,0 30.2628,0 m -2750.7448,2.7053 -12.1576,25.7002 m 85.0319,-25.7002 -12.1576,25.7002 m 108.6123,-25.7002 -12.1577,25.7002 m 205.0671,-25.7002 -12.1577,25.7002 m 173.4533,-25.7002 -12.1577,25.7002 m 86.9987,-25.7002 -12.1576,25.7002 m 55.385,-25.7002 -12.1577,25.7002 m 151.8397,-25.7002 -12.1577,25.7002 m 108.6124,-25.7002 -12.1577,25.7002 m 55.385,-25.7002 -12.1577,25.7002 m 128.6124,-25.7002 -12.1577,25.7002 m 55.385,-25.7002 -12.1576,25.7002 m 151.8397,-25.7002 -12.1578,25.7002 m 577.2001,-25.7002 -12.1577,25.7002 m 86.9987,-25.7002 -12.1577,25.7002 m 225.067,-25.7002 -12.1576,25.7002 m 118.6124,-25.7002 -12.1578,25.7002 m 311.5218,-25.7002 -12.1577,25.7002 m 65.385,-25.7002 -12.1577,25.7002 m 98.6124,-25.7002 -12.1577,25.7002 m 140.226,-25.7002 -12.1577,25.7002 m -2619.7838,-24.3476 c -3.4514,9.4685 -4.47,16.5564 0,25.7002 m 192.9094,-25.7002 c -3.4514,9.4685 -4.4699,16.5564 0,25.7002 m 161.2957,-25.7002 c -3.4514,9.4685 -4.4701,16.5564 0,25.7002 m 267.7505,-25.7002 c -3.4516,9.4685 -4.4701,16.5564 0,25.7002 m 246.1366,-25.7002 c -3.4515,9.4685 -4.47,16.5564 0,25.7002 m 747.9517,-25.7002 c -3.4514,9.4685 -4.47,16.5564 0,25.7002 m 287.7503,-25.7002 c -3.4514,9.4685 -4.4698,16.5564 0,25.7002 m 256.1367,-25.7002 c -3.4515,9.4685 -4.4698,16.5564 0,25.7002 m 74.8411,-25.7002 c -3.4515,9.4685 -4.47,16.5564 0,25.7002 m 74.8409,-25.7002 c -3.4515,9.4685 -4.4699,16.5564 0,25.7002 m 149.6821,-25.7002 c -3.4515,9.4685 -4.4699,16.5564 0,25.7002 m -1450.9768,-24.3474 c 4.5348,8.6623 4.5348,15.6851 0,24.3474 m 139.682,-24.3474 c 4.5349,8.6623 4.5349,15.6851 0,24.3474 m 639.8834,-24.3474 c 4.5349,8.6635 4.5349,15.6838 0,24.3474 m 319.364,-24.3474 c 4.5349,8.6635 4.5349,15.6838 0,24.3474 m 171.2958,-24.3474 c 4.5348,8.6635 4.5348,15.6838 0,24.3474 m 267.7502,-24.3474 c 4.5349,8.6635 4.5349,15.6838 0,24.3474 m -2475.5051,-22.9949 0,18.9371 m 192.9094,-18.9371 0,20.2897 m 161.2956,-20.2897 0,20.2897 m 257.7505,-20.2897 0,18.9371 m 1004.0883,-17.5844 0,17.5844 m -1557.413,-1.3527 -10.8068,-8.1159 10.8068,-6.7632 m 440.6597,14.8791 -10.8068,-8.1159 10.8068,-6.7632 m 171.2958,14.8791 -10.8069,-8.1159 10.8069,-6.7632 m 320.9776,14.8791 -10.8069,-8.1159 10.8069,-6.7632 m 949.2474,14.8791 -10.8069,-8.1159 10.8069,-6.7632 m 588.7281,14.8791 -10.8069,-8.1159 10.8069,-6.7632 m -2484.4171,6.7632 2.7017,0 m 437.958,0 2.7017,0 m 168.5939,0 2.7018,0 m 318.276,0 2.7016,0 m 946.5457,0 2.7017,0 m 586.0264,0 2.7017,0 m -2698.8683,13.5264 49.9099,0 m 22.9645,0 20.2627,0 m 22.9646,0 30.2628,0 m 44.5782,0 30.2628,0 m 22.9645,0 41.8765,0 m 22.9645,0 30.2629,0 m 44.5781,0 20.2628,0 m 66.1919,0 30.2628,0 m 44.5782,0 30.2629,0 m 109.4192,0 30.2627,0 m 22.9645,0 20.2629,0 m 44.5782,0 30.2628,0 m 44.5782,0 20.2629,0 m 86.1918,0 30.2628,0 m 22.9645,0 20.2628,0 m 22.9645,0 30.2629,0 m 22.9645,0 20.2628,0 m 22.9646,0 20.2628,0 m 22.9645,0 30.2628,0 m 22.9645,0 430.2628,0 m 28.3249,0 30.2627,0 m 44.5783,0 30.2628,0 m 22.9646,0 30.2627,0 m 22.9645,0 30.2629,0 m 76.1918,0 30.2629,0 m 22.9645,0 30.2628,0 m 22.9645,0 30.2628,0 m 22.9646,0 30.2627,0 m 22.9646,0 20.2628,0 m 22.9645,0 51.8764,0 m 22.9646,0 30.2628,0 m 44.5783,0 30.2627,0 m 22.9646,0 30.2628,0 m 66.1919,0 20.2628,0 m 22.9645,0 30.2628,0 m 22.9646,0 20.2628,0 m 54.5781,0 20.2628,0 m -1756.5509,2.7054 -12.1578,25.7001 m -4.8594,6.7632 0,6.7633"
+       style="fill:none;stroke:#000000;stroke-width:2.30000019;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       id="path12"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1892.0649,-681.0796 38.75,0 m 681.25,0 18.75,0 m -743.75,2.5 -11.25,23.75 m 211.25,-23.75 -11.25,23.75 m 531.25,-23.75 -11.25,23.75 m 31.25,-23.75 -11.25,23.75 m 671.25,-23.75 -11.25,23.75 m -1338.75,-21.25 c 4.1962,8.005 4.1962,14.495 0,22.5 m 115,0 18.75,0 m 21.25,0 18.75,0 m -243.75,2.5 -11.25,23.75 m 71.25,-23.75 -11.25,23.75 m 151.25,-23.75 -11.25,23.75 m 531.25,-23.75 -11.25,23.75 m 31.25,-23.75 -11.25,23.75 m 671.25,-23.75 -11.25,23.75 m -416.25,-14.78 c 6.95,-2.6288 11.0587,8.9112 3.6187,11.2162 -7.3687,2.3138 -10.6275,-8.5087 -3.6187,-11.2162 m 460,0 c 6.95,-2.6288 11.0588,8.9112 3.6188,11.2162 -7.3688,2.3138 -10.6275,-8.5087 -3.6188,-11.2162 m -1297.5,9.78 0,1.25 m 160,-1.25 0,1.25 m 140,-1.25 0,1.25 m 220,-1.25 0,1.25 m 197.5,-1.25 -1.25,5 m 323.75,-5 0,1.25 m 400,-1.25 0,1.25 m 100,-1.25 0,1.25 m 40,-1.25 0,1.25 m -1630,5 38.75,0 m 121.25,0 38.75,0 m 101.25,0 38.75,0 m 61.25,0 78.75,0 m 41.25,0 38.75,0 m 121.25,0 38.75,0 m 81.25,0 18.75,0 m 101.25,0 18.75,0 m 101.25,0 38.75,0 m 61.25,0 18.75,0 m 101.25,0 38.75,0 m 81.25,0 18.75,0 m 61.25,0 18.75,0 m 41.25,0 38.75,0 m 101.25,0 38.75,0 m 41.25,0 18.75,0 m 61.25,0 18.75,0 m -1943.75,2.5 -11.25,23.75 m 71.25,-23.75 -11.25,23.75 m 91.25,-23.75 -11.25,23.75 m 171.25,-23.75 -11.25,23.75 m 151.25,-23.75 -11.25,23.75 m 71.25,-23.75 -11.25,23.75 m 51.25,-23.75 -11.25,23.75 m 131.25,-23.75 -11.25,23.75 m 91.25,-23.75 -11.25,23.75 m 51.25,-23.75 -11.25,23.75 m 91.25,-23.75 -11.25,23.75 m 51.25,-23.75 -11.25,23.75 m 131.25,-23.75 -11.25,23.75 m 171.25,-23.75 -11.25,23.75 m 71.25,-23.75 -11.25,23.75 m 171.25,-23.75 -11.25,23.75 m 91.25,-23.75 -11.25,23.75 m 251.25,-23.75 -11.25,23.75 m 51.25,-23.75 -11.25,23.75 m 91.25,-23.75 -11.25,23.75 m 111.25,-23.75 -11.25,23.75 m -1830,-22.5 c -3.1938,8.75 -4.1363,15.3 0,23.75 m 160,-23.75 c -3.1938,8.75 -4.1363,15.3 0,23.75 m 140,-23.75 c -3.1938,8.75 -4.1363,15.3 0,23.75 m 220,-23.75 c -3.1938,8.75 -4.1363,15.3 0,23.75 m 200,-23.75 c -3.1938,8.75 -4.1363,15.3 0,23.75 m 320,-23.75 c -3.1937,8.75 -4.1362,15.3 0,23.75 m 220,-23.75 c -3.1938,8.75 -4.1362,15.3 0,23.75 m 200,-23.75 c -3.1938,8.75 -4.1362,15.3 0,23.75 m 60,-23.75 c -3.1938,8.75 -4.1362,15.3 0,23.75 m 60,-23.75 c -3.1938,8.75 -4.1362,15.3 0,23.75 m 120,-23.75 c -3.1938,8.75 -4.1362,15.3 0,23.75 m -868.75,-22.5 c 4.1962,8.005 4.1962,14.495 0,22.5 m 120,-22.5 c 4.1963,8.005 4.1963,14.495 0,22.5 m 220,-22.5 c 4.1963,8.0062 4.1963,14.4937 0,22.5 m 240,-22.5 c 4.1963,8.0062 4.1963,14.4937 0,22.5 m 140,-22.5 c 4.1963,8.0062 4.1963,14.4937 0,22.5 m 220,-22.5 c 4.1963,8.0062 4.1963,14.4937 0,22.5 m -1715,-21.25 0,17.5 m 160,-17.5 0,18.75 m 140,-18.75 0,18.75 m 220,-18.75 0,17.5 m 520,-16.25 0,16.25 m -995,-1.25 -10,-7.5 10,-6.25 m 380,13.75 -10,-7.5 10,-6.25 m 140,13.75 -10,-7.5 10,-6.25 m 260,13.75 -10,-7.5 10,-6.25 m 460,13.75 -10,-7.5 10,-6.25 m 480,13.75 -10,-7.5 10,-6.25 m -1732.5,6.25 2.5,0 m 377.5,0 2.5,0 m 137.5,0 2.5,0 m 257.5,0 2.5,0 m 457.5,0 2.5,0 m 477.5,0 2.5,0 m -1905,12.5 38.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 41.25,0 18.75,0 m 21.25,0 38.75,0 m 21.25,0 18.75,0 m 41.25,0 18.75,0 m 61.25,0 18.75,0 m 41.25,0 18.75,0 m 101.25,0 18.75,0 m 21.25,0 18.75,0 m 41.25,0 18.75,0 m 41.25,0 18.75,0 m 61.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 61.25,0 18.75,0 m 41.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 61.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 38.75,0 m 21.25,0 18.75,0 m 41.25,0 18.75,0 m 21.25,0 18.75,0 m 61.25,0 18.75,0 m 21.25,0 18.75,0 m 21.25,0 18.75,0 m 41.25,0 18.75,0 m -1123.75,2.5 -11.25,23.75 m -13.75,6.25 0,6.25"
+       style="fill:none;stroke:#ff0000;stroke-width:2.29999995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="path12-7" />
     <text
        sodipodi:linespacing="125%"
        id="text3710"
        y="1160.6311"
-       x="1848.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       x="1847.6614"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
          y="1160.6311"
-         x="1848.1182"
+         x="1847.6614"
          id="tspan3712"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3714"
+       id="text3710-5"
+       y="1140.6311"
+       x="1847.6614"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="1847.6614"
+         id="tspan3712-5"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6"
        y="1160.6311"
-       x="3612.1182"
+       x="5042.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="5042.6611"
+         id="tspan3712-1"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-5-9"
+       y="1140.6311"
+       x="5042.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="5042.6611"
+         id="tspan3712-5-7"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6-1"
+       y="1160.6311"
+       x="8237.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="8237.6611"
+         id="tspan3712-1-2"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-5-9-2"
+       y="1140.6311"
+       x="8237.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="8237.6611"
+         id="tspan3712-5-7-1"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6-1-8"
+       y="1160.6311"
+       x="11432.661"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="11432.661"
+         id="tspan3712-1-2-6"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-5-9-2-1"
+       y="1140.6311"
+       x="11432.661"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="11432.661"
+         id="tspan3712-5-7-1-0"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6-1-8-2"
+       y="1160.6311"
+       x="14627.661"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="14627.661"
+         id="tspan3712-1-2-6-0"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-5-9-2-1-1"
+       y="1140.6311"
+       x="14627.661"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="14627.661"
+         id="tspan3712-5-7-1-0-9"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6-1-8-2-9"
+       y="1160.6311"
+       x="17822.66"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1160.6311"
+         x="17822.66"
+         id="tspan3712-1-2-6-0-0"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-5-9-2-1-1-7"
+       y="1140.6311"
+       x="17822.66"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:64.96994781px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1140.6311"
+         x="17822.66"
+         id="tspan3712-5-7-1-0-9-2"
+         sodipodi:role="line"
+         dx="0 0 0 29.141687 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3710-6-1-8-2-9-0"
+       y="1160.6311"
+       x="21017.66"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
          y="1160.6311"
-         x="3612.1182"
-         id="tspan3716"
+         x="21017.66"
+         id="tspan3712-1-2-6-0-0-8"
          sodipodi:role="line">___________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3718"
-       y="1160.6311"
-       x="5043.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-5-9-2-1-1-7-5"
+       y="1140.6311"
+       x="21017.66"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:12.48999977px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="5043.1182"
-         id="tspan3720"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1140.6311"
+         x="21017.66"
+         id="tspan3712-5-7-1-0-9-2-7"
+         sodipodi:role="line"
+         dx="0 0 0 -2.1503949 26.713213 0 0 0 0 0 0 0 0 0 0 0 7.2854209 0 -19.42779">Data  analysis    as  a  discourse</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3722"
-       y="1160.6311"
-       x="6807.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-8"
+       y="1103.6311"
+       x="1847.6614"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="6807.1182"
-         id="tspan3724"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="1847.6614"
+         id="tspan3712-51"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3726"
-       y="1160.6311"
-       x="8238.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-6-7"
+       y="1103.6311"
+       x="5042.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="8238.1182"
-         id="tspan3728"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="5042.6611"
+         id="tspan3712-1-3"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3730"
-       y="1160.6311"
-       x="10002.118"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-6-1-9"
+       y="1103.6311"
+       x="8237.6611"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="10002.118"
-         id="tspan3732"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="8237.6611"
+         id="tspan3712-1-2-5"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3734"
-       y="1160.6311"
-       x="11433.118"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-6-1-8-1"
+       y="1103.6311"
+       x="11432.661"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="11433.118"
-         id="tspan3736"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="11432.661"
+         id="tspan3712-1-2-6-5"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3738"
-       y="1160.6311"
-       x="13197.118"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-6-1-8-2-4"
+       y="1103.6311"
+       x="14627.66"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="13197.118"
-         id="tspan3740"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="14627.66"
+         id="tspan3712-1-2-6-0-06"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3742"
-       y="1160.6311"
-       x="14628.118"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3710-6-1-8-2-9-3"
+       y="1103.6311"
+       x="17822.66"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0.09px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="14628.118"
-         id="tspan3744"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
+         y="1103.6311"
+         x="17822.66"
+         id="tspan3712-1-2-6-0-0-4"
+         sodipodi:role="line">_________________________________________________________________________________________________________________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3746"
-       y="1160.6311"
-       x="16392.117"
+       id="text3710-6-1-8-2-9-0-4"
+       y="1103.6311"
+       x="21017.66"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="16392.117"
-         id="tspan3748"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3750"
-       y="1160.6311"
-       x="17823.117"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="17823.117"
-         id="tspan3752"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3754"
-       y="1160.6311"
-       x="19587.117"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="19587.117"
-         id="tspan3756"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3758"
-       y="1160.6311"
-       x="21018.117"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="21018.117"
-         id="tspan3760"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3762"
-       y="1160.6311"
-       x="22782.117"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1160.6311"
-         x="22782.117"
-         id="tspan3764"
+         y="1103.6311"
+         x="21017.66"
+         id="tspan3712-1-2-6-0-0-8-2"
          sodipodi:role="line">___________________________________________________________</tspan></text>
   </g>
 </svg>
