@@ -1,0 +1,105 @@
+% Lines starting with % are comments and will be ignored
+% comments may be treated as commands/actions/functions
+
+% http://blogs.lgru.net/ft/conversations/meaningful-transformations
+
+% FS = Femke Snelting
+% DJ = Denis Jacquerye
+% PM = Pierre Marchand
+% NM = Nicolas Maléve
+
+% USED FOR NAME INDEXING
+% HIDDENKEYWORDS: Jacquerye, Denis|Marchand, Pierre|Maléve, Nicolas
+
+% TITLE: Unicodes
+
+% SCALEFONT: 1.3
+
+The following text is a transcription of a talk by and conversation with Denis Jacquerye in the context of the Libre Graphics Research Unit in 2012. We invited him in the context of a session called _Co-position_ where we tried to re-imagine layout from scratch. The text-encoding standard Unicode and moreover Denis' precise understanding of the many cultural and political path-dependencies involved in the making of it, felt like an obvious place to start. Denis Jacquerye is involved in language technology, software localization and font engineering. He's been the co-lead of the DéjàVu Font project and works with the African Network for Localization (ANLoc) to remove language limitations that exist in today's technology. Denis currently lives in London. This text is also available in _Considering your tools_.[^]{Considering your tools: a reader for designers and developers http://reader.lgru.net}
+A shorter version has been published in _Libre Graphics Magazine 2.1_.
+
+% RESETFONT:
+% BIGSKIP:
+
+% NOWSPEAKING: DJ
+% ---------------
+This presentation is about the struggle of some people to use typography in their languages, especially with digital type because there is quite a complex set of elements that make this universe of digital type. One of the basic things people do when they want to use their languages, they end up with these type of problems down here, where some characters are shown, some aren't, sometimes they don't match within the font. Because one font has one of the character they need and then another one doesn't. Like for example when a font has the capital letter but not the corresponding lowercase letter. Users don't really know how to deal with that, they just try different fonts and when they're more courageous, they go online and find how to complain about those to developers -- I mean font designers or engineers. And those people try to solve those problems as well as they can. But sometimes it's pretty hard to find out how to solve them. Adding missing characters is pretty easy but sometimes you also have language requirements that are very complex. Like here for example, in Polish, you have the ogonek, which is like a little tail that shows that a vowel is nasalized. Most fonts actually have that character, but for some languages, people are used to have that little tail centred which is quite rare to see in a font. So when font designers face that issue, they have to make a choice rather they want to go with one tradition or another, and if they want to go one way they're scattered to those people. Also you have problems of spacing things differently, like in fig. 1, a stacking of different accents -- called diacritics or diacritical marks. Stacking this high up often ends up on the line above, so you have to find a solution to make it less heavy on a line, and then in some languages, instead of stacking them, they end up putting them side by side, which is yet another point where you have to make a choice.
+
+But basically, all these things are based on how type is represented on computers. You used to have simple encodings like ASCII, the basic Western Latin alphabet where each character was represented by bytes. The character could be displayed with different fonts, with different styles, they could not meet the requirements of different people. And then they made different encodings because they were a lot of different requirements and it's technically impossible to fit them all in ASCII.
+
+Often they would start with ASCII and then add the specific requirements but soon they ended up having a lot of different standards because of all the different needs. So one single byte of representation would have different meanings and each of these meanings could be displayed differently in fonts. But old webpages are often using old encodings. If your browser is not using the right encoding you would have jibbish displayed because of this chaos of encodings. So in the late eighties, they started thinking about those problems and in the nineties they started working on Unicode: several companies got together and worked on one single unifying standard that would be compatible with all the pre-used standards or the new coming ones.
+
+Unicode is pretty well defined, you have a universal code point to represent to identify a character, and then that character can be displayed with different glyphs depending on the font or the style selected. With that framework, when you need to have the proper character displayed, you have to go the code point in a font editor, change the shape of the character and it can be displayed properly. Then sometimes there's just no code point for the character you need because it hasn't been added, it wasn't in any existing standard or nobody has ever needed it before or people who needed it just used old printers and metal type.
+
+So in this case, you have to start to deal with the Unicode organization itself. They have a few ways to communicate like the mailing list, the public, and recently they also opened a forum where you can ask questions about the characters you need as you might just not find them.
+
+In most operating systems, you have a character map application where you can access all the characters, either all the characters that exist in Unicode or the ones available in the font you're using. And it's quite hard to find what you need, as it's most of the time organized with a very restrictive set of rules. Characters are just ordered in the way they're ordered within Unicode using their code point order: for example, capital A is 41, and then B is 42, etc. The further you go in the alphabet the further you go in the Unicode blocks and tables, and there is a lot of different writing systems... Moreover because Unicode is sort of expanding organically -- work is done on one script, and then on another, then coming back to previous scripts to add things -- things are not really in a logical or practical order. In fig. 8, the Basic Latin is all the way up there, and more far, you have Latin Extended A, (Conditional) Extended Latin, Latin Extended B, C and D. Those are actually quite far apart within Unicode, and each of them can have a different setup: for example, here you have a capital letter that is just alone, and here you have a capital letter and a lowercase letter. So when you know the character you want to use, sometimes you would find the uppercase letter but you'd have to keep looking for the corresponding lowercase.
+
+Basically when you have a character that you can't find, people from the mailing list or the forum can tell you if it would be relevant to include it in Unicode or not. And if you're very motivated, you can try to meet the inclusion criterias. But for a proper inclusion, there has to be a formal proposal using their template with questions to answer, you also have to provide proof that the characters you want to add are actually used or how they would be used. The criterias are quite complicated because you have to make sure that this is not a glyphic variant (the same character but represented differently). Then you also have to prove the character doesn't already exist because sometimes you just don't know it's a variant of another one; sometimes they just want to make it easier and claim it's a variant of another one even though you don't agree. For example, making sure it's not just a ligature as sometimes ligatures are used as a single character, sometimes they exist for aesthetic reasons. Eventually you have to provide an actual font with the character so that they can use it in their documentation.
+
+
+% NOWSPEAKING: FS
+% ---------------
+How long does it take usually?
+
+
+% NOWSPEAKING: DJ
+% ---------------
+It depends as sometimes they accept it right away if you explain your request properly and provide enough proof, but they often ask for revisions to the proposals and then it can be rejected because it doesn't meet the criterias. Actually those criterias have changed a bit in the past. They started with Basic Latin and then added special characters which were used: here for example [FIG-unicode code chart] is the international phonetic alphabet but also all the accented ones... As they were used in other encodings and that Unicode initially wanted to be compatible with everything that already exists, they added them. Then they figured they already had all those accented characters from other encodings so they're also going to add all the ones they know are used even though they were not encoded yet. They ended up with different names because they had different policies at the beginning instead of having the same policy as now. They added here a bunch of Latin letters with marks that were used for example in transcription. So if you're transcribing Sanskrit for example, you would use some of the characters here. Then at some point they realized that this list of accented characters would get huge, and that there must be a smarter way to do this. Therefore they figured you could actually use just parts of those characters as they can be broken apart: a base letter and marks you add to it. In fig.2, you have a single character that can be decomposed canonically between the small letter B and a colon dot above, and you have the character for the dot above in the block of the diacritical marks. You have access to all the diacritical marks they thought were useful at some point. At that point, when they realized they would end up having thousands of accented characters they figured with this way where we can have just any possibility, so from now on, they're just going to say if you want to have an accented character that hasn't been encoded already, just use the parts that can represent it. Then in 1996, some people for Yoruba, a spoken language in Nigeria, made a proposal to add the characters with diacritics they needed and Unicode just rejected the proposal as they could compose those characters by combining existing parts.
+
+
+% NOWSPEAKING: FS
+% ---------------
+Weren't the elements they needed already in the toolbox?
+
+
+% NOWSPEAKING: DJ
+% ---------------
+Yes, the encoding parts are there, meaning it can be represented with Unicode but the software didn't handle them properly so it made more sense to the Yoruba speakers to have it encoded it in Unicode.
+
+
+% NOWSPEAKING: FS
+% ---------------
+So you could type, but you'd need to type two characters of course?
+
+
+% NOWSPEAKING: DJ
+% ---------------
+Yes, the way you type things is a big problem. Because most keyboards are based on old encodings where you have accented characters as single characters, so when you want to do a sequence of characters, you actually have to type more, or you'd have to have a special keyboard layout allowing you to have one key mapped to several characters. So that's technically feasible but it's a slow process to have all the possibilities. You might have one whic is very common so developers end up adding it to the keyboard layouts or whatever applications they're using, but not when other people have different needs.
+
+There is a lot of documentation within Unicode, but it's quite hard to find what you want when you're just starting, and it's quite technical. Most of it is actually in a book they publish at every new version. This book has a few chapters that describe how Unicode works and how characters should work together, what properties they have. And all the differences between scripts are relevant. They also have special cases trying to cater to those needs that weren't met or the proposals that were rejected. They have a few examples in the Unicode book: in some transcription systems they have this sequence of characters or ligature; in fig. 3 is a T and S with a ligature tie and then a dot above. So the ligature tie means that T and S are pronounced together and the dot above is err... has a different meaning (_laughs_). But it has a meaning! But because of the way characters work in Unicode, applications actually reorder it whatever you type in, it's reordered so that the ligature tie ends up being moved after the dot. So you always have this representation because you have the T, there should be the dot, and then there should be the ligature tie and then the S. So the T goes first, the dot goes above the T, the ligature tie goes above everything and then the S just goes next to the T. The way they explain how to do this is supposed to do the T, the ligature tie, and then a special diacritical mark that prevents any kind of reordering, then you can add the dot and then you can do the S. So this kind of use is great as you have a solution, it's just super hard because you have to type five characters instead of... well... four (_laughs_). But still, most of the libraries that are rendering fonts don't handle it properly and then even most fonts don't plan for it. So even if the fonts did anyway the libraries wouldn't handle it properly. Then there are other things that Unicode does: because of that separation between accents and characters and then the composition, you can actually normalize how things are ordered. This sequence of characters in fig. 4 can be reordered into the pre-composed one with a circumflex or whatever; you have combining marks in the normalized order. All these things have to be handled in the libraries, in the application or in the fonts.
+
+The documentation of Unicode itself is not prescriptive, meaning that the shape of the glyphs are not set in stone. So you can still have room to have the style you want, the style your target users want. For example in fig. 5 we have different glyphs: Unicode has just one shape and it's the font designer's choice to have different ones. Unicode is not about glyphs, it's really about how information is represented, how it's displayed. In fig. 6, you have two characters displayed as a ligature: it is actually encoded as one character because of previous encodings. But if ever it would be a new case, Unicode wouldn't stake the ligature as a single character.
+
+So all this information is really in a corner there. It's quite rare to find fonts that actually use this information to provide to the needs of the people who need specific features. One of the way to implement all those features is with TrueType OpenType and there are also some alternatives like Graphite which is a subset of a TrueType OpenType font. But then, you need your applications to be able to handle Graphite. So eventually the real unique standard is TrueType Opentype. It's pretty well documented and very technical because it allows to do many things for many different writing systems. But it's slow to update so if there's a mistake in the actual specifications of OpenType, it takes a while before they correct it and before that correction shows up in your application. It's quite flexible and one of the big issue it that it has its own language code system, meaning that some identified languages just can't be identified in OpenType. One of the features in OpenType is managing language environment. If I'm using Polish, I'd want this shape; if I'm using Navajo, I'd want this shape. That's very cool because you can make just one font that's used by Polish speakers and Navajo speakers without them worrying about changing fonts as long as they specify the language they're using. But you can't use this feature for languages which aren't in the OpenType specifications as they have their own way of describing languages than Unicode. It's really frustrating because, you can find all the characters in Unicode, not organized in a practical way: you have to look all around the tables to find the characters that may be used by one language, and then you have to look around for how to actually use them.
+
+It is a real lack of awareness within the font designer community. Because even when they might add all the characters you need, they might just not add the positioning, so in fig. 7 for example you have a... when you combine with a circumflex, it doesn't position well because most of the font designers still work with the old encoding mindset when you have one character for one accentuated letter. Sometimes they just think that following the Unicode blocks is good enough. But then you have problems where, like in fig. 8 at the beginning, the capital is in one block and its lowercase in a different block. And then they just work on one block, they just don't do the other one because they don't think it's necessary, but yet, two blocks of the same letter are there, so it would make sense to have both. It's hard because there's very few connections between the Unicode world, people working on OpenType libraries, font designers and the actual needs of the users.
+
+
+% NOWSPEAKING: PM
+% ---------------
+At the beginning of the presentation you went for the code point of the characters, all your characters are subtitled by their code points; it's kind of the beauty of Unicode to name everything, every character.
+
+
+% NOWSPEAKING: DJ
+% ---------------
+Those names are actually quite long. One funny thing about this. Unicode has the policy of not changing the names of the characters, so they have an errata where they realized that _oh, we shouldn't have named this that, so here's the actual name that makes sense, and the real name is wrong._
+
+
+% NOWSPEAKING: FS
+% ---------------
+Pierre refers to the fact that in the character mappings that each of the glyphs also has a description. And those are sometimes so abstract and poetic that this was a start of a work from OSP, the Dingbats Liberation Fest, to try to re-imagine what shapes would belong to those descriptions. So 'combining dot above' that's the textual description of the code point. But of course there are thousands of them so they come up with the most fantastic gymnastics...
+
+
+% NOWSPEAKING: NM
+% ---------------
+So when people come in a project like DéjàVu, they have to understand all that to start contributing. How does this training, teaching, learning process takes place?
+
+
+% NOWSPEAKING: DJ
+% ---------------
+Usually most people are interested in what they know. They have a specific need and they realize they can add it to DéjàVu, so they learn how to play with FontForge. After a while, what they've done is good and we can use it. Some people end up adding glyphs they're not familiar with. For example we had Ben doing Arabic: it was mostly just drawing and then asking for feedback on the mailing list; then we got some feedback, we changed some things, eventually released it, getting more feedback (_laughs_) because more people complained... So it's a lot of just drawing what you can from resources you can find. It's often based on other typefaces therefore sometimes you're just copying mistakes from other typefaces... So eventually it's just the feedback from the users that's really helpful because you know that people are using it, trying it, and then you know how to make it better. 
+
+
+% GRAFIK: var/figures/unicodes/conversations_Vocabularies.svg fullpage 0.9 -90
+
