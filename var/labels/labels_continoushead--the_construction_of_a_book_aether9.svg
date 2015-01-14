@@ -324,9 +324,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.17262416"
-     inkscape:cx="647.92626"
-     inkscape:cy="3312.9659"
+     inkscape:zoom="0.18281987"
+     inkscape:cx="5529.5795"
+     inkscape:cy="3264.0029"
      inkscape:document-units="px"
      inkscape:current-layer="g3565"
      showgrid="false" />
@@ -3076,7 +3076,7 @@
      inkscape:label="PEOPLE">
     <g
        style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,1864.7748,1113.3806)"
+       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,1864.7748,-296.6194)"
        id="g3597">
       <path
          inkscape:connector-curvature="0"
@@ -3092,7 +3092,7 @@
     <g
        style="display:inline"
        id="g3603"
-       transform="matrix(0.06,0,0,0.06,1849.7748,1081.5938)">
+       transform="matrix(0.06,0,0,0.06,1849.7748,-328.4062)">
       <path
          d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
          id="path3605"
@@ -3107,39 +3107,39 @@
     <text
        sodipodi:linespacing="125%"
        id="text3609"
-       y="1105.1133"
+       y="-304.88672"
        x="1905.7313"
        style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
        xml:space="preserve"><tspan
-         y="1105.1133"
+         y="-304.88672"
          x="1905.7313"
          id="tspan3611"
          sodipodi:role="line">Pierre Marchand</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text3613"
-       y="1142.5392"
+       y="-267.46082"
        x="1905.7313"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
        xml:space="preserve"><tspan
-         y="1142.5392"
+         y="-267.46082"
          x="1905.7313"
          id="tspan3615"
          sodipodi:role="line">Ludvine Loiseau</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text3617"
-       y="1066.5392"
+       y="-343.46082"
        x="1905.7313"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
        xml:space="preserve"><tspan
-         y="1066.5392"
+         y="-343.46082"
          x="1905.7313"
          id="tspan3619"
          sodipodi:role="line">Manuel Schmalstieg</tspan></text>
     <g
        style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,1879.7748,1043.5938)"
+       transform="matrix(0,0.06,-0.06,0,1879.7748,-366.4062)"
        id="g3621">
       <path
          inkscape:connector-curvature="0"
@@ -3153,394 +3153,94 @@
          d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
     </g>
     <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,3628.7748,1113.3806)"
-       id="g3627">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3629"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3631"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
+       id="g3661"
+       transform="matrix(0,1,-1,0,4121.9992,-917.15988)">
+      <g
+         transform="matrix(0.06,0,0,0.06,2523.7748,1046.1328)"
+         id="g3633"
+         style="display:inline">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           id="path3635"
+           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff"
+           id="path3637"
+           d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+         x="2569.7314"
+         y="1072.5234"
+         id="text3639"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3641"
+           x="2569.7314"
+           y="1072.5234">Pierre Marchand</tspan></text>
     </g>
     <g
-       style="display:inline"
-       id="g3633"
-       transform="matrix(0.06,0,0,0.06,3613.7748,1081.5938)">
-      <path
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
-         id="path3635"
-         style="fill:#000000"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z"
-         id="path3637"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3639"
-       y="1105.1133"
-       x="3669.7314"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1105.1133"
-         x="3669.7314"
-         id="tspan3641"
-         sodipodi:role="line">Pierre Marchand</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3643"
-       y="1142.5392"
-       x="3669.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1142.5392"
-         x="3669.7314"
-         id="tspan3645"
-         sodipodi:role="line">Ludvine Loiseau</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3647"
-       y="1066.5392"
-       x="3669.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1066.5392"
-         x="3669.7314"
-         id="tspan3649"
-         sodipodi:role="line">Manuel Schmalstieg</tspan></text>
-    <g
-       style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,3643.7748,1043.5938)"
-       id="g3651">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3653"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3655"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
+       id="g3649"
+       transform="matrix(0,1,-1,0,4121.9992,-907.15988)">
+      <g
+         id="g3627"
+         transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,2828.7748,1039.9196)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3629"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3631"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+         x="2859.7314"
+         y="1072.4766"
+         id="text3643"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3645"
+           x="2859.7314"
+           y="1072.4766">Ludvine Loiseau</tspan></text>
     </g>
     <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,5059.7748,1113.3806)"
-       id="g3657">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3659"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3661"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       id="g3663"
-       transform="matrix(0.06,0,0,0.06,5044.7748,1081.5938)">
-      <path
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
-         id="path3665"
-         style="fill:#000000"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z"
-         id="path3667"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3669"
-       y="1105.1133"
-       x="5100.7314"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1105.1133"
-         x="5100.7314"
-         id="tspan3671"
-         sodipodi:role="line">Pierre Marchand</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3673"
-       y="1142.5392"
-       x="5100.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1142.5392"
-         x="5100.7314"
-         id="tspan3675"
-         sodipodi:role="line">Ludvine Loiseau</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3677"
-       y="1066.5392"
-       x="5100.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1066.5392"
-         x="5100.7314"
-         id="tspan3679"
-         sodipodi:role="line">Manuel Schmalstieg</tspan></text>
-    <g
-       style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,5074.7748,1043.5938)"
-       id="g3681">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3683"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3685"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,6823.7748,1113.3806)"
-       id="g3687">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3689"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3691"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       id="g3693"
-       transform="matrix(0.06,0,0,0.06,6808.7748,1081.5938)">
-      <path
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
-         id="path3695"
-         style="fill:#000000"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z"
-         id="path3697"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3699"
-       y="1105.1133"
-       x="6864.7314"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1105.1133"
-         x="6864.7314"
-         id="tspan3701"
-         sodipodi:role="line">Pierre Marchand</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3703"
-       y="1142.5392"
-       x="6864.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1142.5392"
-         x="6864.7314"
-         id="tspan3705"
-         sodipodi:role="line">Ludvine Loiseau</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3707"
-       y="1066.5392"
-       x="6864.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1066.5392"
-         x="6864.7314"
-         id="tspan3709"
-         sodipodi:role="line">Manuel Schmalstieg</tspan></text>
-    <g
-       style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,6838.7748,1043.5938)"
-       id="g3711">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3713"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3715"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,8254.7748,1113.3806)"
-       id="g3717">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3719"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3721"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       id="g3723"
-       transform="matrix(0.06,0,0,0.06,8239.7748,1081.5938)">
-      <path
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
-         id="path3725"
-         style="fill:#000000"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z"
-         id="path3727"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3729"
-       y="1105.1133"
-       x="8295.7314"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1105.1133"
-         x="8295.7314"
-         id="tspan3731"
-         sodipodi:role="line">Pierre Marchand</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3733"
-       y="1142.5392"
-       x="8295.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1142.5392"
-         x="8295.7314"
-         id="tspan3735"
-         sodipodi:role="line">Ludvine Loiseau</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3737"
-       y="1066.5392"
-       x="8295.7314"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1066.5392"
-         x="8295.7314"
-         id="tspan3739"
-         sodipodi:role="line">Manuel Schmalstieg</tspan></text>
-    <g
-       style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,8269.7748,1043.5938)"
-       id="g3741">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3743"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3745"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,10018.775,1113.3806)"
-       id="g3747">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3749"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3751"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
-    </g>
-    <g
-       style="display:inline"
-       id="g3753"
-       transform="matrix(0.06,0,0,0.06,10003.775,1081.5938)">
-      <path
-         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z"
-         id="path3755"
-         style="fill:#000000"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z"
-         id="path3757"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3759"
-       y="1105.1133"
-       x="10059.731"
-       style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-       xml:space="preserve"><tspan
-         y="1105.1133"
-         x="10059.731"
-         id="tspan3761"
-         sodipodi:role="line">Pierre Marchand</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3763"
-       y="1142.5392"
-       x="10059.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
-       xml:space="preserve"><tspan
-         y="1142.5392"
-         x="10059.731"
-         id="tspan3765"
-         sodipodi:role="line">Ludvine Loiseau</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3767"
-       y="1066.5392"
-       x="10059.731"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
-       xml:space="preserve"><tspan
-         y="1066.5392"
-         x="10059.731"
-         id="tspan3769"
-         sodipodi:role="line">Manuel Schmalstieg</tspan></text>
-    <g
-       style="display:inline"
-       transform="matrix(0,0.06,-0.06,0,10033.775,1043.5938)"
-       id="g3771">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff"
-         id="path3773"
-         d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000"
-         id="path3775"
-         d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z" />
+       id="g3673"
+       transform="matrix(0,1,-1,0,4121.9992,-927.15988)">
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+         x="2229.7314"
+         y="1071.9375"
+         id="text3647"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3649"
+           x="2229.7314"
+           y="1071.9375">Manuel Schmalstieg</tspan></text>
+      <g
+         id="g3651"
+         transform="matrix(0,0.06,-0.06,0,2213.7748,1045.5938)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3653"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3655"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
   <g
@@ -3719,140 +3419,356 @@
     <text
        sodipodi:linespacing="125%"
        id="text3513"
-       y="1180.6311"
+       y="-229.3689"
        x="1848.1182"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
+         y="-229.3689"
          x="1848.1182"
          id="tspan3515"
          sodipodi:role="line">___________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3517"
-       y="1180.6311"
-       x="3612.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
-         x="3612.1182"
-         id="tspan3519"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3521"
-       y="1180.6311"
-       x="5043.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
-         x="5043.1182"
-         id="tspan3523"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3525"
-       y="1180.6311"
-       x="6807.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
-         x="6807.1182"
-         id="tspan3527"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3529"
-       y="1180.6311"
-       x="8238.1182"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
-         x="8238.1182"
-         id="tspan3531"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3533"
-       y="1180.6311"
-       x="10002.118"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
-         y="1180.6311"
-         x="10002.118"
-         id="tspan3535"
-         sodipodi:role="line">___________________________________________________________</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
        id="text3541"
-       y="1070.3854"
+       y="-339.61462"
        x="2850.4277"
        style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
          id="tspan3543"
-         y="1070.3854"
+         y="-339.61462"
          x="2850.4277"
          sodipodi:role="line">The construction of a book</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3545"
-       y="1070.3854"
-       x="4614.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3517-9"
+       y="1110.6311"
+       x="1848.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         id="tspan3547"
-         y="1070.3854"
-         x="4614.4277"
-         sodipodi:role="line">The construction of a book</tspan></text>
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1110.6311"
+         x="1848.1182"
+         id="tspan3519-4"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <g
+       style="display:inline"
+       id="g3661-4"
+       transform="matrix(0,1,-1,0,7316.9992,-917.1599)">
+      <g
+         transform="matrix(0.06,0,0,0.06,2523.7748,1046.1328)"
+         id="g3633-0"
+         style="display:inline">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           id="path3635-5"
+           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff"
+           id="path3637-8"
+           d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+         x="2569.7314"
+         y="1072.5234"
+         id="text3639-8"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3641-3"
+           x="2569.7314"
+           y="1072.5234">Pierre Marchand</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g3649-2"
+       transform="matrix(0,1,-1,0,7316.9992,-907.1599)">
+      <g
+         id="g3627-4"
+         transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,2828.7748,1039.9196)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3629-5"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3631-7"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+         x="2859.7314"
+         y="1072.4766"
+         id="text3643-5"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3645-7"
+           x="2859.7314"
+           y="1072.4766">Ludvine Loiseau</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g3673-4"
+       transform="matrix(0,1,-1,0,7316.9992,-927.1599)">
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+         x="2229.7314"
+         y="1071.9375"
+         id="text3647-8"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3649-5"
+           x="2229.7314"
+           y="1071.9375">Manuel Schmalstieg</tspan></text>
+      <g
+         id="g3651-1"
+         transform="matrix(0,0.06,-0.06,0,2213.7748,1045.5938)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3653-4"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3655-2"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       style="display:inline"
+       id="g3661-4-1"
+       transform="matrix(0,1,-1,0,10541.999,-917.1599)">
+      <g
+         transform="matrix(0.06,0,0,0.06,2523.7748,1046.1328)"
+         id="g3633-0-7"
+         style="display:inline">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           id="path3635-5-9"
+           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,100 100,0 100,0 100,0 0,100 0,100 0,100 -100,0 -100,0 -100,0 0,-100 0,-100 0,-100 z m 100,100 0,100 100,0 0,-100 -100,0 z" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff"
+           id="path3637-8-4"
+           d="m 100,100 0,100 0,100 0,100 100,0 100,0 100,0 0,-100 0,-100 0,-100 -100,0 -100,0 -100,0 z m 100,100 100,0 0,100 -100,0 0,-100 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
+         x="2569.7314"
+         y="1072.5234"
+         id="text3639-8-0"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3641-3-5"
+           x="2569.7314"
+           y="1072.5234">Pierre Marchand</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g3649-2-0"
+       transform="matrix(0,1,-1,0,10541.999,-907.1599)">
+      <g
+         id="g3627-4-4"
+         transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,2828.7748,1039.9196)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3629-5-6"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3631-7-7"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
+         x="2859.7314"
+         y="1072.4766"
+         id="text3643-5-6"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3645-7-6"
+           x="2859.7314"
+           y="1072.4766">Ludvine Loiseau</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g3673-4-1"
+       transform="matrix(0,1,-1,0,10541.999,-927.1599)">
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+         x="2229.7314"
+         y="1071.9375"
+         id="text3647-8-0"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3649-5-6"
+           x="2229.7314"
+           y="1071.9375">Manuel Schmalstieg</tspan></text>
+      <g
+         id="g3651-1-6"
+         transform="matrix(0,0.06,-0.06,0,2213.7748,1045.5938)"
+         style="display:inline">
+        <path
+           d="m 0,0 0,100 0,100 100,0 100,0 0,-100 L 200,0 100,0 0,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 L 500,0 400,0 300,0 z M 0,300 l 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z m 300,0 0,100 0,100 100,0 100,0 0,-100 0,-100 -100,0 -100,0 z"
+           id="path3653-4-0"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200,0 0,100 0,100 -100,0 -100,0 0,100 100,0 100,0 0,100 0,100 100,0 0,-100 0,-100 100,0 100,0 0,-100 -100,0 -100,0 0,-100 0,-100 -100,0 z"
+           id="path3655-2-6"
+           style="fill:#000000"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1851.7092,523.5199 25.5545,0 m 9.2431,0 8.1556,0 m 17.9428,0 8.1556,0 m 9.2433,0 34.2538,0 m 35.3416,0 34.254,0 m 9.2431,0 34.2541,0 m 9.2432,0 8.1555,0 m 17.9425,0 8.1559,0 m 9.2431,0 34.2539,0 m 9.2433,0 25.5546,0 m 9.2431,0 34.254,0 m 9.2431,0 8.1556,0 m 17.9427,0 8.1558,0 m 9.2431,0 34.2539,0 m 9.2433,0 25.5546,0 m 9.243,0 8.1557,0 m 9.2433,0 34.254,0 m 9.243,0 8.1559,0 m 17.9425,0 8.1556,0 m 35.3415,0 34.254,0 m 9.2431,0 34.2541,0 m 35.3413,0 34.2541,0 m 35.3413,0 25.5547,0 m 17.9426,0 34.2539,0 m 9.2432,0 34.2541,0 m 9.2431,0 8.1556,0 m 17.9427,0 8.1556,0 m -754.6754,1.0458 4.8934,9.935 m 139.1909,-9.935 -4.8935,9.935 m 208.7863,-9.935 4.8934,9.935 m 391.4745,-9.935 -4.8936,9.935 m -700.3041,0.5229 c -2.5722,-1.5687 -2.5722,-8.3312 0,-9.935 m 579.0559,0 c 3.235,1.7155 3.235,8.2194 0,9.935 m -850.3693,-8.8892 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 17.3988,-8.3663 0,8.3663 m 69.5955,-8.3663 0,8.3663 m 43.4971,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.3989,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 69.5956,-8.3663 0,8.3663 m 26.0979,-8.3663 0,8.3663 m 43.4974,-8.3663 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 17.3989,-8.3663 0,8.3663 m 52.1965,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 17.3986,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 43.497,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m 69.5955,-8.3663 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 43.4972,-8.3663 0,8.3663 m 43.4971,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.3988,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m -926.4893,0.5229 16.8551,0 m 26.642,0 25.5544,0 m 174.5324,0 16.8551,0 m 61.4398,0 16.8553,0 m 322.4225,0 25.5546,0 m 44.0408,0 16.8552,0 m 52.7402,0 16.8552,0 m 113.6364,0 8.1556,0 m -728.5773,1.0458 4.8936,9.935 m 125.5979,-9.935 4.8935,9.935 m 212.5922,-9.935 4.8935,9.935 m 377.8814,-9.935 4.8936,9.935 m -682.9054,-9.4122 c 3.2351,1.7157 3.2351,8.2196 0,9.9351 m 556.7636,-9.9351 c 3.235,1.7157 3.235,8.2196 0,9.9351 m -850.3693,-8.8892 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 17.3988,-8.3663 0,8.3663 m 69.5955,-8.3663 0,8.3663 m 43.4971,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.3989,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 69.5956,-8.3663 0,8.3663 m 26.0979,-8.3663 0,8.3663 m 43.4974,-8.3663 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 17.3989,-8.3663 0,8.3663 m 52.1965,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 17.3986,-8.3663 0,8.3663 m 26.0984,-8.3663 0,8.3663 m 43.497,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m 69.5955,-8.3663 0,8.3663 m 26.0982,-8.3663 0,8.3663 m 43.4972,-8.3663 0,8.3663 m 43.4971,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.3988,-8.3663 0,8.3663 m 26.0983,-8.3663 0,8.3663 m 17.399,-8.3663 0,8.3663 m -882.9922,0.5229 25.5544,0 m 44.041,0 25.5546,0 m 17.9424,0 16.8553,0 m 61.4397,0 25.5545,0 m 104.937,0 16.8552,0 m 26.6419,0 25.5545,0 m 70.1393,0 16.8551,0 m 96.2374,0 16.855,0 m 165.833,0 16.8552,0 m 26.642,0 16.8551,0 m 26.642,0 16.8552,0 m 44.0409,0 8.1556,0"
+       style="fill:none;stroke:#000000;stroke-width:2.30000019;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+       id="path12" />
     <text
        sodipodi:linespacing="125%"
-       id="text3549"
-       y="1070.3854"
-       x="6045.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3517-9-9"
+       y="1057.6311"
+       x="1848.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         id="tspan3551"
-         y="1070.3854"
-         x="6045.4277"
-         sodipodi:role="line">The construction of a book</tspan></text>
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1057.6311"
+         x="1848.1182"
+         id="tspan3519-4-2"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3553"
-       y="1070.3854"
-       x="7809.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3517-9-9-3"
+       y="1092.6311"
+       x="1848.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:17.01000023px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         id="tspan3555"
-         y="1070.3854"
-         x="7809.4277"
-         sodipodi:role="line">The construction of a book</tspan></text>
+         y="1092.6311"
+         x="1848.1182"
+         id="tspan3519-4-2-6"
+         sodipodi:role="line">the  construction  of  a  book</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3557"
-       y="1070.3854"
-       x="9240.4277"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3517-9-2"
+       y="1110.6311"
+       x="3612.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         id="tspan3559"
-         y="1070.3854"
-         x="9240.4277"
-         sodipodi:role="line">The construction of a book</tspan></text>
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1110.6311"
+         x="3612.1182"
+         id="tspan3519-4-8"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text3561"
-       y="1070.3854"
-       x="11004.428"
-       style="font-size:28.78857422px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       id="text3517-9-9-4"
+       y="1057.6311"
+       x="3612.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
        xml:space="preserve"><tspan
-         id="tspan3563"
-         y="1070.3854"
-         x="11004.428"
-         sodipodi:role="line">The construction of a book</tspan></text>
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1057.6311"
+         x="3612.1182"
+         id="tspan3519-4-2-8"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-9-3-8"
+       y="1092.6311"
+       x="3612.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:17.01000023px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1092.6311"
+         x="3612.1182"
+         id="tspan3519-4-2-6-9"
+         sodipodi:role="line">the  construction  of  a  book</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-92"
+       y="1110.6311"
+       x="5043.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1110.6311"
+         x="5043.1182"
+         id="tspan3519-4-1"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-9-0"
+       y="1057.6311"
+       x="5043.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1057.6311"
+         x="5043.1182"
+         id="tspan3519-4-2-2"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-9-3-2"
+       y="1092.6311"
+       x="5043.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:17.01000023px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1092.6311"
+         x="5043.1182"
+         id="tspan3519-4-2-6-6"
+         sodipodi:role="line">the  construction  of  a  book</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-2-2"
+       y="1110.6311"
+       x="6807.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1110.6311"
+         x="6807.1182"
+         id="tspan3519-4-8-7"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-9-4-6"
+       y="1057.6311"
+       x="6807.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302 0 0 0 -0.43588302 -0.43588302 -0.43588302 -0.43588302 -0.43588302"
+         y="1057.6311"
+         x="6807.1182"
+         id="tspan3519-4-2-8-8"
+         sodipodi:role="line">___________________________________________________________</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3517-9-9-3-8-3"
+       y="1092.6311"
+       x="6807.1182"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:17.01000023px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         y="1092.6311"
+         x="6807.1182"
+         id="tspan3519-4-2-6-9-3"
+         sodipodi:role="line">the  construction  of  a  book</tspan></text>
   </g>
 </svg>
