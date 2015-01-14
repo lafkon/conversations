@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,14 +41,14 @@
      inkscape:window-width="1475"
      inkscape:window-height="1146"
      id="namedview4"
-     showgrid="true"
-     inkscape:zoom="1"
-     inkscape:cx="364.98639"
-     inkscape:cy="32.722755"
-     inkscape:current-layer="g3575"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="329.73134"
+     inkscape:cy="115.59839"
+     inkscape:current-layer="g4036"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-x="371"
+     inkscape:window-x="445"
      inkscape:window-y="29"
      inkscape:window-maximized="0"
      inkscape:document-units="mm"
@@ -96,7 +96,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="text"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        sodipodi:linespacing="110%"
@@ -2055,6 +2055,91 @@
            style="font-size:10px;fill:#ffffff"
            rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
            id="tspan7929">Xavier Klein</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3353"
+     inkscape:label="EtatDesLieux"
+     style="display:inline">
+    <text
+       sodipodi:linespacing="110%"
+       id="text3355"
+       y="615.03479"
+       x="137.24515"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+       xml:space="preserve"><tspan
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+         style="font-size:16px;fill:#ffffff"
+         id="tspan3357"
+         y="615.03479"
+         x="137.24515"
+         sodipodi:role="line">Etat des Lieux</tspan></text>
+    <g
+       id="g3361"
+       transform="translate(-40.850685,-48.801013)">
+      <text
+         sodipodi:linespacing="110%"
+         id="text3363"
+         y="679.58032"
+         x="178.51114"
+         style="font-size:24.97636604px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+         xml:space="preserve"><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           style="font-size:10px;fill:#ffffff"
+           y="679.58032"
+           x="178.51114"
+           sodipodi:role="line"
+           id="tspan3380">Christina Clar</tspan><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           style="font-size:10px;fill:#ffffff"
+           y="690.58032"
+           x="178.51114"
+           sodipodi:role="line"
+           id="tspan3382">John Colenbrander</tspan><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           style="font-size:10px;fill:#ffffff"
+           y="701.58032"
+           x="178.51114"
+           sodipodi:role="line"
+           id="tspan3384">Christoph Haag</tspan><tspan
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           style="font-size:10px;fill:#ffffff"
+           y="712.58032"
+           x="178.51114"
+           sodipodi:role="line"
+           id="tspan3386">Michael Murtaugh</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.97636604px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:OCRA;-inkscape-font-specification:OCRA Medium"
+         x="311.58008"
+         y="679.58032"
+         id="text3388"
+         sodipodi:linespacing="110%"><tspan
+           sodipodi:role="line"
+           x="311.58008"
+           y="679.58032"
+           style="font-size:10px;text-align:start;text-anchor:start;fill:#ffffff"
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           id="tspan3390">Eleanor Greenhalgh</tspan><tspan
+           id="tspan3392"
+           sodipodi:role="line"
+           x="311.58008"
+           y="690.58032"
+           style="font-size:10px;text-align:start;text-anchor:start;fill:#ffffff"
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">Claire Williams</tspan><tspan
+           id="tspan3394"
+           sodipodi:role="line"
+           x="311.58008"
+           y="701.58032"
+           style="font-size:10px;text-align:start;text-anchor:start;fill:#ffffff"
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">Urantsetseg Ulziikhuu</tspan><tspan
+           id="tspan3402"
+           sodipodi:role="line"
+           x="311.58008"
+           y="712.58032"
+           style="font-size:10px;text-align:start;text-anchor:start;fill:#ffffff"
+           rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" /></text>
     </g>
   </g>
 </svg>
