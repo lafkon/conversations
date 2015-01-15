@@ -18,7 +18,6 @@
  \usepackage{forloop}
  \usepackage{verbatim}
  \usepackage{environ}
- \usepackage{lib/tex/eurosym}
 
  \usepackage{geometry}
 % A5 + CROP (online-druck.biz)
@@ -40,6 +39,10 @@
  \newcommand{\ConTeXt}{\hologo{ConTeXt} }
 
  \renewcommand{\ldots}{…}
+ \renewcommand{\euro}{%
+               \hspace{-.5em}
+               \includegraphics[height=.6\baselineskip]%
+               {lib/tex/euro_junicode.pdf}}
 
 
 % PREVENT HYPHENATION FOR WORDS STARTING WITH UPPERCASE
