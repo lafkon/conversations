@@ -130,7 +130,10 @@
       -e 'P;D'                           | # APPEND IF STARTS WITH \cite
   sed -e :a \
       -e '$!N;s/\n\\footn/\\footn/;ta' \
-      -e 'P;D'                           | # APPEND IF STARTS WITH \cite
+      -e 'P;D'                           | # APPEND IF STARTS WITH \footn
+  sed -e :a \
+      -e '$!N;s/\n\\euro/\\euro/;ta' \
+      -e 'P;D'                           | # APPEND IF STARTS WITH \euro
   sed "s/^ *$/$EMPTYLINE/g"              | # PLACEHOLDER FOR EMPTY LINES
   sed -e 's/^% TITLE:/%TXIXTXLXE/g' \
       -e '/^%TXIXTXLXE/s/ /_/g' \
