@@ -16,14 +16,15 @@
 #                                                                             #
 # --------------------------------------------------------------------------- #
 
-  SVG=$1
-  PDF=${SVG%%.*}.pdf
+  SVG=$1 ; SVG=`realpath $SVG` # ABSOLUTE PATH SVG
+  BASE=`echo $SVG | rev | cut -d "." -f 2- | rev`
+  PDF=${BASE}.pdf
 
 # --------------------------------------------------------------------------- #
 # INTERACTIVE CHECKS 
 # --------------------------------------------------------------------------- #
-  if [ ! -f ${SVG%%.*}.svg ]; then echo; echo "We need a svg!"
-                                         echo "e.g. $0 yoursvg.svg"; echo
+  if [ ! -f ${BASE}.svg ]; then echo; echo "We need a svg!"
+                                      echo "e.g. $0 yoursvg.svg"; echo
       exit 0;
   fi
   if [ -f $PDF ]; then
@@ -33,11 +34,11 @@
   fi
 # --------------------------------------------------------------------------- #
 
-  inkscape --export-pdf=$PDF \
+  inkscape --export-pdf=${PDF} \
            --export-text-to-path \
            $SVG
 
-  gs -o ${PDF%%.*}_CONFORMED.pdf          \
+  gs -o ${BASE}_CONFORMED.pdf              \
      -sDEVICE=pdfwrite                    \
      -sColorConversionStrategy=Gray       \
      -sProcessColorModel=DeviceGray       \
@@ -57,7 +58,7 @@
      -c ".setpdfwrite<</NeverEmbed[ ]>> setdistillerparams" \
      -f $PDF > /dev/null
 
-  mv ${PDF%%.*}_CONFORMED.pdf $PDF
+  mv ${BASE}_CONFORMED.pdf $PDF
 
 # --------------------------------------------------------------------------- #
 
