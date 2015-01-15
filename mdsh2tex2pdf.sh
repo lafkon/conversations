@@ -44,8 +44,8 @@
 # ACTION HAPPENS HERE!
 # --------------------------------------------------------------------------- #
 
-  MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-# MAIN=http://pad.constantvzw.org/p/conversations.colophon/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations/export/txt
+  MAIN=http://pad.constantvzw.org/p/conversations.etatdeslieux/2474/export/txt
 
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
@@ -179,6 +179,7 @@
   sed -i "s/[ ]*\\\\foot/\\\\foot/g"  $TMPTEX      # NO SPACE BEFORE FOOTNOTE
   sed -i 's/[ ]*\\ldots{}[ ]*/\\ldots{}/g' $TMPTEX # NO SPACE FOR LDOTS 
   sed -i 's/[ ]*\\index{/\\index{/g' $TMPTEX       # NO SPACE FOR KEYWORDS 
+  sed -i 's/[ ]*\\euro{/~\\euro{/g' $TMPTEX        # SMALL SPACE FOR EURO 
   sed -i "s/^[ \t]*//" $TMPTEX                     # NO LEADING BLANKS
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
