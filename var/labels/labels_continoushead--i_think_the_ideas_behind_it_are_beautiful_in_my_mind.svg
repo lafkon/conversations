@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.3961955"
-     inkscape:cx="6148.1403"
-     inkscape:cy="2192.0849"
+     inkscape:zoom="0.65335056"
+     inkscape:cx="6117.0407"
+     inkscape:cy="2532.5698"
      inkscape:document-units="px"
      inkscape:current-layer="g10450"
      showgrid="false"
@@ -2370,11 +2370,11 @@
          x="-1917.528"
          y="11138.999">George Williams</tspan></text>
     <path
-       id="path10470-1"
+       id="path10470-1-8"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 3532.2677,1737.0772 -60.1525,0 0,1162.5478 2689.9998,0 2e-4,-611.548 m -2629.9856,-608.9998 -120.0144,0 0,1310.5478 2789.9998,0 2e-4,-701.548"
+       d="m 3532.2677,1737.0772 -32.1527,0 2e-4,817.5478 2701.9998,0 2e-4,-266.548 m -2669.9856,-608.9998 -32.0146,0 0,-497.4522 2612,0 0,1333 40,0 2e-4,-226.548"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccccccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
