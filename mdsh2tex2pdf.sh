@@ -44,8 +44,9 @@
 # ACTION HAPPENS HERE!
 # --------------------------------------------------------------------------- #
 
-# MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-  MAIN=http://pad.constantvzw.org/p/conversations.aether9/export/txt
+  MAIN=http://pad.constantvzw.org/p/conversations/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.colophon/export/txt
+
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -71,7 +72,10 @@
   writeTeXsrc "\usepackage{lib/tex/basic}"
   writeTeXsrc "\usepackage{lib/tex/functions}"
   writeTeXsrc "\usepackage{lib/tex/interview}"
-# writeTeXsrc "\usepackage{showframe}"
+# PDF/X COMPLIANCY
+  echo "<?xpacket begin='' id='W5M0MpCehiHzreSzNTczkc9d'?>" > pdfx-1a.xmp
+  cp lib/icc/FOGRA39L.icc .
+
 
   writeTeXsrc "\begin{document}"
 
@@ -83,6 +87,7 @@
   writeTeXsrc "$EMPTYLINE";
   writeTeXsrc "$EMPTYLINE";
 
+
 # RESET 
   writeTeXsrc "\clearpage"
   writeTeXsrc "\normalsize"
@@ -90,7 +95,6 @@
 
 # KEYWORDS,BIBLIOGRAPHY,LICENSE,COLOPHON,THE REST
   writeTeXsrc "\clearpage"
-# writeTeXsrc "\pagenumbering{gobble}"
   writeTeXsrc "\cleartoleftpage"
   writeTeXsrc "\cleardoublepage"
   writeTeXsrc "\renewcommand{\indexname}{}"
@@ -185,7 +189,7 @@
 # --------------------------------------------------------------------------- #
 # GET REFERENCE FILE 
 # --------------------------------------------------------------------------- #
-  BIBURL=http://note.pad.constantvzw.org:8000/p/references.bib/export/txt
+  BIBURL=http://pad.constantvzw.org/p/references.bib/1099/export/txt
   wget --no-check-certificate -O ${TMPDIR}/ref.bib $BIBURL > /dev/null 2>&1
 
 # --------------------------------------------------------------------------- #
@@ -237,7 +241,7 @@
 # --------------------------------------------------------------------------- #
   cp ${TMPTEX%.*}.pdf latest.pdf
 # mv ${TMPTEX%.*}.pdf $PDFDIR/`date +%s`.pdf
-  rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh
+  rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh FOGRA39L.icc *.xmp*
 
 # if [ `find $TMPDIR -name "*.*" | grep -v .gitignore | wc -l` -gt 0 ] 
 # then

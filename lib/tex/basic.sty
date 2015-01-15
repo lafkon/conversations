@@ -303,5 +303,27 @@
 %}
 
 
+% PDF/X COMPLIANCY
+  \usepackage[x-1a]{pdfx}
+  \usepackage{filecontents}
+  \begin{filecontents*}{\jobname.xmpdata}
+  \Keywords{pdfTeX\sep PDF/X-1a\sep PDF/A-b}
+  \Title{I think that conversations are the best, biggest thing that Free Software has to offer its user}
+  \Author{LAFKON Publishing}
+  \Org{Constant, Brussels}
+  \Doi{123456789}
+  \end{filecontents*}
+  \pdfpageattr{/MediaBox [0 0 436 612]
+               /TrimBox [8 8 428 604]}
+  \pdfcatalog{
+  /OutputIntents [ <<
+  /Info (none)
+  /Type /OutputIntent
+  /S /GTS_PDFX
+  /OutputConditionIdentifier (OFCOM_PO_P1_F60_95)
+  /RegistryName (http://www.color.org/)
+    >> ]
+  }
+
 
 
