@@ -324,9 +324,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20364537"
-     inkscape:cx="2725.8235"
-     inkscape:cy="2859.5775"
+     inkscape:zoom="0.62846085"
+     inkscape:cx="7868.0516"
+     inkscape:cy="2648.9612"
      inkscape:document-units="px"
      inkscape:current-layer="g3675"
      showgrid="false" />
@@ -3102,7 +3102,7 @@
      inkscape:label="PEOPLE">
     <g
        id="g4593"
-       transform="translate(30,-30)">
+       transform="translate(15,-30)">
       <text
          xml:space="preserve"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -3130,35 +3130,31 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3721"
+       y="1107.0869"
+       x="4466.3242"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"><tspan
+         y="1107.0869"
+         x="4466.3242"
+         id="tspan3723"
+         sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       id="g4586"
-       transform="translate(0,-30)">
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-         x="4481.3242"
-         y="1137.0869"
-         id="text3721"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3723"
-           x="4481.3242"
-           y="1137.0869">Femke Snelting</tspan></text>
-      <g
-         style="display:inline"
-         id="g3735"
-         transform="matrix(0.06,0,0,0.06,4445.7748,1113.5499)">
-        <path
-           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z"
-           id="path3733"
-           style="fill:#ffffff"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z"
-           id="path3735"
-           style="fill:#000000"
-           inkscape:connector-curvature="0" />
-      </g>
+       transform="matrix(0.06,0,0,0.06,4430.7748,1083.5499)"
+       id="g3735"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3733"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3735"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <path
        inkscape:connector-curvature="0"
@@ -3174,7 +3170,7 @@
     <g
        style="display:inline"
        id="g4593-2"
-       transform="translate(3225,-30)">
+       transform="translate(3210,-30)">
       <text
          xml:space="preserve"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -3202,41 +3198,36 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3721-0"
+       y="1107.0869"
+       x="7661.3242"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"><tspan
+         y="1107.0869"
+         x="7661.3242"
+         id="tspan3723-2"
+         sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="translate(3195,-30)"
-       style="display:inline"
-       id="g4586-4">
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-         x="4481.3242"
-         y="1137.0869"
-         id="text3721-0"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3723-2"
-           x="4481.3242"
-           y="1137.0869">Femke Snelting</tspan></text>
-      <g
-         style="display:inline"
-         id="g3735-2"
-         transform="matrix(0.06,0,0,0.06,4445.7748,1113.5499)">
-        <path
-           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z"
-           id="path3733-0"
-           style="fill:#ffffff"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z"
-           id="path3735-4"
-           style="fill:#000000"
-           inkscape:connector-curvature="0" />
-      </g>
+       transform="matrix(0.06,0,0,0.06,7625.7748,1083.5499)"
+       id="g3735-2"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3733-0"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3735-4"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <g
        style="display:inline"
        id="g4593-2-3"
-       transform="translate(6420,-30)">
+       transform="translate(6405,-30)">
       <text
          xml:space="preserve"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -3264,41 +3255,36 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3721-0-8"
+       y="1107.0869"
+       x="10856.324"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"><tspan
+         y="1107.0869"
+         x="10856.324"
+         id="tspan3723-2-8"
+         sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="translate(6390,-30)"
-       style="display:inline"
-       id="g4586-4-6">
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-         x="4481.3242"
-         y="1137.0869"
-         id="text3721-0-8"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3723-2-8"
-           x="4481.3242"
-           y="1137.0869">Femke Snelting</tspan></text>
-      <g
-         style="display:inline"
-         id="g3735-2-2"
-         transform="matrix(0.06,0,0,0.06,4445.7748,1113.5499)">
-        <path
-           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z"
-           id="path3733-0-3"
-           style="fill:#ffffff"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z"
-           id="path3735-4-8"
-           style="fill:#000000"
-           inkscape:connector-curvature="0" />
-      </g>
+       transform="matrix(0.06,0,0,0.06,10820.775,1083.5499)"
+       id="g3735-2-2"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3733-0-3"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3735-4-8"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
     <g
        style="display:inline"
        id="g4593-2-3-7"
-       transform="translate(9615.0002,-30)">
+       transform="translate(9600.0002,-30)">
       <text
          xml:space="preserve"
          style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode"
@@ -3326,36 +3312,31 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3721-0-8-3"
+       y="1107.0869"
+       x="14051.324"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Bold"
+       xml:space="preserve"><tspan
+         y="1107.0869"
+         x="14051.324"
+         id="tspan3723-2-8-5"
+         sodipodi:role="line">Femke Snelting</tspan></text>
     <g
-       transform="translate(9585.0002,-30)"
-       style="display:inline"
-       id="g4586-4-6-7">
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-         x="4481.3242"
-         y="1137.0869"
-         id="text3721-0-8-3"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3723-2-8-5"
-           x="4481.3242"
-           y="1137.0869">Femke Snelting</tspan></text>
-      <g
-         style="display:inline"
-         id="g3735-2-2-7"
-         transform="matrix(0.06,0,0,0.06,4445.7748,1113.5499)">
-        <path
-           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z"
-           id="path3733-0-3-8"
-           style="fill:#ffffff"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z"
-           id="path3735-4-8-4"
-           style="fill:#000000"
-           inkscape:connector-curvature="0" />
-      </g>
+       transform="matrix(0.06,0,0,0.06,14015.775,1083.5499)"
+       id="g3735-2-2-7"
+       style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         id="path3733-0-3-8"
+         d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 100,200 100,0 100,0 100,0 0,100 -100,0 -100,0 -100,0 0,-100 z" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path3735-4-8-4"
+         d="m 100,200 0,100 100,0 100,0 100,0 0,-100 -100,0 -100,0 -100,0 z" />
     </g>
   </g>
   <g
@@ -3714,7 +3695,8 @@
      style="display:inline"
      inkscape:label="TITLE"
      id="g3547"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <text
        sodipodi:linespacing="125%"
        id="text3549"
