@@ -32,8 +32,8 @@
        if [ X$ANSWER != Xy ] ; then echo "Bye"; exit 0; fi
   fi
 
-  BREAKFOO=NL${RANDOM}F00
-  SPACEFOO=SP${RANDOM}F0O
+  BREAKFOO=`echo N${RANDOM} | cut -c 1-3`
+  SPACEFOO=`echo S${RANDOM} | cut -c 1-3`
 # --------------------------------------------------------------------------- #
 # MOVE ALL LAYERS ON SEPARATE LINES (TEMPORARILY; EASIFY PARSING LATER ON)
 # --------------------------------------------------------------------------- #
@@ -53,18 +53,22 @@
 # --------------------------------------------------------------------------- #
 # EXTRACT HEADER
 # --------------------------------------------------------------------------- #
-  SVGHEADER=`head -n 1 ${SVG%%.*}.tmp`
+# SVGHEADER=`head -n 1 ${SVG%%.*}.tmp`
 
 # --------------------------------------------------------------------------- #
 # WRITE LAYERS TO SEPARATE FILES AND TRANSFORM TO PDF 
 # --------------------------------------------------------------------------- #
   XSHIFT="526.410"
   TRANSFORM="transform=\"translate($XSHIFT,0)\""
-
+ 
   COUNT=1
-  for LAYER in `grep "groupmode=\"layer\"" ${SVG%%.*}.tmp | \
-                grep -v "label=\"XX_" | \
-                sed 's/ /df73SAc/g'`
+  for LAYERNAME in `sed -n '1!p' ${SVG%%.*}.tmp        | # DISPLAY EVERYTHING EXCEPT FIRST LINE
+                    sed 's/inkscape:label="/\nTHIS/g'  | #
+                    sed 's/"/\n"/g'                    | #
+                    grep ^THIS                         | #
+                    sed 's/THIS//g'                    | #
+                    grep -v "^XX_"                     | #
+                    sort -u`   
    do
       for PAGE in 1 2
       do
@@ -73,31 +77,53 @@
           else
                SHIFT=""
           fi
-    
+
           NUM=`echo 0000$COUNT | rev | cut -c 1-4 | rev`
+          LNAME=`echo $LAYERNAME | #
+                 sed 's/ /_/g'`
     
-          LAYER=`echo $LAYER | sed 's/df73SAc/ /g'`
-          LNAME=`echo $LAYER | sed 's/inkscape:label/\nTHIS/g' | \
-                 grep "^THIS" | head -n 1 | \
-                 cut -d "\"" -f 2 | sed 's/ /_/g'`
+          OUT=layer2svg_${NUM}_${LNAME}
+
+          head -n 1 ${SVG%%.*}.tmp | # THE HEADER
+          sed "s/$BREAKFOO/\n/g"   | # RESTORE ORIGINAL LINEBREAKS
+          sed "s/$SPACEFOO/ /g"    | # RESTORE ORIGINAL SPACES
+          tee                    >   ${OUT}.svg
     
-          echo $SVGHEADER        | # THE HEADER
+          echo "<g $SHIFT>"      >>  ${OUT}.svg
+
+          grep ":label=\"$LAYERNAME" ${SVG%%.*}.tmp | # THE LAYER
           sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
           sed "s/$SPACEFOO/ /g"  | # RESTORE ORIGINAL SPACES
-          tee                    >   layer2svg_${NUM}_${LNAME}.svg
+          tee                    >>  ${OUT}.svg
+          echo "</g>"            >>  ${OUT}.svg
     
-          echo "<g $SHIFT>"      >>  layer2svg_${NUM}_${LNAME}.svg
-          echo $LAYER            | # THE LAYER
-          sed "s/$BREAKFOO/\n/g" | # RESTORE ORIGINAL LINEBREAKS
-          sed "s/$SPACEFOO/ /g"  | # RESTORE ORIGINAL SPACES
-          tee                    >>  layer2svg_${NUM}_${LNAME}.svg
-          echo "</g>"            >>  layer2svg_${NUM}_${LNAME}.svg
+          echo "</svg>"          >>  ${OUT}.svg
     
-          echo "</svg>"          >>  layer2svg_${NUM}_${LNAME}.svg
-    
-          inkscape --export-pdf=layer2svg_${NUM}_${LNAME}.pdf \
+          inkscape --export-pdf=${OUT}.pdf \
     	       --export-text-to-path \
-    	       layer2svg_${NUM}_${LNAME}.svg
+    	       ${OUT}.svg
+
+          gs -o ${OUT}_CONFORMED.pdf              \
+             -sDEVICE=pdfwrite                    \
+             -sColorConversionStrategy=Gray       \
+             -sProcessColorModel=DeviceGray       \
+             -sColorImageDownsampleThreshold=2    \
+             -sColorImageDownsampleType=Bicubic   \
+             -sColorImageResolution=300           \
+             -sGrayImageDownsampleThreshold=2     \
+             -sGrayImageDownsampleType=Bicubic    \
+             -sGrayImageResolution=300            \
+             -sMonoImageDownsampleThreshold=2     \
+             -sMonoImageDownsampleType=Bicubic    \
+             -sMonoImageResolution=1200           \
+             -dSubsetFonts=true                   \
+             -dEmbedAllFonts=true                 \
+             -dAutoRotatePages=/None              \
+             -sCannotEmbedFontPolicy=Error        \
+             -c ".setpdfwrite<</NeverEmbed[ ]>> setdistillerparams" \
+             -f ${OUT}.pdf > /dev/null
+
+          mv ${OUT}_CONFORMED.pdf ${OUT}.pdf
     
           rm layer2svg_${NUM}_${LNAME}.svg
           COUNT=`expr $COUNT + 1`
@@ -114,8 +140,6 @@
 # --------------------------------------------------------------------------- #
   rm ${SVG%%.*}.tmp  layer2svg_*.pdf
 
-
-
-exit 0; 
+exit 0;
 
 
