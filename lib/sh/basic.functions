@@ -23,8 +23,8 @@
           gs                                     \
             -o $CMYK                             \
             -sDEVICE=pdfwrite                    \
-            -sColorConversionStrategy=CMYK       \
-            -sProcessColorModel=DeviceCMYK       \
+            -sColorConversionStrategy=Gray       \
+            -sProcessColorModel=DeviceGray       \
             -sColorImageDownsampleThreshold=2    \
             -sColorImageDownsampleType=Bicubic   \
             -sColorImageResolution=300           \
@@ -345,6 +345,7 @@ if [ `echo $ONAME | wc -c` -gt 1 ]; then
            #echo $IMG " exists"
             if [ ! -f $TMPDIR/${NAME}.pdf ]; then
             inkscape --export-pdf=$TMPDIR/${NAME}.pdf $IMG
+            rgb2cmyk $TMPDIR/${NAME}.pdf
             fi
             writeTeXsrc "$TEXMACRO{$TMPDIR/${NAME}.pdf}{$WIDTH}{$ROTATE}{$BORDER}{$LABEL}"
             INCLUDE="yes"
