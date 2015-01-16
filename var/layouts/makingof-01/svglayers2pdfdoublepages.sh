@@ -32,8 +32,8 @@
        if [ X$ANSWER != Xy ] ; then echo "Bye"; exit 0; fi
   fi
 
-  BREAKFOO=`echo N${RANDOM} | cut -c 1-3`
-  SPACEFOO=`echo S${RANDOM} | cut -c 1-3`
+  BREAKFOO=`echo N${RANDOM}FO0 | cut -c 1-8`
+  SPACEFOO=`echo S${RANDOM}F0O | cut -c 1-8`
 # --------------------------------------------------------------------------- #
 # MOVE ALL LAYERS ON SEPARATE LINES (TEMPORARILY; EASIFY PARSING LATER ON)
 # --------------------------------------------------------------------------- #
