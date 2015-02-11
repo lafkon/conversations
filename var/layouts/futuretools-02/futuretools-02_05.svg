@@ -22,11 +22,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.57008686"
-     inkscape:cx="310.78345"
-     inkscape:cy="659.21535"
+     inkscape:zoom="1.1363566"
+     inkscape:cx="555.71985"
+     inkscape:cy="122.33531"
      inkscape:document-units="px"
-     inkscape:current-layer="g5161"
+     inkscape:current-layer="g4867"
      showgrid="false"
      width="1050px"
      inkscape:window-width="1362"
@@ -6845,7 +6845,7 @@
      inkscape:label="0001"
      id="g4867"
      inkscape:groupmode="layer"
-     style="display:none">
+     style="display:inline">
     <flowRoot
        transform="matrix(0.855,0,0,0.855,28.995317,-296.40298)"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gotham HTF;-inkscape-font-specification:Gotham HTF Medium"
@@ -6925,7 +6925,7 @@
            y="523.32013"
            style="text-align:start;text-anchor:start" /></flowRegion><flowPara
          id="flowPara4913"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;font-family:OCRA;-inkscape-font-specification:OCRA Medium">Carla Bosermans</flowPara></flowRoot>    <g
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;text-anchor:start;font-family:OCRA;-inkscape-font-specification:OCRA Medium">Carla Boserman</flowPara></flowRoot>    <g
        style="stroke:#000000;stroke-width:3.46129608;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="g4915"
        transform="matrix(-0.71100539,0,0,0.71100539,1476.2888,-146.36101)">
@@ -8085,7 +8085,7 @@
      inkscape:groupmode="layer"
      id="g5161"
      inkscape:label="0003"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,305.90997)">
     <flowRoot
        xml:space="preserve"
