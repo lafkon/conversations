@@ -38,15 +38,13 @@
   source $FUNCTIONS
 
 
-
 # =========================================================================== #
 # --------------------------------------------------------------------------- #
 # ACTION HAPPENS HERE!
 # --------------------------------------------------------------------------- #
 
-# MAIN=http://pad.constantvzw.org/p/conversations/export/txt
-  MAIN=http://pad.constantvzw.org/p/conversations.etatdeslieux/2474/export/txt
-
+  MAIN=http://pad.constantvzw.org/p/conversations/2836/export/txt
+# MAIN=http://pad.constantvzw.org/p/conversations.colophon/export/txt
 
   TEXBODY=$TMPDIR/collect-$RANDOM.tex
   TMPTEX=$TEXBODY
@@ -55,7 +53,6 @@
   mdsh2TeX $MAIN
 
 # =========================================================================== #
-
 
 
 # --------------------------------------------------------------------------- #
@@ -136,10 +133,10 @@
                     grep -v "^#"                  | # IGNORE SOMETHING
                     awk 'BEGIN { FS = "|" } ; \
                     { print length($1) ":" $0; }' | # ADD LENGTH OF FIELD 1
-                    sort -n                       | # NUMERIC SORT
+                    sort -n                       | # NUMERIC SORT (=LENGTH)
                     cut -d ":" -f 2-              | # REMOVE LENGTH AGAIN
-                    tac                           | # BACKUP SPACES
-                    sed 's= =jfh7Gd54Dcw=g'`
+                    tac                           | # REVERT (LONGEST FIRST)
+                    sed 's= =jfh7Gd54Dcw=g'`        # BACKUP SPACES
    do
       MAINKEYWORD=`echo $INDEXTHIS         | # START
                    sed 's=jfh7Gd54Dcw= =g' | # RESTORE SPACE 
@@ -167,20 +164,19 @@
           sed -ir "s=${KEYWORD}[.,?\!})']*[s]*=$UN&$UN=gI" \
                   $TMPTEX
       done
-
   done
 
 # --------------------------------------------------------------------------- #
 
-  sed -i "s/$S/ /g" $TMPTEX                        # RESTORE SPACEFOO
-  sed -i "s/$UN//g" $TMPTEX                        # RESTORE UNID
-  sed -i "s/ Fo0Tn073/\\\\footnote/g" $TMPTEX      # RESTORE FOOTNOTE MACRO
-  sed -i "s/[ ]*\\\\cite/\\\\cite/g"  $TMPTEX      # NO SPACE BEFORE CITATION
-  sed -i "s/[ ]*\\\\foot/\\\\foot/g"  $TMPTEX      # NO SPACE BEFORE FOOTNOTE
+  sed -i "s/$S/ /g"                        $TMPTEX # RESTORE SPACEFOO
+  sed -i "s/$UN//g"                        $TMPTEX # RESTORE UNID
+  sed -i "s/ Fo0Tn073/\\\\footnote/g"      $TMPTEX # RESTORE FOOTNOTE MACRO
+  sed -i "s/[ ]*\\\\cite/\\\\cite/g"       $TMPTEX # NO SPACE BEFORE CITATION
+  sed -i "s/[ ]*\\\\foot/\\\\foot/g"       $TMPTEX # NO SPACE BEFORE FOOTNOTE
   sed -i 's/[ ]*\\ldots{}[ ]*/\\ldots{}/g' $TMPTEX # NO SPACE FOR LDOTS 
-  sed -i 's/[ ]*\\index{/\\index{/g' $TMPTEX       # NO SPACE FOR KEYWORDS 
-  sed -i 's/[ ]*\\euro{/~\\euro{/g' $TMPTEX        # SMALL SPACE FOR EURO 
-  sed -i "s/^[ \t]*//" $TMPTEX                     # NO LEADING BLANKS
+  sed -i 's/[ ]*\\index{/\\index{/g'       $TMPTEX # NO SPACE FOR KEYWORDS 
+  sed -i 's/[ ]*\\euro{/~\\euro{/g'        $TMPTEX # SMALL SPACE FOR EURO 
+  sed -i "s/^[ \t]*//"                     $TMPTEX # NO LEADING BLANKS
 
   sed -i "s/$EMPTYLINE/ /g" $TMPTEX
 
@@ -229,6 +225,14 @@
 
   # ------------------------------------------------------------------------ #
 
+
+  # SPELLING CORRECTIONS (LAST MINUTE GLOBAL)
+  # ------------------------------------------------------------------------ #
+    sed -i "s/Maléve/Malevé/"                           ${TMPTEX%%.*}.*
+    sed -i "s/Mal\\\IeC {\\\'e}ve/Malev\\\IeC {\\\'e}/" ${TMPTEX%%.*}.*
+    sed -i "s/Bosermans/Boserman/"                      ${TMPTEX%%.*}.*
+
+
   pdflatex -interaction=nonstopmode \
            -output-directory $OUTDIR \
             $TMPTEX  # > /dev/null
@@ -242,7 +246,9 @@
 # --------------------------------------------------------------------------- #
   cp ${TMPTEX%.*}.pdf latest.pdf
 # mv ${TMPTEX%.*}.pdf $PDFDIR/`date +%s`.pdf
-  rm ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh FOGRA39L.icc *.xmp*
+# cp ${TMPTEX%.*}.log debug.log
+  rm *.xmp* ${TMPTEX%.*}.* $TEXBODY $FUNCTIONS tmp-*.mdsh FOGRA39L.icc
+# rm $TEXBODY $FUNCTIONS tmp-*.mdsh FOGRA39L.icc *.xmp*
 
 # if [ `find $TMPDIR -name "*.*" | grep -v .gitignore | wc -l` -gt 0 ] 
 # then
