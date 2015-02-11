@@ -324,9 +324,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.72711953"
-     inkscape:cx="2152.0992"
-     inkscape:cy="2814.645"
+     inkscape:zoom="2.3316157"
+     inkscape:cx="4516.1817"
+     inkscape:cy="2869.5409"
      inkscape:document-units="px"
      inkscape:current-layer="g3713"
      showgrid="false" />
@@ -3259,37 +3259,6 @@
         <path
            d="m 200,100 0,100 -100,0 0,100 100,0 0,100 100,0 0,-100 100,0 0,-100 -100,0 0,-100 -100,0 z"
            id="path3773"
-           style="fill:#000000"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
-    <g
-       transform="translate(4.9999999e-6,0)"
-       style="display:inline"
-       id="g4612-9">
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Junicode;-inkscape-font-specification:Junicode Italic"
-         x="4481.1069"
-         y="1116.1309"
-         id="text3755-3"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3757-5"
-           x="4481.1069"
-           y="1116.1309">Femke Snelting</tspan></text>
-      <g
-         style="display:inline"
-         id="g3769-4"
-         transform="matrix(0.04242641,0.04242641,-0.04242641,0.04242641,4450.5573,1086.3806)">
-        <path
-           d="m 0,0 0,100 0,100 0,100 0,100 0,100 100,0 100,0 100,0 100,0 100,0 0,-100 0,-100 0,-100 0,-100 L 500,0 400,0 300,0 200,0 100,0 0,0 z m 200,100 100,0 0,100 100,0 0,100 -100,0 0,100 -100,0 0,-100 -100,0 0,-100 100,0 0,-100 z"
-           id="path3771-1"
-           style="fill:#ffffff"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 200,100 0,100 -100,0 0,100 100,0 0,100 100,0 0,-100 100,0 0,-100 -100,0 0,-100 -100,0 z"
-           id="path3773-0"
            style="fill:#000000"
            inkscape:connector-curvature="0" />
       </g>
