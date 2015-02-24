@@ -8,3 +8,4 @@ latest.pdf
 debug.*
 *.tmp
 *.*.[0-9]*
+*.autosave
